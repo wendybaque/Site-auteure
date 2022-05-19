@@ -5,8 +5,14 @@
 }
 :root {
   --color-light: aliceblue;
-  --color-dark: #141414;
-  --first-color: #6096ba;
-  --second-color: #274c77;
-  --third-color: #a3cef1;
+  --color-dark: #153243;
+  --first-color: #CCCCCC;
+  --second-color: #225D84;
+  --third-color: #1025DF;
+}
+
+.blabla {
+  font-family: 'Alex Brush', cursive;
+  background-color: var(--color-light);
+  color: var(--third-color);
 }
