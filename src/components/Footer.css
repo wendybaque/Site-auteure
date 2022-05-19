@@ -1,0 +1,14 @@
+.footer-text {
+    font-weight: bold;
+    padding: 20px;
+    color: var(--color-light);
+    background-color: var(--second-color);
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .legal-mentions:hover {
+    color: #141414;
+  }
