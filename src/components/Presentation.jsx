@@ -3,7 +3,7 @@ import "../components/Presentation.css";
 
 function Presentation () {
     return (
-        <div>
+        <div className="presentation">
         <h2>bliblablou</h2>
         </div>
     );

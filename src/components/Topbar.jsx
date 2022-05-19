@@ -1,12 +1,11 @@
 import React from "react";
 import "../components/Topbar.css";
 
-function Header () {
+function Topbar () {
     return (
-        <div>
-        <h2>bliblablou</h2>
+        <div className="topbar">
         </div>
     );
 }
 
-export default Header;
+export default Topbar;

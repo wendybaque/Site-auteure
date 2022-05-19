@@ -4,17 +4,22 @@ import Footer from "./components/Footer";
 import Topbar from "./components/Topbar";
 import Carrousel from "./components/Carrousel";
 import Presentation from "./components/Presentation";
+import Livre from "./components/Livre";
 import Contact from "./components/Contact";
 
 function App() {
   return (
     <div className="App">
       <Topbar />
-      <Carrousel />
-      <Presentation />
-      <Contact />
+      <div className="section">
+        <Carrousel />
+        <Presentation />
+        <Livre />
+        <Contact />
+      </div>
       <Footer />
     </div>
   );
 }
 export default App;
+

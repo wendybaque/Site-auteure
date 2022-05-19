@@ -3,7 +3,7 @@ import "../components/Carrousel.css";
 
 function Carrousel () {
     return (
-        <div>
+        <div className="carrousel">
         <h2>bliblablou</h2>
         </div>
     );

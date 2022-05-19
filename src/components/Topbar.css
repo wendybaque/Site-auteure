@@ -1,0 +1,6 @@
+.topbar {
+    color: var(--color-light);
+    background-color: var(--second-color);
+    width: 100%;
+    height: 70px;
+}
