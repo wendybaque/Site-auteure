@@ -7,3 +7,42 @@
     top: 0;
     z-index: 2;
 }
+
+.topbar-wrapper {
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar-right {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar-right a {
+    margin-left: 40px;
+}
+
+.logo {  
+    margin-right: 40px;
+    width: 70px;
+    height: 55px;
+}
+
+.title h2 {
+    margin-right: 10px;
+    font-family: 'Alex Brush', cursive;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topbar-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
