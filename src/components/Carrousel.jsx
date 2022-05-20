@@ -4,7 +4,7 @@ import "../components/Carrousel.css";
 function Carrousel () {
     return (
         <div className="carrousel">
-        <h2>bliblablou</h2>
+        <h2>CARROUSEL</h2>
         </div>
     );
 }

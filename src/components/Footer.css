@@ -1,3 +1,11 @@
+.footer {
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+}
+
 .footer-text {
     font-weight: bold;
     padding: 20px;
@@ -9,6 +17,7 @@
     justify-content: space-between;
     cursor: pointer;
   }
-  .legal-mentions:hover {
+
+.legal-mentions:hover {
     color: #141414;
   }

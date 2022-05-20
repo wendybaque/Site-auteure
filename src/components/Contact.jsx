@@ -4,7 +4,7 @@ import "../components/Contact.css";
 function Contact () {
     return (
         <div className="contact">
-        <h2>bliblablou</h2>
+        <h2>CONTACT</h2>
         </div>
     );
 }

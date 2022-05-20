@@ -11,8 +11,17 @@
   --third-color: #1025DF;
 }
 
-.blabla {
-  font-family: 'Alex Brush', cursive;
-  background-color: var(--color-light);
-  color: var(--third-color);
+.app {
+  height: 100vh;
 }
+
+.sections {
+  width: 100%;
+  height: calc(100vh - 70px);
+  position: relative;
+  top:70px;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; /* for firefox */
+}
+
+.sections::-webkit-scrollbar { width: 0 !important } /* for other navigators */

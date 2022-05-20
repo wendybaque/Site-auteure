@@ -9,9 +9,9 @@ import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Topbar />
-      <div className="section">
+      <div className="sections">
         <Carrousel />
         <Presentation />
         <Livre />
