@@ -1,29 +1,19 @@
-.topbar {
+.navbar {
     color: var(--color-light);
     background-color: var(--second-color);
     width: 100%;
-    height: 70px;
+    height: 80px;
     position: fixed;
     top: 0;
     z-index: 2;
 }
 
+/*
 .topbar-wrapper {
     padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
-
-.topbar-right {
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.topbar-right a {
-    margin-left: 40px;
 }
 
 .logo {  
@@ -46,3 +36,24 @@
     align-items: center;
     justify-content: space-between;
 }
+
+.hamburger {
+    width: 42px;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.line1, .line2, .line3 {
+    width: 100%;
+    height: 3px;
+    background-color: var(--color-light);
+}
+
+.active {
+    background-color: var(--color-dark);
+    color: var(--first-color);
+} */
+

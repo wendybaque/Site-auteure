@@ -1,6 +1,6 @@
 .presentation {
     background-color: lightslategray;
     width: 100vw;
-  height: calc(100vh - 70px);
+  height: calc(100vh - 0px);
   scroll-snap-align: start;
 }
