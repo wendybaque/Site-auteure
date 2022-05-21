@@ -4,8 +4,11 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Carrousel from "./components/Carrousel";
 import Presentation from "./components/Presentation";
-import Livre from "./components/Livre";
 import Contact from "./components/Contact";
+import Inoubliable from "./components/Is";
+import Lumière from "./components/Dol";
+import Fleur from "./components/Fdl";
+import Vents from "./components/Vdl";
 
 function App() {
   return (
@@ -14,7 +17,10 @@ function App() {
       <div className="sections">
         <Carrousel />
         <Presentation />
-        <Livre />
+        <Lumière/>
+        <Inoubliable />
+        <Fleur />
+        <Vents />
         <Contact />
       </div>
       <Footer />
