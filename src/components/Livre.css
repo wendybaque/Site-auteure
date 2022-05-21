@@ -1,6 +1,6 @@
 .livre {
     background-color: lightseagreen;
     width: 100vw;
-  height: calc(100vh - 0px);
+  height: calc(100vh - 90px);
   scroll-snap-align: start;
 }
