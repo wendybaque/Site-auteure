@@ -6,20 +6,21 @@
 
 .presentation-left {
   display: flex;
-  flex: 0.5;
+  flex: 0.3;
   overflow: hidden;
 }
 
 .presentation-right {
   display: flex;
-  flex: 0.5;
+  flex: 0.7;
   position: relative;
 }
 
 .img-container {
   width: 610px;
   height: 610px;
-  background-color: var(--second-color);
+  background: rgb(21,50,67);
+background: linear-gradient(90deg, rgba(21,50,67,1) 0%, rgba(16,37,223,1) 41%, rgba(6,213,233,1) 100%);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -50,10 +51,10 @@
 }
 
 .presentation-wrapper h3 {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
-.presentation-wrapper a {
+.redirection{
   position:absolute;
   bottom: 10px;
   left: 40%;
@@ -71,6 +72,13 @@
 }
 
 .presentation-span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--third-color);
+}
+
+.presentation-wrapper p {
+  text-align: left;
+  margin-right: 20px;
+  font-weight: bold;
+  font-size: 20px;
 }
