@@ -40,11 +40,3 @@ function Topbar() {
 }
 
 export default Topbar;
-
-/* <div className="topbar-left">
-                <a href="#presentation"><img src={logoblanc} alt="Logo de Wendy Baqué" className="logo"></img></a>
-                    <div className="title">
-                        <h2>Wendy Baqué</h2>
-                        <h2>Auteure de romans</h2>
-                    </div>
-                </div> */

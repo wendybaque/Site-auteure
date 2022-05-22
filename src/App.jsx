@@ -9,7 +9,7 @@ import Accueil from "./pages/Accueil";
 import Apropos from "./pages/Apropos";
 import Fleur from "./pages/Fleur";
 import Lumiere from "./pages/Lumiere";
-import Inoubliable from "./pages/Vents";
+import Inoubliable from "./pages/Inoubliable";
 import Vents from "./pages/Vents";
 import Page404 from "./pages/Page404";
 
@@ -17,7 +17,7 @@ import Page404 from "./pages/Page404";
 function App() {
   return (
     <div className="App">
-            <Navbar />
+        <Navbar />
         <Router>
           <Routes>
             <Route path="/" element={<Accueil />} />
