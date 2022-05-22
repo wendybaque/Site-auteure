@@ -12,7 +12,7 @@ import Vents from "../components/Vdl";
 
 function Accueil() {
   return (
-    <div className="app">
+    <div>
       <Navbar />
       <div className="sections">
         <Carrousel />
