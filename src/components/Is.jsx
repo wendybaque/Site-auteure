@@ -1,5 +1,5 @@
 import React from 'react'
-import "../components/livre.css";
+import "../components/Livre.css";
 
 function Is() {
   return (
