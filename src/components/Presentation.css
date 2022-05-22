@@ -19,9 +19,6 @@
 .img-container {
   width: 610px;
   height: 610px;
-  background: rgb(21,50,67);
-background: linear-gradient(90deg, rgba(21,50,67,1) 0%, rgba(16,37,223,1) 41%, rgba(6,213,233,1) 100%);
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -29,7 +26,7 @@ background: linear-gradient(90deg, rgba(21,50,67,1) 0%, rgba(16,37,223,1) 41%, r
 }
 
 .presentation-image {
-  width: 90%;
+  width: 100%;
 }
 
 .presentation-wrapper {
