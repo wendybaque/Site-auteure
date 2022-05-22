@@ -26,7 +26,8 @@
 }
 
 .presentation-image {
-  width: 100%;
+  width: 600px;
+  height: 600px;
 }
 
 .presentation-wrapper {
@@ -41,20 +42,24 @@
   font-family: 'Alex Brush', cursive;
   font-size: 60px;
   margin: 10px 0;
-}
-
-.presentation-wrapper h2 {
-  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }
 
 .presentation-wrapper h3 {
+  padding: 10px;
   font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
 .redirection{
   position:absolute;
   bottom: 10px;
-  left: 40%;
+  left: 51%;
 }
 
 .arrow {
@@ -74,8 +79,8 @@
 }
 
 .presentation-wrapper p {
-  text-align: left;
-  margin-right: 20px;
+  text-align: center;
+  margin-right: 30px;
   font-weight: bold;
   font-size: 20px;
 }
