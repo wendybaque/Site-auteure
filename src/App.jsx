@@ -2,30 +2,23 @@ import React from "react";
 import "./App.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-import Carrousel from "./components/Carrousel";
-import Presentation from "./components/Presentation";
-import Contact from "./components/Contact";
-import Inoubliable from "./components/Is";
-import Lumière from "./components/Dol";
-import Fleur from "./components/Fdl";
-import Vents from "./components/Vdl";
+import Accueil from "./pages/Accueil";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app">
-      <Navbar />
-      <div className="sections">
-        <Carrousel />
-        <Presentation />
-        <Lumière/>
-        <Inoubliable />
-        <Fleur />
-        <Vents />
-        <Contact />
-      </div>
+    <div className="App">
+            <Navbar />
+        <Router>
+          <Routes>
+            <Route path="/" element={<Accueil />} />
+            {/* <Route path="*" element={<Page404 />} /> */}
+          </Routes>
+        </Router>
       <Footer />
     </div>
   );
 }
+
 export default App;
 
