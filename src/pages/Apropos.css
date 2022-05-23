@@ -1,3 +1,11 @@
 .blabla {
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    scroll-snap-align: start;
+    display: flex;
+    font-size: 100px;
+    background-color: blueviolet;
     color: red;
 }

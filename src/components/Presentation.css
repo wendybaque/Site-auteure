@@ -1,7 +1,9 @@
 .presentation {
     background-color: var(--light-color);
-    scroll-snap-align: start;
     display: flex;
+    width: 100%;
+    /* height: calc(100vh - 70px); */
+    scroll-snap-align: start;
 }
 
 .presentation-left {
