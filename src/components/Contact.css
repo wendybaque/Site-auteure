@@ -4,3 +4,17 @@
     height: calc(100vh - 70px);
     scroll-snap-align: start;
 }
+
+.contact-wrapper {
+    padding:50px;
+    display:flex;
+
+}
+
+.contact-left {
+    flex:1;
+}
+
+.contact-right {
+    flex:1;
+}
