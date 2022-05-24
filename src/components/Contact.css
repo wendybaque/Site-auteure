@@ -1,7 +1,7 @@
 .contact {
-    background-color: lightcoral;
+    background-color: var(--color-light);
     width: 100%;
-    height: calc(100vh - 70px);
+    height: calc(100vh - 60px);
     scroll-snap-align: start;
 }
 
@@ -80,7 +80,8 @@ button {
     padding: 15px;
     background-color: var(--third-color);
     color: var(--color-light);
+    font-family: 'Alex Brush', cursive;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 30px;
     cursor: pointer;
 }

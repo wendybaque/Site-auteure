@@ -1,5 +1,10 @@
 import React from "react";
+import { useRef } from "react";
+import { useState } from "react";
+import emailjs from "emailjs-com";
+
 import "../components/Contact.css";
+
 import Mail from "../assets/mail.svg";
 import Instagram from "../assets/instagram.svg";
 import Facebook from "../assets/facebook.svg";
@@ -9,6 +14,28 @@ import Linktree from "../assets/linktree.svg";
 import Blog from "../assets/blog.svg";
 
 function Contact () {
+    const formRef = useRef();
+    const [done, setDone] = useState(false);
+    const handleSubmit = (event) => {
+      event.preventDefault();
+      emailjs
+        .sendForm(
+          "service_u2fklzg",
+          "template_rl2rmjf",
+          formRef.current,
+          "DUffDPlWcTNQB2sPj"
+        )
+        .then(
+          (result) => {
+            console.log(result.text);
+            setDone(true);
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+    };
+  
     return (
         <div className="contact" id="contact">
             <div className="contact-wrapper">
@@ -46,12 +73,13 @@ function Contact () {
                 </div>
                 <div className="contact-right">
                     <p className="contact-description"> Vous souhaitez commander l'un de mes romans au format broché avec une dédicace personnalisée ? Ou vous avez tout simplement une question sur mes livres ? Rendez-vous dans le formulaire ci-dessous.</p>
-                    <form>
+                    <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Votre nom" name="user_name"/>
                         <input type="text" placeholder="Votre e-mail" name="user_email"/>
                         <input type="text" placeholder="Sujet de votre message" name="user_subject"/>
                         <textarea rows="10" placeholder="Votre message" name="message"/>
                         <button>Envoyer !</button>
+                        {done && "Merci beaucoup pour votre message. Je vous répondrai au plus vite."}
                     </form>
                 </div>
             </div>
