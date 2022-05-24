@@ -86,3 +86,12 @@
   font-weight: bold;
   font-size: 20px;
 }
+
+.fade {
+  padding-bottom: 10px;
+  text-align: center;
+  margin-right: 30px;
+  font-weight: bold;
+  font-size: 50px;
+  color: var(--third-color);
+}
