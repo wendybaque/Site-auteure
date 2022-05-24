@@ -42,18 +42,17 @@ function Contact () {
                             <img src={Book} alt="book" className="contact-icon" />
                             <a href="https://simplement.pro/u/Antiigone" alt="Lien ma page simplementpro" target="_blank" rel="noreferrer">Mes romans en Service Presse</a>
                         </div>
-                        <div className="contact-info-item">
-                            <img src={Book} alt="book" className="contact-icon" />
-                            <a href="https://www.babelio.com/monprofil.php?id_user=1134833" alt="Lien vers mon profil babelio" target="_blank" rel="noreferrer">Mon profil Babelio</a>
-                        </div>
-                        <div className="contact-info-item">
-                            <img src={Book} alt="book" className="contact-icon" />
-                            <a href="https://booknode.com/antiigone_22911324" alt="Lien vers mon profil booknode" target="_blank" rel="noreferrer">Mon profil Booknode</a>
-                        </div>
                     </div>
                 </div>
                 <div className="contact-right">
-                    <h1> Vous souhaitez commander l'un de mes romans au format broché avec une dédicace personnalisée ? Ou vous avez tout simplement une question sur mes livres ? Rendez-vous dans le formulaire ci-dessous.</h1>
+                    <p className="contact-description"> Vous souhaitez commander l'un de mes romans au format broché avec une dédicace personnalisée ? Ou vous avez tout simplement une question sur mes livres ? Rendez-vous dans le formulaire ci-dessous.</p>
+                    <form>
+                        <input type="text" placeholder="Votre nom" name="user_name"/>
+                        <input type="text" placeholder="Votre e-mail" name="user_email"/>
+                        <input type="text" placeholder="Sujet de votre message" name="user_subject"/>
+                        <textarea rows="10" placeholder="Votre message" name="message"/>
+                        <button>Envoyer !</button>
+                    </form>
                 </div>
             </div>
         </div>
