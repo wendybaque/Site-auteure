@@ -1,4 +1,5 @@
 import React from 'react'
+import { Reveal } from "react-awesome-reveal";
 import "../components/Livre.css";
 import livrefdl from "../assets/livrefdl.png";
 
@@ -6,7 +7,9 @@ function Fdl() {
   return (
     <div className="livre" id="fdl">
        <div className="wrapper-livre-left">
-        <h2 className='livre-title'>La fleur de l'âge</h2>
+        <Reveal>
+          <h2 className='livre-title'>La fleur de l'âge</h2>
+        </Reveal>
         <h3>Genre : roman contemporain feel-good</h3>
         <p>« Bonjour, je m'appelle Benjamin et je suis musicien. Je viens vous chanter une petite chanson pour espérer vous faire du bien . »
 Cette phrase, Benjamin Leduc, bénévole de l’association Hospit’Art, la prononce à chaque fois qu’il entre dans une chambre du service de soins palliatifs d’une
