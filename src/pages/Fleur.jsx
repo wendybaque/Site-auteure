@@ -1,7 +1,13 @@
-import React from 'react'
+import React from 'react';
+import "../pages/livrepage.css";
 
-export default function Fleur() {
+function Fleur() {
   return (
-    <div>Fleur</div>
+    <div className='livre-page'>
+      <div className="livre-page-left">blabla</div>
+      <div className="livre-page-right">blablablaz</div>
+    </div>
   )
 }
+
+export default Fleur;

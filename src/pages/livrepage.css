@@ -1,0 +1,30 @@
+.livre-page{
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100%;
+    margin-top: 90px;
+    scroll-snap-align: start;
+    display: flex;
+    background-color: var(--color-light);
+    color: (--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.livre-page-left {
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    flex: 0.6;
+    border: 1px red solid;
+}
+
+.livre-page-right {
+    display: flex;
+    height: 50%;
+    flex: 0.4;
+    border: 1px yellow solid;
+}
