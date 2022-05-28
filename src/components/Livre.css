@@ -1,17 +1,17 @@
 .livre {
-    background-color: lightseagreen;
+    background-color: var(--color-light);
     width: 100%;
   /* height: calc(100vh - 80px); */
   scroll-snap-align: start;
   display: flex;
 }
 
-.wrapper-dol-right {
+.wrapper-livre-right {
   display: flex;
   flex: 1;
 }
 
-.wrapper-dol-left {
+.wrapper-livre-left {
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -19,11 +19,21 @@
   padding: 15px;
 }
 
-.dol-button {
+.livre-button {
   width: 160px;
-  height: 50px;
-  font-size: 18px;
+  height: 60px;
+  font-size: 22px;
   text-align: center;
   margin: 10px;
   cursor: pointer;
+}
+
+.livre-title {
+  font-family: 'Alex Brush', cursive;
+  font-size: 60px;
+}
+
+.livre-img {
+  width: 600px;
+  height: 600px;
 }
