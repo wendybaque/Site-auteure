@@ -1,6 +1,29 @@
 .livre {
     background-color: lightseagreen;
-    width: 100vw;
-  height: calc(100vh - 80px);
+    width: 100%;
+  /* height: calc(100vh - 80px); */
   scroll-snap-align: start;
+  display: flex;
+}
+
+.wrapper-dol-right {
+  display: flex;
+  flex: 1;
+}
+
+.wrapper-dol-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  margin: 20px;
+  padding: 15px;
+}
+
+.dol-button {
+  width: 160px;
+  height: 50px;
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+  cursor: pointer;
 }
