@@ -1,5 +1,5 @@
 .presentation {
-    background-color: var(--light-color);
+    background-color: var(--color-light);
     display: flex;
     width: 100%;
     /* height: calc(100vh - 70px); */

@@ -1,6 +1,73 @@
 .carrousel {
-    background-color: lightblue;
+    background-color: var(--color-light);
     width: 100%;
     /* height: calc(100vh - 80px); */
     scroll-snap-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slider {
+    height: 350px;
+    display: flex;
+    /* position: absolute; */
+    left: 0;
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    width: 700px;
+    height: 100%;
+    background-color: var(--third-color);
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-left {
+    flex:4;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: blueviolet;
+
+}
+
+.left-container {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carrousel-title {
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+}
+
+.item-right {
+    flex:8;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: yellow;
+    
+}
+
+.carrousel-img {
+    width: 500px;
+    transform: rotate(-10deg);
 }
