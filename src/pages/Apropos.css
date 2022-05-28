@@ -1,11 +1,45 @@
-.blabla {
+.apropos{
+    scroll-snap-align: start;
     width: 100%;
     height: 100%;
     margin-top: 90px;
-    margin-bottom: 90px;
     scroll-snap-align: start;
     display: flex;
-    font-size: 100px;
-    background-color: blueviolet;
-    color: red;
+    background-color: var(--color-light);
+    color: (--color-dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.apropos-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    flex: 0.6;
+}
+
+.apropos-right {
+    display: flex;
+    flex: 0.4;
+}
+
+.apropos-title {
+    font-family: 'Alex Brush', cursive;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.apropos-description {
+    padding: 4px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media screen and (max-width:767px) {
+    .apropos {
+        display: flex;
+        flex-direction: column;
+    }
 }
