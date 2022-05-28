@@ -25,10 +25,12 @@
 
 
 .slider {
+    overflow: hidden;
     height: 350px;
     display: flex;
     /* position: absolute; */
     left: 0;
+    transition: all 1s ease-out;
 }
 
 .container {
