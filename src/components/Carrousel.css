@@ -6,7 +6,23 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position:relative;
 }
+
+.arrow-left, .arrow-right {
+    height: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.arrow-left {
+    left: 100px;
+}
+
+.arrow-right {
+    right: 100px;
+}
+
 
 .slider {
     height: 350px;
