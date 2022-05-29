@@ -6,10 +6,11 @@
     height: 500px;
     margin: 100px auto 0;
     position: relative;
+    background-color: var(--color-light);
 }
 .slides {
-  width: calc(500px * 4);
-  animation: glisse 10s infinite;
+  width: calc(2000px * 4);
+  animation: glisse 20s infinite;
 }
 .slide {
   float: left;
@@ -20,25 +21,30 @@
     transform: translateX(0);
   }
   10% {
-    transform: translateX(0);
-  }
-  33% {
-    transform: translateX(-500px);
-  }
-  43% {
-    transform: translateX(-500px);
-  }
-  66% {
     transform: translateX(-1000px);
   }
-  76% {
-    transform: translateX(-1000px);
+  20% {
+    transform: translateX(-2000px);
+  }
+  30% {
+    transform: translateX(-3000px);
+  }
+  40% {
+    transform: translateX(-40000px);
+  }
+  50% {
+    transform: translateX(3000px);
+  }
+  60% {
+    transform: translateX(2000px);
+  }
+  70% {
+    transform: translateX(1000px);
   }
   100% {
     transform: translateX(0);
   }
 }
-
 
 /* .container-slider {
     scroll-snap-align: start;

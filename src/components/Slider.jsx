@@ -12,12 +12,12 @@ import img4 from "../assets/livrevdl.png";
 // import dataSlider from './dataSlider'
 function Slider () {
     return(
-        <div class="slider">
-		    <div class="slides">
-			    <div class="slide"><img src={img1} alt="Les dangers de la lumière" /></div>
-			    <div class="slide"><img src={img2} alt="Inoubliable symphonie" /></div>
-			    <div class="slide"><img src={img3} alt="La fleur de l'âge" /></div>
-                <div class="slide"><img src={img4} alt="Les vents de l'existence" /></div>
+        <div className="slider">
+		    <div className="slides">
+			    <div className="slide"><img src={img1} alt="Les dangers de la lumière" /></div>
+			    <div className="slide"><img src={img2} alt="Inoubliable symphonie" /></div>
+			    <div className="slide"><img src={img3} alt="La fleur de l'âge" /></div>
+                <div className="slide"><img src={img4} alt="Les vents de l'existence" /></div>
 
 		    </div>
 	    </div>
