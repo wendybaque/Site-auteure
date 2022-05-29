@@ -1,4 +1,5 @@
 .button-back-home {
+    cursor: pointer;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
     font-family: 'Alex Brush', cursive;
@@ -6,15 +7,11 @@
     color: var(--color-light);
     border-radius: 5px;
     border: none;
-    height: 30px;
-    width: 100px;
-    transition: 0.3s;
-    position: relative;
+    height: 40px;
+    width: 120px;
+    position: sticky;
     z-index: 30;
     overflow: hidden;
-    margin-bottom: 100px;
-  }
-  
-.button-back-home:hover {
-    background-color: var(--second-color);
+    margin-bottom: 85px;
+    left: 85vw;
   }
