@@ -1,7 +1,21 @@
-.carrousel {
+.containerslide {
+    background-color: var(--color-light);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    padding-top: 200px;
+    scroll-snap-align: start;
+}
+
+.each-slide {
+    height: 500px;
+    width: 500px;
+}
+
+/* .carrousel {
     background-color: var(--color-light);
     width: 100%;
-    /* height: calc(100vh - 80px); */
+    height: calc(100vh - 80px);
     scroll-snap-align: start;
     display: flex;
     align-items: center;
@@ -28,7 +42,7 @@
     overflow: hidden;
     height: 350px;
     display: flex;
-    /* position: absolute; */
+    position: absolute;
     left: 0;
     transition: all 1s ease-out;
 }
@@ -88,4 +102,4 @@
 .carrousel-img {
     width: 500px;
     transform: rotate(-10deg);
-}
+} */

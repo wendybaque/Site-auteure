@@ -1,12 +1,42 @@
 import React from "react";
 // import { useState } from "react";
 import "../components/Carrousel.css";
-import { slide } from "react-slideshow-image";
-// import flèchegauche from "../assets/flèchegauche.png"
-// import flèchedroite from "../assets/flèchedroite.png"
+import { Slide } from "react-slideshow-image";
+
+import img1 from "../assets/livredol.png";
+import img2 from "../assets/livreis.png";
+import img3 from "../assets/livrefdl.png";
+import img4 from "../assets/livrevdl.png";
+
+
 function Carrousel () {
+    const proprietes = {
+        duration:5000,
+        transitionDuration:500,
+        infinite:true,
+        indicators:true,
+        arrows:true,
+    }
     return (
-        <div className="carrousel">Carrousel</div>
+        <div className="containerslide">
+            <Slide {...proprietes}>
+                <div className="each-slide">
+                        <img src={img1} alt="les dangers de la lumière"/>
+                </div>
+
+                <div className="each-slide">
+                        <img src={img2} alt="inoubliable symphonie"/>
+                </div>
+
+                <div className="each-slide">
+                        <img src={img3} alt="les vents de l'existence"/>
+                </div>
+
+                <div className="each-slide">
+                        <img src={img4} alt="la fleur de l'âge"/>
+                </div>
+            </Slide>
+        </div>
     );
 }
 

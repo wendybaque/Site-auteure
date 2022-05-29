@@ -18,7 +18,7 @@
 .sections {
   width: 100%;
   height: calc(100vh - 60px); /* à laisser !!! */
-  position: relative;
+  position: absolute;
   top:90px;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
