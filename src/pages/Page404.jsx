@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import "./Page404.css";
-import giflivre from "../assets/giflivre.gif";
 
 function Page404() {
   const navigate = useNavigate();
@@ -13,8 +12,14 @@ function Page404() {
   }, );
 
   return (
-      <div>
-          <img src={giflivre} alt="gif de livre" className="giflivre"/>
+      <div className="infos">
+        <div className="glitch-bloc">
+          <p className="invisible-text">404</p>
+          <p className="glitchedAnim">404</p>
+          <p className="glitchedAnim">404</p>
+          <p className="glitchedAnim">404</p>
+        </div>
+        <p className="txt-info">Wopsy, this page doesn't exist.</p>
       </div>
   );
 

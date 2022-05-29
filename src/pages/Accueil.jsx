@@ -2,7 +2,7 @@ import React from "react";
 import "../App.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-import Carrousel from "../components/Carrousel";
+// import Carrousel from "../components/Carrousel";
 import Presentation from "../components/Presentation";
 import Contact from "../components/Contact";
 import Inoubliable from "../components/Is";
@@ -15,7 +15,7 @@ function Accueil() {
     <div>
       <Navbar />
       <div className="sections">
-        <Carrousel />
+        {/* <Carrousel /> */}
         <Presentation />
         <Lumière/>
         <Inoubliable />

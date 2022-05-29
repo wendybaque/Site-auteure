@@ -5,9 +5,10 @@
     margin: auto;
     padding-top: 200px;
     scroll-snap-align: start;
+  
 }
 
-.each-slide {
+.containerslide img {
     height: 500px;
     width: 500px;
 }

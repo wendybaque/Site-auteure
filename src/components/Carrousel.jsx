@@ -1,7 +1,7 @@
 import React from "react";
 // import { useState } from "react";
 import "../components/Carrousel.css";
-import { Slide } from "react-slideshow-image";
+import { Slide } from 'react-slideshow-image';
 
 import img1 from "../assets/livredol.png";
 import img2 from "../assets/livreis.png";
@@ -9,7 +9,7 @@ import img3 from "../assets/livrefdl.png";
 import img4 from "../assets/livrevdl.png";
 
 
-function Carrousel () {
+function Slideshow () {
     const proprietes = {
         duration:5000,
         transitionDuration:500,
@@ -40,7 +40,7 @@ function Carrousel () {
     );
 }
 
-export default Carrousel;
+export default Slideshow;
 
 // function Carrousel () {
 //     const [currentSlide, setCurrentSlide] = useState(0);
