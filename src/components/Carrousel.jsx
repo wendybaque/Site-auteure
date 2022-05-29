@@ -1,6 +1,7 @@
 import React from "react";
 // import { useState } from "react";
 import "../components/Carrousel.css";
+import { slide } from "react-slideshow-image";
 // import flèchegauche from "../assets/flèchegauche.png"
 // import flèchedroite from "../assets/flèchedroite.png"
 function Carrousel () {
