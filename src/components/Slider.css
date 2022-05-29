@@ -1,4 +1,46 @@
-.container-slider {
+.slider {
+  width: 500px;
+  overflow: hidden;
+  margin: 150px auto;
+  scroll-snap-align: start;
+    height: 500px;
+    margin: 100px auto 0;
+    position: relative;
+}
+.slides {
+  width: calc(500px * 4);
+  animation: glisse 10s infinite;
+}
+.slide {
+  float: left;
+}
+
+@keyframes glisse {
+  0% {
+    transform: translateX(0);
+  }
+  10% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-500px);
+  }
+  43% {
+    transform: translateX(-500px);
+  }
+  66% {
+    transform: translateX(-1000px);
+  }
+  76% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+/* .container-slider {
     scroll-snap-align: start;
     max-width: 700px;
     height: 500px;
@@ -75,7 +117,7 @@
   }
   .dot.active {
     background: rgb(32, 32, 32);
-  }
+  } */
 
 /* .containerslide {
     background-color: var(--color-light);
