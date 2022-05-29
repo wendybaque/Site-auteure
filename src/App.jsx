@@ -5,6 +5,7 @@ import "./App.css";
 
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
+import Buttonbackhome from "./components/Buttonbackhome";
 import Accueil from "./pages/Accueil";
 import Apropos from "./pages/Apropos";
 import Fleur from "./pages/Fleur";
@@ -13,7 +14,6 @@ import Inoubliable from "./pages/Inoubliable";
 import Vents from "./pages/Vents";
 import Page404 from "./pages/Page404";
 import Mentions from "./pages/Mentionslegales";
-
 
 function App() {
   return (
@@ -31,6 +31,7 @@ function App() {
             <Route path="*" element={<Page404 />} />
           </Routes>
         </Router>
+      <Buttonbackhome/>
       <Footer />
     </div>
   );
