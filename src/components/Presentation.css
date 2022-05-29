@@ -104,3 +104,31 @@
   justify-content: center;
   text-align: center;
 }
+
+@media screen and (max-width:767px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .img-container {
+    display: none;
+  }
+  .arrow {
+    display: none;
+  }
+  .presentation-right {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+  .presentation-wrapper {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .presentation-wrapper p {
+    margin-right: 0px;
+  }
+  .presentation-wrapper h3 {
+    margin-right: 0px;
+  }
+}
