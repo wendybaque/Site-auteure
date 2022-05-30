@@ -9,6 +9,7 @@ import Inoubliable from "../components/Is";
 import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
+import Testimonials from "../components/Testimonials";
 
 function Accueil() {
   return (
@@ -21,6 +22,7 @@ function Accueil() {
         <Inoubliable />
         <Fleur />
         <Vents />
+        <Testimonials />
         <Contact />
       </div>
       <Footer />
