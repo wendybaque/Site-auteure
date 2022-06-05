@@ -16,6 +16,7 @@
 }
 
 .sections {
+  background-color: var(--color-light);
   width: 100%;
   height: calc(100vh - 60px); /* à laisser !!! */
   position: absolute;
