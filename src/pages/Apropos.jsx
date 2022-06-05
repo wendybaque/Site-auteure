@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Apropos.css";
-import wendy from "../assets/wendy.png"
+import wendy from "../assets/wendyphoto.png"
 
  function Apropos() {
   return (

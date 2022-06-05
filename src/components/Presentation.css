@@ -81,6 +81,14 @@
   animation: arrowBlink 2s infinite;
 }
 
+.apropos-button {
+  position:absolute;
+  bottom: 10px;
+  left: 35%;
+  margin-bottom: 85px;
+}
+
+
 @keyframes arrowBlink {
   100%{
     opacity: 0;
