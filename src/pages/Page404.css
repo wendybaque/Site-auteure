@@ -10,7 +10,6 @@ body {
     padding: auto;
     margin-top: 100px;
     width: 100%;
-    background-color: var(--color-dark);
 
 }
 
@@ -20,6 +19,8 @@ body {
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    background-color: var(--color-dark);
+
 }
 
 .glitch-bloc {

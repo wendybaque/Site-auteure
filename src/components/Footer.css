@@ -1,12 +1,12 @@
 .footer {
   width: 100%;
-  height: -fit-content;
+  height: fit-content;
   bottom: 0;
   position: fixed;
 }
 
 .footer-text {
-    padding: 20px;
+    padding: 10px;
     color: var(--color-light);
     background-color: var(--second-color);
     font-weight: medium;
