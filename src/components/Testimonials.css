@@ -78,3 +78,14 @@
 .bottom h4 {
     color: var(--third-color);
 }
+
+@media screen and (max-width:767px) {
+    .testimonials-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .testimonials-title {
+        font-size: 1 rem;
+        text-align: center;
+    }
+}

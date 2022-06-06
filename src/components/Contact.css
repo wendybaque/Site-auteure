@@ -91,7 +91,8 @@ button {
         padding: 0px 50px;
       }
       .contact-title {
-        font-size: 30px;
+        font-size: 1 rem;
+        text-align: center;
       }
       .contact-info-item {
         margin: 20px 0px;

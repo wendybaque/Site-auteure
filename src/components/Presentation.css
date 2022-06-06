@@ -139,4 +139,7 @@
   .presentation-wrapper h3 {
     margin-right: 0px;
   }
+  .apropos-button {
+    display: none;
+  }
 }
