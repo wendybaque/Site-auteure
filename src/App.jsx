@@ -12,6 +12,7 @@ import Fleur from "./pages/Fleur";
 import Lumiere from "./pages/Lumiere";
 import Inoubliable from "./pages/Inoubliable";
 import Vents from "./pages/Vents";
+import Contactpage from "./pages/Contactpage"
 import Page404 from "./pages/Page404";
 import Mentions from "./pages/Mentionslegales";
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/Dangersdelalumiere" element={<Lumiere/>} />
             <Route path="/Inoubliablesymphonie" element={<Inoubliable/>} />
             <Route path="/Ventsdelexistence" element={<Vents/>} />
+            <Route path="/Contact" element={<Contactpage/>} />
             <Route path="/Mentionslegales" element={<Mentions/>} />
             <Route path="*" element={<Page404 />} />
           </Routes>

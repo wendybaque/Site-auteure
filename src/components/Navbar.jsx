@@ -37,7 +37,7 @@ function Topbar() {
             <a href="/Ventsdelexistence" className="navbar-link">Les vents de l'existence</a>
         </li>
         <li className="navbar-item slideInDown-7" onClick={()=>setShowLinks(false)}>
-            <a href="#contact" className="navbar-link">Contact</a>
+            <a href="/Contact" className="navbar-link">Contact</a>
         </li>
        </ul>
        <button className="navbar-burger" onClick={handleShowLinks}>
