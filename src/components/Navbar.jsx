@@ -22,12 +22,21 @@ function Topbar() {
             <a href="/" className="navbar-link">Accueil</a>
         </li>
         <li className="navbar-item slideInDown-2" onClick={()=>setShowLinks(false)}>
-            <a href="#presentation" className="navbar-link">Présentation</a>
+            <a href="/Apropos" className="navbar-link">A propos</a>
         </li>
         <li className="navbar-item slideInDown-3" onClick={()=>setShowLinks(false)}>
-            <a href="#livre" className="navbar-link">Mes livres</a>
+            <a href="/Fleurdelage" className="navbar-link">La fleur de l'âge</a>
         </li>
         <li className="navbar-item slideInDown-4" onClick={()=>setShowLinks(false)}>
+            <a href="/Dangersdelalumiere" className="navbar-link">Les dangers de la lumière</a>
+        </li>
+        <li className="navbar-item slideInDown-5" onClick={()=>setShowLinks(false)}>
+            <a href="/Inoubliablesymphonie" className="navbar-link">Inoubliable symphonie</a>
+        </li>
+        <li className="navbar-item slideInDown-6" onClick={()=>setShowLinks(false)}>
+            <a href="/Ventsdelexistence" className="navbar-link">Les vents de l'existence</a>
+        </li>
+        <li className="navbar-item slideInDown-7" onClick={()=>setShowLinks(false)}>
             <a href="#contact" className="navbar-link">Contact</a>
         </li>
        </ul>

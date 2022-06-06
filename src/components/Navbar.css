@@ -27,7 +27,7 @@
 
 .title p {
     font-family: 'Alex Brush', cursive;
-    font-size: 30px;
+    font-size: 25px;
     display: flex;
     flex-direction:row;
     text-align: center;
@@ -161,6 +161,15 @@ li:hover {
         transition: all 1.2s ease-in-out;
     }
     .show-nav .slideInDown-4 {
+        transition: all 1.3s ease-in-out;
+    }
+    .show-nav .slideInDown-5 {
+        transition: all 1.3s ease-in-out;
+    }
+    .show-nav .slideInDown-6 {
+        transition: all 1.3s ease-in-out;
+    }
+    .show-nav .slideInDown-7 {
         transition: all 1.3s ease-in-out;
     }
     .title p {
