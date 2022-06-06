@@ -15,7 +15,7 @@ function Accueil() {
   return (
     <div>
       <Navbar />
-      <div className="sections">
+      <div>
         <Presentation />
         {/* <Slider /> */}
         <Lumière/>

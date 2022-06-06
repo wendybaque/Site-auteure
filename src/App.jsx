@@ -5,7 +5,7 @@ import "./App.css";
 
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
-// import Buttonbackhome from "./components/Buttonbackhome";
+import Buttonbackhome from "./components/Buttonbackhome";
 import Accueil from "./pages/Accueil";
 import Apropos from "./pages/Apropos";
 import Fleur from "./pages/Fleur";
@@ -31,7 +31,7 @@ function App() {
             <Route path="*" element={<Page404 />} />
           </Routes>
         </Router>
-      {/* <Buttonbackhome/> */}
+      <Buttonbackhome/>
       <Footer />
     </div>
   );

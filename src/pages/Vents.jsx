@@ -1,9 +1,11 @@
 import React from 'react';
 import "../pages/livrepage.css";
 import livrevdl from "../assets/livrevdl.png";
+import Testimonials from '../components/Testimonials';
 
 function Vents() {
   return (
+   <div className="livre-wrapper">
     <div className='livre-page'>
       <div className="livre-page-left">
       <h2 className='livre-title'>Les vents de l'existence</h2>
@@ -14,6 +16,17 @@ function Vents() {
       <div className="livre-page-right">
         <img src={livrevdl} alt="livre les vents de l'existence"/>
       </div>
+      </div>
+      <div className='testimonials-livre'>
+        <Testimonials />
+      </div>
+
+      <div className='shopping-links'>
+        <a href="https://www.amazon.fr/Vents-lExistence-Wendy-Baqu%C3%A9-ebook/dp/B07XL9FK89"><button className="shopping-button">Acheter sur Amazon (ebook, broché et relié)</button></a>
+        <a href="https://www.bookelis.com/romans/47435-Les-Vents-de-l-Existence.html/"><button className="shopping-button">Acheter sur Bookelis (ebook et broché)</button></a>
+        <a href="https://www.kobo.com/fr/fr/search?query=les+vents+de+l%27existence"><button className="shopping-button">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
+      </div>
+ 
     </div>
   )
 }

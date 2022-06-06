@@ -1,9 +1,11 @@
 import React from 'react';
 import "../pages/livrepage.css";
 import livredol from "../assets/livredol.png";
+import Testimonials from '../components/Testimonials';
 
 function Lumiere() {
   return (
+    <div className="livre-wrapper">
     <div className='livre-page'>
       <div className="livre-page-left">
         <h2 className='livre-title'>Les dangers de la lumière</h2>
@@ -14,6 +16,18 @@ function Lumiere() {
       </div>
       <div className="livre-page-right">
         <img src={livredol} alt="livre les dangers de la lumière"/>
+      </div>
+      </div>
+      <div className='testimonials-livre'>
+        <Testimonials />
+      </div>
+      <div className='shopping-links'>
+        <a href="https://www.amazon.fr/gp/product/B09CB2TY1T/ref=dbs_a_def_rwt_bibl_vppi_i0"><button className="shopping-button">Acheter sur Amazon et abonnement Kindle (ebook et broché)</button></a>
+        <a href="https://www.plumesdemimieditions.fr/boutique/les-dangers-de-la-lumiere/"><button className="shopping-button">Acheter sur le site de la maison d'édition (broché + box)</button></a>
+        
+        <a href="https://www.kobo.com/fr/fr/ebook/les-dangers-de-la-lumiere"><button className="shopping-button">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
+
+        <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0&Search=les+dangers+de+la+lumi%C3%A8re+wendy+baqu%C3%A9&sft=1&sa=0"><button className="shopping-button">Acheter sur la Fnac (ebook et broché)</button></a>
       </div>
     </div>
   )
