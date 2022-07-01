@@ -16,12 +16,12 @@
     flex-direction: column;
     justify-content: space-around;
     margin: 20px;
-    flex: 0.6;
+    flex: 0.7;
 }
 
 .apropos-right {
     display: flex;
-    flex: 0.4;
+    flex: 0.3;
 }
 
 .apropos-title {
@@ -31,6 +31,8 @@
 }
 
 .apropos-description {
+    overflow: hidden;
+    margin:5px;
     padding: 4px;
     font-size: 18px;
     font-weight: bold;
