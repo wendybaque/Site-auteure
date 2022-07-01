@@ -4,6 +4,7 @@ import wendy from "../assets/wendyphoto.png"
 
  function Apropos() {
   return (
+    <main>
     <div className='apropos'>
       <div className="apropos-left">
         <h2 className='apropos-title'>A propos de Wendy Baqué</h2>
@@ -14,12 +15,13 @@ import wendy from "../assets/wendyphoto.png"
         <p className='apropos-description'>Le petit dernier, un roman feel-good intitulé "La fleur de l'âge"est sorti en février 2022. Il vous plongera dans le quotidien de Benjamin, musicien bénévole de l'association Hospit'Art, qui intervient auprès de patients en fin de vie… mais attention, joie de vivre, positivité et humour garantis ! </p>
         <p className='apropos-description'>De manière générale, ses romans traitent de sujets qui lui sont chers, mais aussi d'actualité, tantôt tabous, tantôt victimes de préjugés et de stéréotypes, comme la fin de vie, l'avortement, l'acceptation de soi, la santé mentale ou encore les normes de la société. Elle porte une attention particulière aux émotions.</p>
         <p className='apropos-description'>Ses personnages ne sont pas parfaits, ont des défauts, des failles à travers lesquelles ils laissent entrer ou jaillir la lumière, ce qui les rend d'autant plus humains. Sa deuxième passion, la musique, tient une grande place dans ses écrits.Susciter la réflexion et le questionnement de soi chez ses lecteurs est un point clef de la fonction de l'écrivain, selon elle.</p>
-        <p className='apropos-description'>Elle réalise aussi des chroniques littéraires de romans auto-édités ou de maison d'édition indépendantes, afin de mettre en avant de nouveaux auteurs et ses coups de cœur littéraires que vous pouvez retrouver sur <a href="https://wendybaqueauteur.wixsite.com/website">ce site</a>.</p>
+        <p className='apropos-description'>Elle réalise aussi des chroniques littéraires de romans auto-édités ou de maison d'édition indépendantes, afin de mettre en avant de nouveaux auteurs et ses coups de cœur littéraires que vous pouvez retrouver sur <a href="https://wendybaqueauteur.wixsite.com/website" alt="site de chroniquese Wix">ce site</a>.</p>
       </div>
       <div className="apropos-right">
         <img src={wendy} alt="icone de wendy baqué"/>
       </div>
     </div>
+    </main>
   )
 }
 export default Apropos;

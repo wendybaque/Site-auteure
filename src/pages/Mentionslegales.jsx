@@ -3,6 +3,7 @@ import React from 'react'
 function Mentionslegales() {
   return (
     <div className='mentionslegales'>
+      <section>
       <h2>Définitions</h2>
 Client : tout professionnel ou personne physique capable au sens des articles 1123 et suivants du Code civil, ou personne morale, qui visite le Site objet des présentes conditions générales.
 Prestations et Services : https://wendybaqueauteurederomans.netlify.app/ met à disposition des Clients :
@@ -29,46 +30,54 @@ Webmaster : Wendy Baqué – wendybaque.auteur@gmail.com
 Hébergeur : Netlify
 Délégué à la protection des données : Wendy Baqué – wendybaque.auteur@gmail.com
 
-
+</section>
+<section>
 <h2>2. Conditions générales d’utilisation du site et des services proposés.</h2>
 Le Site constitue une œuvre de l’esprit protégée par les dispositions du Code de la Propriété Intellectuelle et des Réglementations Internationales applicables. Le Client ne peut en aucune manière réutiliser, céder ou exploiter pour son propre compte tout ou partie des éléments ou travaux du Site.
 
 L’utilisation du site https://wendybaqueauteurederomans.netlify.app/ implique l’acceptation pleine et entière des conditions générales d’utilisation ci-après décrites. Ces conditions d’utilisation sont susceptibles d’être modifiées ou complétées à tout moment, les utilisateurs du site https://wendybaqueauteurederomans.netlify.app/ sont donc invités à les consulter de manière régulière.
 
 Ce site internet est normalement accessible à tout moment aux utilisateurs. Une interruption pour raison de maintenance technique peut être toutefois décidée par https://wendybaqueauteurederomans.netlify.app/, qui s’efforcera alors de communiquer préalablement aux utilisateurs les dates et heures de l’intervention. Le site web https://wendybaqueauteurederomans.netlify.app/ est mis à jour régulièrement par https://wendybaqueauteurederomans.netlify.app/ responsable. De la même façon, les mentions légales peuvent être modifiées à tout moment : elles s’imposent néanmoins à l’utilisateur qui est invité à s’y référer le plus souvent possible afin d’en prendre connaissance.
-
+</section>
+<section>
 <h2>3. Description des services fournis.</h2>
 Le site internet https://wendybaqueauteurederomans.netlify.app/ a pour objet de fournir une information concernant l’ensemble des activités de la société. https://wendybaqueauteurederomans.netlify.app/ s’efforce de fournir sur le site https://wendybaqueauteurederomans.netlify.app/ des informations aussi précises que possible. Toutefois, il ne pourra être tenu responsable des oublis, des inexactitudes et des carences dans la mise à jour, qu’elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.
 
 Toutes les informations indiquées sur le site https://wendybaqueauteurederomans.netlify.app/ sont données à titre indicatif, et sont susceptibles d’évoluer. Par ailleurs, les renseignements figurant sur le site https://wendybaqueauteurederomans.netlify.app/ ne sont pas exhaustifs. Ils sont donnés sous réserve de modifications ayant été apportées depuis leur mise en ligne.
-
+</section>
+<section>
 <h2>4. Limitations contractuelles sur les données techniques.</h2>
 Le site utilise la technologie JavaScript. Le site Internet ne pourra être tenu responsable de dommages matériels liés à l’utilisation du site. De plus, l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne contenant pas de virus et avec un navigateur de dernière génération mis-à-jour Le site https://wendybaqueauteurederomans.netlify.app/ est hébergé chez un prestataire sur le territoire de l’Union Européenne conformément aux dispositions du Règlement Général sur la Protection des Données (RGPD : n° 2016-679)
 
 L’objectif est d’apporter une prestation qui assure le meilleur taux d’accessibilité. L’hébergeur assure la continuité de son service 24 Heures sur 24, tous les jours de l’année. Il se réserve néanmoins la possibilité d’interrompre le service d’hébergement pour les durées les plus courtes possibles notamment à des fins de maintenance, d’amélioration de ses infrastructures, de défaillance de ses infrastructures ou si les Prestations et Services génèrent un trafic réputé anormal.
 
 https://wendybaqueauteurederomans.netlify.app/ et l’hébergeur ne pourront être tenus responsables en cas de dysfonctionnement du réseau Internet, des lignes téléphoniques ou du matériel informatique et de téléphonie lié notamment à l’encombrement du réseau empêchant l’accès au serveur.
-
+</section>
+<section>
 <h2>5. Propriété intellectuelle et contrefaçons.</h2>
 https://wendybaqueauteurederomans.netlify.app/ est propriétaire des droits de propriété intellectuelle et détient les droits d’usage sur tous les éléments accessibles sur le site internet, notamment les textes, images, graphismes, logos, vidéos, icônes et sons. Toute reproduction, représentation, modification, publication, adaptation de tout ou partie des éléments du site, quel que soit le moyen ou le procédé utilisé, est interdite, sauf autorisation écrite préalable de : https://wendybaqueauteurederomans.netlify.app/.
 
 Toute exploitation non autorisée du site ou de l’un quelconque des éléments qu’il contient sera considérée comme constitutive d’une contrefaçon et poursuivie conformément aux dispositions des articles L.335-2 et suivants du Code de Propriété Intellectuelle.
-
+</section>
+<section>
 <h2>6. Limitations de responsabilité.</h2>
 https://wendybaqueauteurederomans.netlify.app/ agit en tant qu’éditeur du site. https://wendybaqueauteurederomans.netlify.app/ est responsable de la qualité et de la véracité du Contenu qu’il publie.
 
 https://wendybaqueauteurederomans.netlify.app/ ne pourra être tenu responsable des dommages directs et indirects causés au matériel de l’utilisateur, lors de l’accès au site internet https://wendybaqueauteurederomans.netlify.app/, et résultant soit de l’utilisation d’un matériel ne répondant pas aux spécifications indiquées au point 4, soit de l’apparition d’un bug ou d’une incompatibilité.
 
 https://wendybaqueauteurederomans.netlify.app/ ne pourra également être tenu responsable des dommages indirects (tels par exemple qu’une perte de marché ou perte d’une chance) consécutifs à l’utilisation du site https://wendybaqueauteurederomans.netlify.app/. Des espaces interactifs (possibilité de poser des questions dans l’espace contact) sont à la disposition des utilisateurs. https://wendybaqueauteurederomans.netlify.app/ se réserve le droit de supprimer, sans mise en demeure préalable, tout contenu déposé dans cet espace qui contreviendrait à la législation applicable en France, en particulier aux dispositions relatives à la protection des données. Le cas échéant, https://wendybaqueauteurederomans.netlify.app/ se réserve également la possibilité de mettre en cause la responsabilité civile et/ou pénale de l’utilisateur, notamment en cas de message à caractère raciste, injurieux, diffamant, ou pornographique, quel que soit le support utilisé (texte, photographie …).
-
+</section>
+<section>
 <h2>7. Gestion des données personnelles.</h2>
 Le Client est informé des réglementations concernant la communication marketing, la loi du 21 Juin 2014 pour la confiance dans l’Economie Numérique, la Loi Informatique et Liberté du 06 Août 2004 ainsi que du Règlement Général sur la Protection des Données (RGPD : n° 2016-679).
-
+</section>
+<section>
 <h3>7.1 Responsables de la collecte des données personnelles</h3>
 Pour les Données Personnelles collectées dans le cadre de la création du compte personnel de l’Utilisateur et de sa navigation sur le Site, le responsable du traitement des Données Personnelles est : Wendy Baqué. https://wendybaqueauteurederomans.netlify.app/est représenté par Wendy Baqué, son représentant légal
 
 En tant que responsable du traitement des données qu’il collecte, https://wendybaqueauteurederomans.netlify.app/ s’engage à respecter le cadre des dispositions légales en vigueur. Il lui appartient notamment au Client d’établir les finalités de ses traitements de données, de fournir à ses prospects et clients, à partir de la collecte de leurs consentements, une information complète sur le traitement de leurs données personnelles et de maintenir un registre des traitements conforme à la réalité. Chaque fois que https://wendybaqueauteurederomans.netlify.app/ traite des Données Personnelles, https://wendybaqueauteurederomans.netlify.app/ prend toutes les mesures raisonnables pour s’assurer de l’exactitude et de la pertinence des Données Personnelles au regard des finalités pour lesquelles https://wendybaqueauteurederomans.netlify.app/ les traite.
-
+</section>
+<section>
 <h3>7.2 Finalité des données collectées</h3>
 https://wendybaqueauteurederomans.netlify.app/ est susceptible de traiter tout ou partie des données :
 
@@ -78,7 +87,8 @@ pour améliorer la navigation sur le Site : données de connexion et d’utilisa
 pour mener des enquêtes de satisfaction facultatives sur https://wendybaqueauteurederomans.netlify.app/ : adresse email
 pour mener des campagnes de communication (sms, mail) : numéro de téléphone, adresse email
 https://wendybaqueauteurederomans.netlify.app/ ne commercialise pas vos données personnelles qui sont donc uniquement utilisées par nécessité ou à des fins statistiques et d’analyses.
-
+</section>
+<section>
 <h3>7.3 Droit d’accès, de rectification et d’opposition</h3>
 Conformément à la réglementation européenne en vigueur, les Utilisateurs de https://wendybaqueauteurederomans.netlify.app/ disposent des droits suivants :
 
@@ -97,7 +107,8 @@ Wendy Baqué – DPO, Wendy Baqué
 Dans ce cas, l’Utilisateur doit indiquer les Données Personnelles qu’il souhaiterait que https://wendybaqueauteurederomans.netlify.app/ corrige, mette à jour ou supprime, en s’identifiant précisément avec une copie d’une pièce d’identité (carte d’identité ou passeport).
 
 Les demandes de suppression de Données Personnelles seront soumises aux obligations qui sont imposées à https://wendybaqueauteurederomans.netlify.app/ par la loi, notamment en matière de conservation ou d’archivage des documents. Enfin, les Utilisateurs de https://wendybaqueauteurederomans.netlify.app/ peuvent déposer une réclamation auprès des autorités de contrôle, et notamment de la CNIL (https://www.cnil.fr/fr/plaintes).
-
+</section>
+<section>
 <h3>7.4 Non-communication des données personnelles</h3>
 https://wendybaqueauteurederomans.netlify.app/ s’interdit de traiter, héberger ou transférer les Informations collectées sur ses Clients vers un pays situé en dehors de l’Union européenne ou reconnu comme « non adéquat » par la Commission européenne sans en informer préalablement le client. Pour autant, https://wendybaqueauteurederomans.netlify.app/ reste libre du choix de ses sous-traitants techniques et commerciaux à la condition qu’il présentent les garanties suffisantes au regard des exigences du Règlement Général sur la Protection des Données (RGPD : n° 2016-679).
 
@@ -106,13 +117,15 @@ https://wendybaqueauteurederomans.netlify.app/ s’engage à prendre toutes les 
 Les Données Personnelles de l’Utilisateur peuvent être traitées par des filiales de https://wendybaqueauteurederomans.netlify.app/ et des sous-traitants (prestataires de services), exclusivement afin de réaliser les finalités de la présente politique.
 
 Dans la limite de leurs attributions respectives et pour les finalités rappelées ci-dessus, les principales personnes susceptibles d’avoir accès aux données des Utilisateurs de https://wendybaqueauteurederomans.netlify.app/ sont principalement les agents de notre service client.
-
+</section>
+<section>
 <h3>7.5 Types de données collectées</h3>
 https://wendybaqueauteurederomans.netlify.app/ collecte en outre des informations qui permettent d’améliorer l’expérience utilisateur et de proposer des conseils contextualisés :
 adresse IP, localisation
 
 Ces  données sont conservées pour une période maximale de 1 semaine après la fin de la relation contractuelle
-
+</section>
+<section>
 <h2>8. Notification d’incident </h2>
 Quels que soient les efforts fournis, aucune méthode de transmission sur Internet et aucune méthode de stockage électronique n'est complètement sûre. Nous ne pouvons en conséquence pas garantir une sécurité absolue. Si nous prenions connaissance d'une brèche de la sécurité, nous avertirions les utilisateurs concernés afin qu'ils puissent prendre les mesures appropriées. Nos procédures de notification d’incident tiennent compte de nos obligations légales, qu'elles se situent au niveau national ou européen. Nous nous engageons à informer pleinement nos clients de toutes les questions relevant de la sécurité de leur compte et à leur fournir toutes les informations nécessaires pour les aider à respecter leurs propres obligations réglementaires en matière de reporting.
 
@@ -122,11 +135,14 @@ Sécurité
 Pour assurer la sécurité et la confidentialité des Données Personnelles et des Données Personnelles de Santé, https://wendybaqueauteurederomans.netlify.app/ utilise des réseaux protégés par des dispositifs standards tels que par pare-feu, la pseudonymisation, l’encryption et mot de passe.
 
 Lors du traitement des Données Personnelles, https://wendybaqueauteurederomans.netlify.app/ prend toutes les mesures raisonnables visant à les protéger contre toute perte, utilisation détournée, accès non autorisé, divulgation, altération ou destruction.
-
+</section>
+<section>
 <h2>9. Liens hypertextes « cookies » et balises (“tags”) internet</h2>
 Le site https://wendybaqueauteurederomans.netlify.app/ contient un certain nombre de liens hypertextes vers d’autres sites, mis en place avec l’autorisation de https://wendybaqueauteurederomans.netlify.app/. Cependant, https://wendybaqueauteurederomans.netlify.app/ n’a pas la possibilité de vérifier le contenu des sites ainsi visités, et n’assumera en conséquence aucune responsabilité de ce fait.
 
 Sauf si vous décidez de désactiver les cookies, vous acceptez que le site puisse les utiliser. Vous pouvez à tout moment désactiver ces cookies et ce gratuitement à partir des possibilités de désactivation qui vous sont offertes et rappelées ci-après, sachant que cela peut réduire ou empêcher l’accessibilité à tout ou partie des Services proposés par le site.
+</section>
+<section></section>
 <h3>9.1. « COOKIES »</h3>
 Un « cookie » est un petit fichier d’information envoyé sur le navigateur de l’Utilisateur et enregistré au sein du terminal de l’Utilisateur (ex : ordinateur, smartphone), (ci-après « Cookies »). Ce fichier comprend des informations telles que le nom de domaine de l’Utilisateur, le fournisseur d’accès Internet de l’Utilisateur, le système d’exploitation de l’Utilisateur, ainsi que la date et l’heure d’accès. Les Cookies ne risquent en aucun cas d’endommager le terminal de l’Utilisateur.
 
@@ -143,7 +159,7 @@ Le cas échéant, https://wendybaqueauteurederomans.netlify.app/ décline toute 
 Enfin, en cliquant sur les icônes dédiées aux réseaux sociaux Twitter, Facebook, Linkedin et Google Plus figurant sur le Site de https://wendybaqueauteurederomans.netlify.app/ ou dans son application mobile et si l’Utilisateur a accepté le dépôt de cookies en poursuivant sa navigation sur le Site Internet ou l’application mobile de https://wendybaqueauteurederomans.netlify.app/, Twitter, Facebook, Linkedin et Google Plus peuvent également déposer des cookies sur vos terminaux (ordinateur, tablette, téléphone portable).
 
 Ces types de cookies ne sont déposés sur vos terminaux qu’à condition que vous y consentiez, en continuant votre navigation sur le Site Internet ou l’application mobile de https://wendybaqueauteurederomans.netlify.app/. À tout moment, l’Utilisateur peut néanmoins revenir sur son consentement à ce que https://wendybaqueauteurederomans.netlify.app/ dépose ce type de cookies.
-
+<section>
 <h3>Article 9.2. BALISES (“TAGS”) INTERNET</h3>
 https://wendybaqueauteurederomans.netlify.app/ peut employer occasionnellement des balises Internet (également appelées « tags », ou balises d’action, GIF à un pixel, GIF transparents, GIF invisibles et GIF un à un) et les déployer par l’intermédiaire d’un partenaire spécialiste d’analyses Web susceptible de se trouver (et donc de stocker les informations correspondantes, y compris l’adresse IP de l’Utilisateur) dans un pays étranger.
 
@@ -152,9 +168,11 @@ Ces balises sont placées à la fois dans les publicités en ligne permettant au
 Cette technologie permet à https://wendybaqueauteurederomans.netlify.app/ d’évaluer les réponses des visiteurs face au Site et l’efficacité de ses actions (par exemple, le nombre de fois où une page est ouverte et les informations consultées), ainsi que l’utilisation de ce Site par l’Utilisateur.
 
 Le prestataire externe pourra éventuellement recueillir des informations sur les visiteurs du Site et d’autres sites Internet grâce à ces balises, constituer des rapports sur l’activité du Site à l’attention de https://wendybaqueauteurederomans.netlify.app/, et fournir d’autres services relatifs à l’utilisation de celui-ci et d’Internet.
-
+</section>
+<section>
 <h2>10. Droit applicable et attribution de juridiction.</h2>
 Tout litige en relation avec l’utilisation du site https://wendybaqueauteurederomans.netlify.app/ est soumis au droit français. En dehors des cas où la loi ne le permet pas, il est fait attribution exclusive de juridiction aux tribunaux compétents de Nantes
+</section>
     </div>
   )
 }

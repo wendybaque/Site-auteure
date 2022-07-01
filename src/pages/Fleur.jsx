@@ -5,8 +5,7 @@ import Testimonials from '../components/Testimonials';
 
 function Fleur() {
   return (
-
-    <div className='livre-wrapper'>
+<div className='livre-wrapper'>
     <div className='livre-page'>
        <div className="livre-page-left">
       <h2 className='livre-title'>La fleur de l'âge</h2>
@@ -19,21 +18,16 @@ function Fleur() {
       <div className="livre-page-right">
         <img src={livrefdl} alt="livre la fleur de l'âge"/>
       </div>
-      
-    </div>
+      </div>
     <div className='testimonials-livre'>
         <Testimonials />
       </div>
       <div className='shopping-links'>
         <a href="https://www.amazon.fr/fleur-l%C3%A2ge-Wendy-Baqu%C3%A9/dp/B09NZJY2ND/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=324WQ7J04X56R&keywords=la+fleur+de+l%27age+wendy+baqu%C3%A9&qid=1641041100&sprefix=la+fleur+de+l%27age+wendy+baqu%C3%A9%2Caps%2"><button className="shopping-button">Acheter sur Amazon (ebook et broché)</button></a>
-        <a href="https://www.bookelis.com/romans/49342-La-fleur-de-l-age.html"><button className="shopping-button">Acheter sur Bookelis (ebook et broché)</button></a>
-        
-        <a href="https://www.kobo.com/fr/fr/ebook/la-fleur-de-l-age"><button className="shopping-button">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
-
-        <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0%211&Search=la+fleur+de+l%27%C3%A2ge+wendy+baqu%C3%A9&sft=1&sa=0"><button className="shopping-button">Acheter sur la Fnac (ebook et broché)</button></a>
-
-        <a href="https://fr.shopping.rakuten.com/offer/buy/7805339184/la-fleur-de-l-age-format-beau-livre.html"><button className="shopping-button">Acheter sur Rakuten (broché)</button></a>
-
+        <a href="https://www.bookelis.com/romans/49342-La-fleur-de-l-age.html" alt="La fleur de l'âge sur Bookelis"><button className="shopping-button">Acheter sur Bookelis (ebook et broché)</button></a>
+        <a href="https://www.kobo.com/fr/fr/ebook/la-fleur-de-l-age" alt="La fleur de l^'age sur Kobo"><button className="shopping-button">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
+        <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0%211&Search=la+fleur+de+l%27%C3%A2ge+wendy+baqu%C3%A9&sft=1&sa=0" alt="La fleur de l'âge sur la FNAC"><button className="shopping-button">Acheter sur la Fnac (ebook et broché)</button></a>
+        <a href="https://fr.shopping.rakuten.com/offer/buy/7805339184/la-fleur-de-l-age-format-beau-livre.html" alt="La fleur de l'âge sur Rakuten"><button className="shopping-button">Acheter sur Rakuten (broché)</button></a>
       </div>
 </div>
   )

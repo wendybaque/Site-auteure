@@ -31,8 +31,8 @@ function Presentation () {
                 </Fade>
                 <p>Bienvue sur mon site ! Vous y découvrirez mon univers littéraire, fait de récits contemporains et réalistes, avec quelques notes de romance. J'ai à coeur de traiter de sujets originaux à travers des personnages humains et attachants. Je vous souhaite une bonne visite et ce belles lectures !</p>
                 <p>Mes livres sont disponibles sur Amazon en versions numériques et imprimées, ainsi qu'à la commande dans vos librairies en ligne et physiques favorites.</p>
-            <a href="/Apropos"><button className="apropos-button">A propos de Wendy Baqué</button></a>
-            <a href="#livre" className="redirection">
+            <a href="/Apropos" alt="about path"><button className="apropos-button">A propos de Wendy Baqué</button></a>
+            <a href="#livre" className="redirection" alt="redirection vers les pages des livres">
                 <img src={down} alt="flèche vers le bas" className="arrow"></img>
             </a>
             </div>

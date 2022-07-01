@@ -3,8 +3,10 @@ import Contact from "../components/Contact";
 
 export default function Contactpage() {
   return (
+    <main>
     <div>
         <Contact />
     </div>
+    </main>
   )
 }

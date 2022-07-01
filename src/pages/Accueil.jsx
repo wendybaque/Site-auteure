@@ -14,18 +14,36 @@ import Testimonials from "../components/Testimonials";
 function Accueil() {
   return (
     <div>
+      <nav role="navigation">
       <Navbar />
+      </nav>
       <div>
+        <main>
         <Presentation />
+        </main>
         {/* <Slider /> */}
+        <section>
         <Lumière/>
+        </section>
+        <section>
         <Inoubliable />
+        </section>
+        <section>
         <Fleur />
+        </section>
+        <section>
         <Vents />
+        </section>
+        <section>
         <Testimonials />
+        </section>
+        <section>
         <Contact />
+        </section>
       </div>
+      <footer>
       <Footer />
+      </footer>
     </div>
   );
 }

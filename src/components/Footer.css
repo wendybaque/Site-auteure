@@ -20,3 +20,10 @@
     color: #141414;
     cursor: pointer;
   }
+
+.portfolio:hover{
+  color: var(--color-light);
+}
+.portfolio:visited{
+  color: var(--color-light);
+}

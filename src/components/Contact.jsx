@@ -74,11 +74,11 @@ function Contact () {
                 <div className="contact-right">
                     <p className="contact-description"> Vous souhaitez commander l'un de mes romans au format broché avec une dédicace personnalisée ? Ou vous avez tout simplement une question sur mes livres ? Rendez-vous dans le formulaire ci-dessous.</p>
                     <form ref={formRef} onSubmit={handleSubmit}>
-                        <input type="text" placeholder="Votre nom" name="user_name"/>
-                        <input type="text" placeholder="Votre e-mail" name="user_email"/>
-                        <input type="text" placeholder="Sujet de votre message" name="user_subject"/>
-                        <textarea rows="10" placeholder="Votre message" name="message"/>
-                        <button>Envoyer !</button>
+                        <label><input type="text" placeholder="Votre nom" name="user_name" required aria-required="true"/></label>
+                        <label><input type="text" placeholder="Votre e-mail" name="user_email" required aria-required="true"/></label>
+                        <label><input type="text" placeholder="Sujet de votre message" name="user_subject" required aria-required="true"/></label>
+                        <label><textarea rows="10" placeholder="Votre message" name="message" required aria-required="true"/></label>
+                        <button type="submit">Envoyer !</button>
                         {done && "Merci beaucoup pour votre message. Je vous répondrai au plus vite."}
                     </form>
                 </div>
