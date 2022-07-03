@@ -15,9 +15,3 @@
   --second-color: #225D84;
   --third-color: #1025DF;
 }
-
-.app {
-  background-color: var(--color-light);
-  width: 100%;
-  height: 100%;
-}
