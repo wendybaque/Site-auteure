@@ -4,14 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-}
-
-body {
-    padding: auto;
-    margin-top: 100px;
-    width: 100%;
-    background-color: var(--color-dark);
-}
+    }
 
 .infos {
     position: absolute;
@@ -19,8 +12,6 @@ body {
     left:50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    
-
 }
 
 .glitch-bloc {
@@ -66,7 +57,7 @@ body {
 
 .txt-info {
     font-weight: bold;
-    color: var(--color-light)
+    color: var(--color-dark)
 }
 
 @keyframes glitchAnim1 {
@@ -174,9 +165,3 @@ body {
 
     }
 }
-
-/* .giflivre {
-    width: 100vw;
-    height: calc(100vh - 60px);
-    scroll-snap-align: start;
-} */ 

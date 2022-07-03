@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import "./Page404.css";
+import P404 from "../components/404";
 
 function Page404() {
   const navigate = useNavigate();
@@ -12,19 +12,8 @@ function Page404() {
   }, );
 
   return (
-      <div className="infos">
-        <main>
-        <div className="glitch-bloc">
-          <p className="invisible-text">404</p>
-          <p className="glitchedAnim">404</p>
-          <p className="glitchedAnim">404</p>
-          <p className="glitchedAnim">404</p>
-        </div>
-        <p className="txt-info">Wopsy, this page doesn't exist.</p>
-        </main>
-      </div>
+      <P404 />
   );
-
 }
 
 export default Page404;

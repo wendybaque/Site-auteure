@@ -2,7 +2,6 @@
   width: 100%;
   height: fit-content;
   bottom: 0;
-  position: fixed;
 }
 
 .footer-text {
@@ -13,7 +12,6 @@
     text-align: center;
     display: flex;
     justify-content: space-between;
-
   }
 
 .legal-mentions:hover {
@@ -25,5 +23,12 @@
   color: var(--color-light);
 }
 .portfolio:visited{
+  color: var(--color-light);
+}
+
+.legal-mentions:hover{
+  color: var(--color-light);
+}
+.legal-mentions:visited{
   color: var(--color-light);
 }

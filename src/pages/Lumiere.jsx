@@ -23,10 +23,10 @@ function Lumiere() {
         <Testimonials />
       </div>
       <div className='shopping-links'>
-        <a href="https://www.amazon.fr/gp/product/B09CB2TY1T/ref=dbs_a_def_rwt_bibl_vppi_i0" alt="Les dangers de la lumière sur Amazon"><button className="shopping-button">Acheter sur Amazon et abonnement Kindle (ebook et broché)</button></a>
-        <a href="https://www.plumesdemimieditions.fr/boutique/les-dangers-de-la-lumiere/" alt="Les dangers de la lumière sur Plumes de Mimi éditions"><button className="shopping-button">Acheter sur le site de la maison d'édition (broché + box)</button></a>
-        <a href="https://www.kobo.com/fr/fr/ebook/les-dangers-de-la-lumiere" alt="Les dangers de la lumière sur Kobo"><button className="shopping-button">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
-        <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0&Search=les+dangers+de+la+lumi%C3%A8re+wendy+baqu%C3%A9&sft=1&sa=0" alt="Les dangers de la lumière sur Rakuten"><button className="shopping-button">Acheter sur la Fnac (ebook et broché)</button></a>
+        <a href="https://www.amazon.fr/gp/product/B09CB2TY1T/ref=dbs_a_def_rwt_bibl_vppi_i0" alt="Les dangers de la lumière sur Amazon"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon et abonnement Kindle (ebook et broché)</button></a>
+        <a href="https://www.plumesdemimieditions.fr/boutique/les-dangers-de-la-lumiere/" alt="Les dangers de la lumière sur Plumes de Mimi éditions"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur le site de la maison d'édition (broché + box)</button></a>
+        <a href="https://www.kobo.com/fr/fr/ebook/les-dangers-de-la-lumiere" alt="Les dangers de la lumière sur Kobo"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
+        <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0&Search=les+dangers+de+la+lumi%C3%A8re+wendy+baqu%C3%A9&sft=1&sa=0" alt="Les dangers de la lumière sur Rakuten"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur la Fnac (ebook et broché)</button></a>
       </div>
     </div>
   )

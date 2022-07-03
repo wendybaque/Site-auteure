@@ -1,7 +1,5 @@
 import React from "react";
 import "../App.css";
-import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
 import Presentation from "../components/Presentation";
 import Contact from "../components/Contact";
 import Inoubliable from "../components/Is";
@@ -14,9 +12,6 @@ import Carousel from "../components/Carousel";
 function Accueil() {
   return (
     <div>
-      <nav role="navigation">
-      <Navbar />
-      </nav>
       <div>
         <main>
         <Presentation />
@@ -43,9 +38,6 @@ function Accueil() {
         <Contact />
         </section>
       </div>
-      <footer>
-      <Footer />
-      </footer>
     </div>
   );
 }

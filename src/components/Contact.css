@@ -73,20 +73,6 @@ textarea {
     padding-left: 10px;
 }
 
-button {
-    border:1px solid #1025DF;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: var(--color-light);
-    color: var(--third-color);
-    font-family: 'Alex Brush', cursive;
-    font-weight: bolder;
-    font-size: 30px;
-    cursor: pointer;
-    overflow: hidden;
-    box-shadow: 10px 5px 5px #153243;
-}
-
 @media screen and (max-width:767px) {
     .contact-wrapper {
         flex-direction: column;

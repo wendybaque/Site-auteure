@@ -22,10 +22,10 @@ function Vents() {
         <Testimonials />
       </div>
 
-      <div className='shopping-links'>
-        <a href="https://www.amazon.fr/Vents-lExistence-Wendy-Baqu%C3%A9-ebook/dp/B07XL9FK89" alt="Les vents de l'existence sur Amazon"><button className="shopping-button">Acheter sur Amazon (ebook, broché et relié)</button></a>
-        <a href="https://www.bookelis.com/romans/47435-Les-Vents-de-l-Existence.html/" alt="Les vents de l'existence sur Bookelis"><button className="shopping-button">Acheter sur Bookelis (ebook et broché)</button></a>
-        <a href="https://www.kobo.com/fr/fr/search?query=les+vents+de+l%27existence" alt="Les vents de l'existence sur Kobo"><button className="shopping-button">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
+      <div className="flex flex-row flex-wrap">
+        <a href="https://www.amazon.fr/Vents-lExistence-Wendy-Baqu%C3%A9-ebook/dp/B07XL9FK89" alt="Les vents de l'existence sur Amazon"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon (ebook, broché et relié)</button></a>
+        <a href="https://www.bookelis.com/romans/47435-Les-Vents-de-l-Existence.html/" alt="Les vents de l'existence sur Bookelis"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Bookelis (ebook et broché)</button></a>
+        <a href="https://www.kobo.com/fr/fr/search?query=les+vents+de+l%27existence" alt="Les vents de l'existence sur Kobo"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
       </div>
 
     </div>
