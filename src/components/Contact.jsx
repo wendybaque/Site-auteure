@@ -35,7 +35,7 @@ function Contact () {
     };
   
     return (
-        <div className="bg-slate-100 m-2 p-2 overflow-hidden">
+        <div className="bg-slate-100 overflow-hidden">
             <div className="flex flex-row m-2 p-2">
                 <div className="flex basis-1/2">
                     <h2 class="text-3xl font-bold text-blue-700 font-mono">Contact</h2>
