@@ -107,7 +107,7 @@ function Accueil() {
     <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
-    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white">
+    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
                 " Wendy Baqué nous offre un roman profondément humain qui transpercera les âmes les plus endurcies. Elle nous transmet de très beaux messages avec justesse, humour et sensibilité. "
@@ -122,7 +122,7 @@ function Accueil() {
             </div>
         </div>
     </div>
-    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white">
+    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
                 " Aucune surprise pour ce livre de Wendy Baqué qui reste dans la veine de mes ressentis précédents, j'ai plus qu'adoré et l'auteure s'installe durablement dans mes « indispensables ». "
@@ -137,7 +137,7 @@ function Accueil() {
             </div>
         </div>
     </div>
-    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white">
+    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
                 " Ce livre est clairement un chef-d'œuvre. Qu'on l'aime ou pas, il restera dans notre tête et dans notre cœur. De part son sujet déjà : une histoire interdite, un sujet encore tabou dans la société et pour beaucoup de monde et par toutes les questions qu'on est amené nous aussi à se poser au fur et à mesure de l'histoire. "
@@ -152,7 +152,7 @@ function Accueil() {
             </div>
         </div>
     </div>
-    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white">
+    <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
                 " J’ai eu le plaisir de découvrir une très belle histoire à travers ce livre. L’auteure essaye de faire passer un message dans notre société encore très fermée d’esprit. Ce roman mène à la réflexion et au questionnement sur la vie, la mort, l’amour... C’est un roman très touchant, voir bouleversant. Je recommande sans modération ! "
