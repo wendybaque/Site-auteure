@@ -21,8 +21,8 @@ function Accueil() {
           </div>
           <div className="flex flex-col p-2 m-2 basis-2/3 content-center" id="welcome">
             <div className="p-2 m-2">
-                <h3 className="p-2 m-2">Bonjour ! Je suis <span className="text-blue-700 font-bold">Wendy Baqué </span></h3>
-                <h3 className="p-2 m-2">Auteure de </h3>
+                <h1 className="p-2 m-2">Bonjour ! Je suis <span className="text-blue-700 font-bold">Wendy Baqué </span></h1>
+                <h2 className="p-2 m-2">Auteure de </h2>
                 <div className="p-2 m-2">
                 <Fade delay={1000}> 
                 <p className="fade text-blue-700 font-bold font-mono">Romans contemporains</p>
@@ -36,9 +36,11 @@ function Accueil() {
                 </div>
                 <p className="p-2 m-2">Bienvue sur mon site ! Vous y découvrirez mon univers littéraire, fait de récits contemporains et réalistes, avec quelques notes de romance. J'ai à coeur de traiter de sujets originaux à travers des personnages humains et attachants. Je vous souhaite une bonne visite et ce belles lectures !</p>
                 <p className="p-2 m-2">Mes livres sont disponibles sur Amazon en versions numériques et imprimées, ainsi qu'à la commande dans vos librairies en ligne et physiques favorites.</p>
+                  <div className="flex justify-center">
                   <a href="#book" className="redirection" alt="redirection vers les pages des livres">
-                  <img src={down} alt="flèche vers le bas" className="animate-bounce h-20 w-20 flex items-center justify-items-center p-2 m-2"></img>
+                  <img src={down} alt="flèche vers le bas" className="animate-bounce h-20 w-20 flex items-center justify-center p-2 m-2"></img>
             </a>
+            </div>
             </div>
         </div>
         </main>
