@@ -2,7 +2,6 @@ import React from "react";
 import "../App.css";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
-// import Slider from "../components/Slider";
 import Presentation from "../components/Presentation";
 import Contact from "../components/Contact";
 import Inoubliable from "../components/Is";
@@ -21,7 +20,6 @@ function Accueil() {
         <main>
         <Presentation />
         </main>
-        {/* <Slider /> */}
         <section>
         <Lumière/>
         </section>
