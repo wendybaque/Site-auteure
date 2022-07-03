@@ -13,7 +13,7 @@ function Presentation () {
         <div className="presentation-left">
             <div className="img-container">
                 <img src={logo} alt="logo de Wendy Baqué" className="presentation-image"/>
-                <a href="/Apropos" alt="about path"><button className="apropos-button">A propos de Wendy Baqué</button></a>
+                <a href="/Apropos" alt="about path"><button className="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">A propos de Wendy Baqué</button></a>
             </div>
         </div>
         <div className="presentation-right">

@@ -20,7 +20,18 @@ function Fleur() {
       </div>
       </div>
     <div className='testimonials-livre'>
-        <Testimonials />
+    <div class="max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-20">
+  <div class="flex justify-center md:justify-end -mt-16">
+    <img className="w-20 h-20 object-cover rounded-full border-2 border-indigo-500" src="https://images.unsplash.com/photo-1499714608240-22fc6ad53fb2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80"/>
+  </div>
+  <div>
+    <h2 class="text-gray-800 text-3xl font-semibold">Design Tools</h2>
+    <p class="mt-2 text-gray-600">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae dolores deserunt ea doloremque natus error, rerum quas odio quaerat nam ex commodi hic, suscipit in a veritatis pariatur minus consequuntur!</p>
+  </div>
+  <div class="flex justify-end mt-4">
+    <a href="#" className="text-xl font-medium text-indigo-500" alt="">John Doe</a>
+  </div>
+</div>
       </div>
       <div className='shopping-links'>
         <a href="https://www.amazon.fr/fleur-l%C3%A2ge-Wendy-Baqu%C3%A9/dp/B09NZJY2ND/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=324WQ7J04X56R&keywords=la+fleur+de+l%27age+wendy+baqu%C3%A9&qid=1641041100&sprefix=la+fleur+de+l%27age+wendy+baqu%C3%A9%2Caps%2"><button className="shopping-button">Acheter sur Amazon (ebook et broché)</button></a>

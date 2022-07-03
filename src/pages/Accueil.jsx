@@ -9,6 +9,7 @@ import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
 import Testimonials from "../components/Testimonials";
+import Carousel from "../components/Carousel";
 
 function Accueil() {
   return (
@@ -20,6 +21,9 @@ function Accueil() {
         <main>
         <Presentation />
         </main>
+        <section>
+          <Carousel/>
+        </section>
         <section>
         <Lumière/>
         </section>

@@ -1,51 +1,39 @@
 import React from "react";
-import { useState } from "react";
+
 // import { link } from "react-router-dom;
-import "../components/Navbar.css";
-import logoblanc from "../assets/logoblanc.png"
+// import "../components/Navbar.css";
+// import logoblanc from "../assets/logoblanc.png"
 
 function Topbar() {
-  
-    const [showLinks, setShowLinks] =useState(false)
-    const handleShowLinks = () => {
-        setShowLinks(!showLinks)
-    }
-
   return (
-   <nav className={`navbar ${showLinks? "show-nav":"hide-nav"}`} role="navigation">
-       <div className="logo"><a href="#presentation" alt="presentation path"><img src={logoblanc} alt="Logo de Wendy Baqué" className="logo"></img></a></div>
-       <div className="title">
-           <p>Wendy Baqué | Auteure de romans</p>
-           </div>
-       <ul className="navbar-links">
-        <li className="navbar-item slideInDown-1" onClick={()=>setShowLinks(false)}>
-            <a href="/" className="navbar-link" alt="home path">Accueil</a>
-        </li>
-        <li className="navbar-item slideInDown-2" onClick={()=>setShowLinks(false)}>
-            <a href="/Apropos" className="navbar-link" alt="about path">A propos</a>
-        </li>
-        <li className="navbar-item slideInDown-3" onClick={()=>setShowLinks(false)}>
-            <a href="/Fleurdelage" className="navbar-link" alt="la fleur de l'âge path">La fleur de l'âge</a>
-        </li>
-        <li className="navbar-item slideInDown-4" onClick={()=>setShowLinks(false)}>
-            <a href="/Dangersdelalumiere" className="navbar-link" alt="Les dangers de la lumière path">Les dangers de la lumière</a>
-        </li>
-        <li className="navbar-item slideInDown-5" onClick={()=>setShowLinks(false)}>
-            <a href="/Inoubliablesymphonie" className="navbar-link" alt="Inoubliable symphonie path">Inoubliable symphonie</a>
-        </li>
-        <li className="navbar-item slideInDown-6" onClick={()=>setShowLinks(false)}>
-            <a href="/Ventsdelexistence" className="navbar-link" alt="Les vents de l'existence path">Les vents de l'existence</a>
-        </li>
-        <li className="navbar-item slideInDown-7" onClick={()=>setShowLinks(false)}>
-            <a href="/Contact" className="navbar-link" alt="contact path">Contact</a>
-        </li>
-       </ul>
-       <button className="navbar-burger" onClick={handleShowLinks} role="navigation" aria-controls="toggle" menubar>
-           <span className="burger-line" menuitem></span>
-           <span className="burger-line" menuitem></span>
-           <span className="burger-line" menuitem></span>
-       </button>
-   </nav>
+       <nav class="flex items-center justify-between flex-wrap bg-teal-500 p-6" role="navigation">
+  <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+    <span class="font-semibold text-xl tracking-tight">Tailwind CSS</span>
+  </div>
+  <div class="block lg:hidden">
+    <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+      <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+    </button>
+  </div>
+  <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+    <div class="text-sm lg:flex-grow">
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+        Docs
+      </a>
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+        Examples
+      </a>
+      <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white">
+        Blog
+      </a>
+    </div>
+    <div>
+      <a href="#Presentation" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+    </div>
+  </div>
+</nav>
+
   );
 }
 
