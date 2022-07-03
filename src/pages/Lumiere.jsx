@@ -1,7 +1,6 @@
 import React from 'react';
 import "../pages/livrepage.css";
 import livredol from "../assets/livredol.png";
-import Testimonials from '../components/Testimonials';
 
 function Lumiere() {
   return (
@@ -20,7 +19,6 @@ function Lumiere() {
       </div>
       </div>
       <div className='testimonials-livre'>
-        <Testimonials />
       </div>
       <div className='shopping-links'>
         <a href="https://www.amazon.fr/gp/product/B09CB2TY1T/ref=dbs_a_def_rwt_bibl_vppi_i0" alt="Les dangers de la lumière sur Amazon"><button class="text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon et abonnement Kindle (ebook et broché)</button></a>

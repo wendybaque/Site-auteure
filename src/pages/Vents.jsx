@@ -1,7 +1,6 @@
 import React from 'react';
 import "../pages/livrepage.css";
 import livrevdl from "../assets/livrevdl.png";
-import Testimonials from '../components/Testimonials';
 
 function Vents() {
   return (
@@ -19,7 +18,7 @@ function Vents() {
       </div>
       </div>
       <div className='testimonials-livre'>
-        <Testimonials />
+
       </div>
 
       <div className="flex flex-row flex-wrap">
