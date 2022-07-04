@@ -1,25 +1,8 @@
-import React from 'react';
-import livreis from "../assets/livreis.png";
+import React from 'react'
 
-function Inoubliable() {
+export default function Testimonials() {
   return (
-    <div className="bg-slate-100">
-
-    <div className='flex flex-row'>
-        <div className="flex flex-col m-2 p-2 w-1/2">
-      <h2 className='text-3xl font-bold text-blue-700 font-mono'>Inoubliable symphonie</h2>
-        <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : romance musicale</h3>
-        <p className='m-2 p-2'>Nous vivons dans un monde où aimer qui l’on veut n’est pas acceptable à cause d’une trop grande différence d’âge, de revenu financier ou de rang social. Un monde où la musique reste parfois incomprise, où la beauté fait défaut. Un monde où les apparences sont trop souvent trompeuses.</p>
-        <p className='m-2 p-2'>Avant, je croyais que le sens de la vie, c’était la musique. Mon professeur m’a montré que l’amour pouvait aussi valoir la peine d’être vécu. Alors, je l’ai aimé, envers et contre tout. Je l’ai défendu, j’ai cru en lui, je me suis perdue.</p>
-        <p className='m-2 p-2'>Grâce à Rudyard, cet homme au regard tendre et aux valeurs nobles, j’ai pu réaliser mes rêves les plus controversés. L’espace d’un instant, nous nous sommes croisés, nous nous sommes aimés. Nous, qui vivions dans des mondes parallèles.</p>
-        <p className='m-2 p-2'>Notre histoire est celle d’une petite étoile en plastique phosphorescente, d’une enquête policière, de parents désabusés, de normes sociales chamboulées, d’opéra rock révolté, de drogue surdosée, d’amour rejeté et d’amitié à toute épreuve.</p>
-      </div>
-      <div className="w-1/2">
-        <img src={livreis} alt="livre inoubliable symphonie" className='livre-img'/>
-      </div>
-      </div>
-      <section id="testimonials">
-        <div class="mb-8 text-center m-2 p-2">
+    <div> <div class="mb-8 text-center m-2 p-2">
     <h2 class="text-3xl font-bold text-blue-700 font-mono">Témoignages</h2>
     <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
 </div>
@@ -84,18 +67,6 @@ function Inoubliable() {
             </div>
         </div>
     </div>
-</div>
-        </section>
-      <div className='flex flex-row justify-center m-2 p-2'>
-        <a href="https://www.amazon.fr/Inoubliable-symphonie-Wendy-Baqu%C3%A9-ebook/dp/B086HRNZP8/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=27WOUZX5N2BVL&keywords=wendy+baqu%C3%A9&qid=1654498269&sprefix=wendy+baqu%C3%A9%2Caps%2C110&sr=8-4" alt="Inoubliable symphonie sur Amazon"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon et abonnement Kindle (ebook et broché)</button></a>
-        <a href="https://www.plumesdemimieditions.fr/boutique/inoubliable-symphonie/" alt="Inoubliable symphonie sur Plumes de Mimi"><button className=" flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur le site de la maison d'édition (broché + box)</button></a>
-        <a href="https://www.kobo.com/fr/fr/ebook/inoubliable-symphonie" alt="Inoubliable symphonie sur Kobo"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
-        <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0&Search=inoubliable+symphonie+wendy+baqu%C3%A9&sft=1&sa=0" alt="Inoubliable symphonie sur FNAC"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur la Fnac (ebook et broché)</button></a>
-        <a href="https://wendybaqueauteur.wixsite.com/website" alt="blog path" target="_blank" rel="noreferrer"><button type="button" className="text-white bg-gradient-to-r from-purple-500 to-pink-500 hover:bg-gradient-to-l focus:ring-4 focus:outline-none focus:ring-purple-200 dark:focus:ring-purple-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Retrouvez mes romances dans les boxs livresques Plumes de Mimi</button></a>
-      </div>
-
-    </div>
+</div></div>
   )
 }
-
-export default Inoubliable;

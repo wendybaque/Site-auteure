@@ -7,10 +7,11 @@ function Dol() {
     <div className="flex flex-row m-2 p-2">
       <div className="w-3/5 m-2 p-2">
         <Reveal>
-          <h2 className='font-bold text-blue-700'>Les dangers de la lumière</h2>
+          <h2 className='text-3xl font-bold text-blue-700 font-mono'>Les dangers de la lumière</h2>
         </Reveal>
-        <h3>Genre : romance musicale</h3>
+        <h3 className='font-bold m-2 p-2'>Genre : romance musicale</h3>
         <p>Alice est une sorte de punk désabusée par une vie qu'elle ne veut pas vivre et qui rêve d'être ingénieur lumière. Dans une époque où la jeunesse subit trop de contraintes, elle peine à faire entendre sa voix. Lassée de cette société, elle fuit en Provence où des rencontres hautes en couleur et des opportunités l'attendent...</p>
+        <p>L'une veut atteindre la lumière, au risque de se brûler les ailes. L'autre se complaît dans l'ombre, depuis trop longtemps installée dans son âme. Ensemble, dans une ambiance eighties entre clarté et obscurité, au rythme des trajets en car entre les villes étapes d'une tournée nationale, ils vont tenter d'accéder à la lumière : celle des projecteurs, de la célébrité, mais aussi celle que l'on a en nous, flamme rageuse ou étincelle timide, dangereuse ou salvatrice.</p>
         <a href="/Dangersdelalumiere" alt="page les dangers de la lumière"><button className="m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">En savoir plus</button></a>
       </div>
       <div className='m-2 p-2'>

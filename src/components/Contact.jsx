@@ -72,10 +72,10 @@ function Contact () {
                 <div className="flex flex-col basis-1/2">
                     <p className=""> Vous souhaitez commander l'un de mes romans au format broché avec une dédicace personnalisée ? Ou vous avez tout simplement une question sur mes livres ? Rendez-vous dans le formulaire ci-dessous.</p>
                     <form ref={formRef} onSubmit={handleSubmit} className="grid justify-items-center">
-                        <label><input type="text" placeholder="Votre nom" name="user_name" required aria-required="true" className="m-2 p-2 w-96"/></label>
-                        <label><input type="text" placeholder="Votre e-mail" name="user_email" required aria-required="true" className="m-2 p-2 w-96"/></label>
-                        <label><input type="text" placeholder="Sujet de votre message" name="user_subject" required aria-required="true" className="m-2 p-2 w-96"/></label>
-                        <label><textarea rows="10" placeholder="Votre message" name="message" required aria-required="true" className="m-2 p-2 w-96"/></label>
+                        <label><input type="text" placeholder="Votre nom" name="user_name" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md"/></label>
+                        <label><input type="text" placeholder="Votre e-mail" name="user_email" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md "/></label>
+                        <label><input type="text" placeholder="Sujet de votre message" name="user_subject" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md"/></label>
+                        <label><textarea rows="10" placeholder="Votre message" name="message" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md"/></label>
                         <button type="submit" class="m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Envoyer !</button>
                         {done && "Merci beaucoup pour votre message. Je vous répondrai au plus vite."}
                     </form>

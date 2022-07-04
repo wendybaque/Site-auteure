@@ -8,8 +8,8 @@ function Topbar() {
   return (
        <nav class="flex items-center justify-between flex-wrap bg-gradient-to-r from-cyan-500 to-blue-500 p-6" role="navigation">
   <div class="flex items-center flex-shrink-0 text-white mr-6">
-    <img src={logoblanc} className="fill-current h-20 w-20 mr-2" width="54" height="54" viewBox="0 0 54 54" alt="logo de Wendy Baqué"/>
-    <span class="font-semibold text-xl tracking-tight">Wendy Baqué</span>
+    <a href="/" alt="Back home"><img src={logoblanc} className="fill-current h-20 w-20 mr-2" width="54" height="54" viewBox="0 0 54 54" alt="logo de Wendy Baqué"/></a>
+    <a href="/" alt="Back home"><span class="font-semibold text-xl tracking-tight">Wendy Baqué</span></a>
   </div>
   <div class="block lg:hidden">
     <button class="flex items-center px-3 py-2 border rounded text-white border-sky-700 hover:text-white hover:border-white">
