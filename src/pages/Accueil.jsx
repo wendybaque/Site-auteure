@@ -7,7 +7,7 @@ import Inoubliable from "../components/Is";
 import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
-import Carousel from "../components/Carousel";
+// import Carousel from "../components/Carousel";
 
 function Accueil() {
   return (
@@ -17,7 +17,7 @@ function Accueil() {
         </section>
         
         <section className="bg-gray-300" id="carousel">
-            <Carousel />
+            {/* <Carousel /> */}
         </section>
 
         <section id="book">

@@ -26,30 +26,31 @@ function Fleur() {
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
-                " Wendy Baqué nous offre un roman profondément humain qui transpercera les âmes les plus endurcies. Elle nous transmet de très beaux messages avec justesse, humour et sensibilité. "
+                "J'ai beaucoup aimé ce personnage, sa sensibilité, ses doutes, le voir évoluer et l'accompagner, d'une certaine manière, sur son chemin à la recherche du bonheur, entre rires et larmes.
+La fleur de l'âge, ce sont deux âmes qui se croisent, se comprennent et se font du bien. "
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
                     <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Patricia</h5>
-                <p class="text-sm text-gray-600">Lecture évasion</p>
+                <h5 class="font-bold text-blue-700 font-mono">Marjorie</h5>
+                <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
     </div>
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
-                " Aucune surprise pour ce livre de Wendy Baqué qui reste dans la veine de mes ressentis précédents, j'ai plus qu'adoré et l'auteure s'installe durablement dans mes « indispensables ». "
+                " La plume de Wendy est tout simplement belle et addictive. J'aime que dans chaque nouveau livre, elle fasse des allusions à ses œuvres déjà sorties et qu'il y ait toujours un lien entre elles. Elle a un talent incroyable et aime aborder des sujets pas évidents ce qui donne toujours de merveilleux résultats. Ici aussi dans La fleur de l'âge, on passe par tout un tas d'émotions : de la tristesse à la peur, parfois un peu de joie aussi et une certaine euphorie presque lorsque Benjamin prend sa vie en main. Le partage, l'entraide, la maladie et la fin de vie sont les principales idées de cette histoire et elles sont terriblement bien traitées."
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
                     <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Robin</h5>
-                <p class="text-sm text-gray-600">Les lectures de Florelle et Robin</p>
+                <h5 class="font-bold text-blue-700 font-mono">Aurore</h5>
+                <p class="text-sm text-gray-600">Les lectures d'Aurore</p>
             </div>
         </div>
     </div>
@@ -71,15 +72,16 @@ function Fleur() {
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
-                " J’ai eu le plaisir de découvrir une très belle histoire à travers ce livre. L’auteure essaye de faire passer un message dans notre société encore très fermée d’esprit. Ce roman mène à la réflexion et au questionnement sur la vie, la mort, l’amour... C’est un roman très touchant, voir bouleversant. Je recommande sans modération ! "
+                "Beaucoup de thèmes importants sont abordés dans cette histoire, mais ils le sont toujours de manière positive, même s'ils sont abordés dans la réalité de la vie du quotidien. Ils laissent leur place à l'espoir d'une évolution, d'une remise en question vers une vie meilleure, d'une acceptation de soi et des autres
+Cette histoire nous montre qu'à tout âge, tous les rêves sont permis, que les rencontres de la vie sont déterminantes et peuvent nous faire changer de cap vers un avenir meilleur"
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
                     <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Marine</h5>
-                <p class="text-sm text-gray-600">Lectrice</p>
+                <h5 class="font-bold text-blue-700 font-mono">Françoise</h5>
+                <p class="text-sm text-gray-600">La vie en livres de Françoise</p>
             </div>
         </div>
     </div>

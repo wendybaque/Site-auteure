@@ -27,30 +27,34 @@ function Inoubliable() {
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
-                " Wendy Baqué nous offre un roman profondément humain qui transpercera les âmes les plus endurcies. Elle nous transmet de très beaux messages avec justesse, humour et sensibilité. "
+                "Magnifique histoire, bien que triste, merveilleusement ficelée. Une plume fabuleuse qui nous transporte.
+Je viens de refermer ce livre, les larmes aux yeux. Merci pour ce moment, Wendy, j'en suis ravie. "
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="img"
+                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Patricia</h5>
-                <p class="text-sm text-gray-600">Lecture évasion</p>
+                <h5 class="font-bold text-blue-700 font-mono">Céline</h5>
+                <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
     </div>
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
-                " Aucune surprise pour ce livre de Wendy Baqué qui reste dans la veine de mes ressentis précédents, j'ai plus qu'adoré et l'auteure s'installe durablement dans mes « indispensables ». "
+                " Ce roman est plus qu'une romance parlant de musique.
+Le sujet principal peut paraître odieux, à vomir: les sentiments d'un prof envers une élève.
+C'est bien plus que ça. Cette histoire interdite est le fil conducteur du roman. Mais, si vous connaissez les écrits de Wendy, vous vous doutez que ce n'est pas le seul sujet abordé.
+Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de pointer du doigt et de dénoncer les choses (d'une certaine manière, elle le fait mais c'est subtil) elle amène le lecteur a des réflexions et c'est vraiment ce que j'aime chez elle."
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="img"
+                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Robin</h5>
-                <p class="text-sm text-gray-600">Les lectures de Florelle et Robin</p>
+                <h5 class="font-bold text-blue-700 font-mono">Farah</h5>
+                <p class="text-sm text-gray-600">Les trouvailles littéraires de Farah</p>
             </div>
         </div>
     </div>
@@ -61,7 +65,7 @@ function Inoubliable() {
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="img"
+                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
                 <h5 class="font-bold text-blue-700 font-mono">Aurore</h5>
@@ -72,14 +76,14 @@ function Inoubliable() {
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
             <p class="mb-2 text-center text-gray-600 ">
-                " J’ai eu le plaisir de découvrir une très belle histoire à travers ce livre. L’auteure essaye de faire passer un message dans notre société encore très fermée d’esprit. Ce roman mène à la réflexion et au questionnement sur la vie, la mort, l’amour... C’est un roman très touchant, voir bouleversant. Je recommande sans modération ! "
+                "On pourrait croire à un amour dérangeant, mais l'auteur parvient subtilement à le rendre beau, poétique, dépourvu du côté sexuel. Un amour qui n'a pas été choisi mais qui s'est imposé de lui même comme une évidence aux protagonistes qui étaient tous deux en souffrance avant leur rencontre. Wendy traite avec intelligence des sujets de société dont une relation majeur/mineur, la drogue et ses dérives, les classes sociales et leurs idées formatées. C'est un roman poignant et percutant qui m'a émue."
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="img"
+                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Marine</h5>
+                <h5 class="font-bold text-blue-700 font-mono">Dévoreuse de livres</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
