@@ -15,7 +15,7 @@ export default function HoverEffect() {
         <img src={livredol} alt="couverture Les dangers de la lumière"/>
       </div>
       <div className="content">
-        <div>
+        <div className='overflow-y-hidden'>
           <h2>Les dangers de la lumière</h2>
           <p>Romance musicale
           </p>
@@ -29,7 +29,7 @@ export default function HoverEffect() {
       </div>
 
       <div className="content">
-        <div>
+        <div className='overflow-y-hidden'>
           <h2>Inoubliable symphonie</h2>
           <p>Romance musicale
           </p>
@@ -42,7 +42,7 @@ export default function HoverEffect() {
         <img src={livrefdl} alt="Couverture La fleur de l'âge"/>
       </div>
       <div className="content">
-        <div>
+        <div className='overflow-y-hidden'>
           <h2>La fleur de l'âge</h2>
           <p>Roman feel-good
           </p>
@@ -55,7 +55,7 @@ export default function HoverEffect() {
         <img src={livrevdl} alt="couverture Les vents de l'existence"/>
       </div>
       <div className="content">
-        <div>
+        <div className='overflow-y-hidden'>
           <h2>Les vents de l'existence</h2>
           <p>Roman contemporain à dimension sociologique</p>
         </div>
