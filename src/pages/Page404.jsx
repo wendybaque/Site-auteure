@@ -33,7 +33,7 @@ function Page404() {
       <h1 className="font-bold text-blue-700 text-9xl overflow-y-hidden">404</h1>
 
       <h6 className="mb-2 text-2xl font-bold text-center text-gray-800 md:text-3xl">
-        <span className="text-red-500">Oups!</span> Pas de livres ici !
+        <span className="text-red-500">Oups !</span> Pas de livres ici !
       </h6>
 
       <p className="mb-8 text-center text-gray-500 font-bold md:text-lg">

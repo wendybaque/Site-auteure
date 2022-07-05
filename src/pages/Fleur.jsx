@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import livrefdl from "../assets/livrefdl.png";
+import ButtonTop from '../components/ButtonTop';
 
 function Fleur() {
   return (
@@ -100,6 +101,7 @@ Cette histoire nous montre qu'à tout âge, tous les rêves sont permis, que les
         <a href="https://www.fnac.com/SearchResult/ResultList.aspx?SCat=0%211&Search=la+fleur+de+l%27%C3%A2ge+wendy+baqu%C3%A9&sft=1&sa=0" alt="La fleur de l'âge sur la FNAC"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur la Fnac (ebook et broché)</button></a>
         <a href="https://fr.shopping.rakuten.com/offer/buy/7805339184/la-fleur-de-l-age-format-beau-livre.html" alt="La fleur de l'âge sur Rakuten"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Rakuten (broché)</button></a>
       </div>
+      <ButtonTop />
 </div>
   )
 }

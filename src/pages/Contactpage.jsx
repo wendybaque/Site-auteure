@@ -1,10 +1,11 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
+import ButtonTop from '../components/ButtonTop';
 import Contact from "../components/Contact";
 
 export default function Contactpage() {
   return (
-    <main>
+    <main className='bg-slate-100'>
     <div>
     <Helmet>
             <meta charSet="utf-8" />
@@ -13,6 +14,7 @@ export default function Contactpage() {
     </Helmet>
         <Contact />
     </div>
+    <ButtonTop/>
     </main>
   )
 }

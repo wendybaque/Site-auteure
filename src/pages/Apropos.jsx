@@ -1,10 +1,11 @@
 import React from 'react'
 import {Helmet} from "react-helmet";
+import ButtonTop from "../components/ButtonTop";
 import wendy from "../assets/wendyphoto.png"
 
  function Apropos() {
   return (
-    <main>
+    <main className='bg-slate-100'>
       <Helmet>
                 <meta charSet="utf-8" />
                 <title>A propos de Wendy Baqué</title>
@@ -24,6 +25,7 @@ import wendy from "../assets/wendyphoto.png"
         <img src={wendy} alt="icone de wendy baqué"/>
       </div>
     </div>
+    <ButtonTop/>
     </main>
   )
 }

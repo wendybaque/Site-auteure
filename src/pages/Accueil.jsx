@@ -8,7 +8,7 @@ import Inoubliable from "../components/Is";
 import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
-// import ButtonTop from "../components/ButtonTop";
+import ButtonTop from "../components/ButtonTop";
 import HoverEffect from "../components/HoverEffect";
 
 function Accueil() {
@@ -40,7 +40,9 @@ function Accueil() {
 
         <section id="contact">
             <Contact />
+            
         </section>
+        <ButtonTop />
       </div>
   );
 }

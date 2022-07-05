@@ -1,6 +1,7 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 import livrevdl from "../assets/livrevdl.png";
+import ButtonTop from '../components/ButtonTop';
 
 function Vents() {
   return (
@@ -98,7 +99,7 @@ La part belle du roman revient aussi à cette vision de notre société d'aujour
         <a href="https://www.bookelis.com/romans/47435-Les-Vents-de-l-Existence.html/" alt="Les vents de l'existence sur Bookelis"><button className="flex justify-center  text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Bookelis (ebook et broché)</button></a>
         <a href="https://www.kobo.com/fr/fr/search?query=les+vents+de+l%27existence" alt="Les vents de l'existence sur Kobo"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
       </div>
-
+<ButtonTop />
     </div>
   )
 }
