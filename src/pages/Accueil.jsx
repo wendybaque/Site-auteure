@@ -1,5 +1,4 @@
 import React from "react";
-// import "../App.css";
 import Contact from "../components/Contact";
 import Testimonials from "../components/Testimonials";
 import Presentation from "../components/Presentation";
@@ -7,7 +6,8 @@ import Inoubliable from "../components/Is";
 import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
-// import Carousel from "../components/Carousel";
+// import ButtonTop from "../components/ButtonTop";
+import HoverEffect from "../components/HoverEffect";
 
 function Accueil() {
   return (
@@ -16,8 +16,8 @@ function Accueil() {
             <Presentation />
         </section>
         
-        <section className="bg-gray-300" id="carousel">
-            {/* <Carousel /> */}
+        <section id="carousel">
+            <HoverEffect/>
         </section>
 
         <section id="book">
