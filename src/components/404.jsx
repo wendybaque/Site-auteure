@@ -1,4 +1,5 @@
 import React from 'react'
+import "../components/404.css";
 
 export default function P404() {
   return (
