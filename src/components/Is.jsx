@@ -7,7 +7,7 @@ function Is() {
     <div className="flex flex-row m-2 p-2">
       <div className="w-3/5 m-2 p-2">
         <Reveal>
-          <h2 className='text-3xl font-bold text-blue-700 font-mono'>Inoubliable symphonie</h2>
+          <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Inoubliable symphonie</h2>
         </Reveal>
         <h3 className='font-bold m-2 p-2'>Genre : romance musicale</h3>
         <p>Nous vivons dans un monde où aimer qui l’on veut n’est pas acceptable à cause d’une trop grande différence d’âge, de revenu financier ou de rang social. Un monde où la musique reste parfois incomprise, où la beauté fait défaut. Un monde où les apparences sont trop souvent trompeuses.

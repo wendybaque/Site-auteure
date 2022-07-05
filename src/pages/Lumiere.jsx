@@ -12,7 +12,7 @@ function Lumiere() {
         </Helmet>
     <div className='flex flex-row'>
       <div className="flex flex-col m-2 p-2 w-1/2">
-        <h2 className='text-3xl font-bold text-blue-700 font-mono'>Les dangers de la lumière</h2>
+        <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Les dangers de la lumière</h2>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : romance musicale</h3>
         <p className='m-2 p-2'>Alice est une sorte de punk désabusée par une vie qu'elle ne veut pas vivre et qui rêve d'être ingénieur lumière. Dans une époque où la jeunesse subit trop de contraintes, elle peine à faire entendre sa voix. Lassée de cette société, elle fuit en Provence où des rencontres hautes en couleur et des opportunités l'attendent.
           En parallèle, Gabriel, vedette à succès de la chanson française, est atteint de la « maladie de la tristesse ». Affrontant ses démons qui émanent chaque soir sur scène de son emblématique guitare bleue, il lutte contre lui-même et ce monde du show-business par lequel il est complètement dépassé.
@@ -24,7 +24,7 @@ function Lumiere() {
       </div>
       <section id="testimonials">
         <div class="mb-8 text-center m-2 p-2">
-    <h2 class="text-3xl font-bold text-blue-700 font-mono">Témoignages</h2>
+    <h2 class="text-3xl font-bold text-blue-700 font-poppins">Témoignages</h2>
     <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
@@ -38,7 +38,7 @@ function Lumiere() {
                     <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="couverture les dangers de la lumière"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Patricia</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Patricia</h5>
                 <p class="text-sm text-gray-600">Lecture évasion</p>
             </div>
         </div>
@@ -53,7 +53,7 @@ function Lumiere() {
                     <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="couverture les dangers de la lumière"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Judicaël</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Judicaël</h5>
                 <p class="text-sm text-gray-600">Lecteur</p>
             </div>
         </div>
@@ -69,7 +69,7 @@ Wendy Baqué à su comme à son habitude poser des mots et des situations durs a
                     <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="couverture les dangers de la lumière"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Marie</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Marie</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
@@ -87,7 +87,7 @@ Bravo à l'auteure et merci pour ce roman."
                     <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="couverture les dangers de la lumière"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Emilie</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Emilie</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>

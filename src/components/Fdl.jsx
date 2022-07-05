@@ -7,7 +7,7 @@ function Fdl() {
     <div className="flex flex-row m-2 p-2">
        <div className="w-3/5 m-2 p-2">
         <Reveal>
-          <h2 className='text-3xl font-bold text-blue-700 font-mono'>La fleur de l'âge</h2>
+          <h2 className='text-3xl font-bold text-blue-700 font-poppins'>La fleur de l'âge</h2>
         </Reveal>
         <h3 className='font-bold m-2 p-2'>Genre : roman contemporain feel-good</h3>
         <p>« Bonjour, je m'appelle Benjamin et je suis musicien. Je viens vous chanter une petite chanson pour espérer vous faire du bien . »

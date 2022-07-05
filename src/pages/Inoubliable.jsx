@@ -12,7 +12,7 @@ function Inoubliable() {
         </Helmet>
     <div className='flex flex-row'>
         <div className="flex flex-col m-2 p-2 w-1/2">
-      <h2 className='text-3xl font-bold text-blue-700 font-mono'>Inoubliable symphonie</h2>
+      <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Inoubliable symphonie</h2>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : romance musicale</h3>
         <p className='m-2 p-2'>Nous vivons dans un monde où aimer qui l’on veut n’est pas acceptable à cause d’une trop grande différence d’âge, de revenu financier ou de rang social. Un monde où la musique reste parfois incomprise, où la beauté fait défaut. Un monde où les apparences sont trop souvent trompeuses.</p>
         <p className='m-2 p-2'>Avant, je croyais que le sens de la vie, c’était la musique. Mon professeur m’a montré que l’amour pouvait aussi valoir la peine d’être vécu. Alors, je l’ai aimé, envers et contre tout. Je l’ai défendu, j’ai cru en lui, je me suis perdue.</p>
@@ -25,7 +25,7 @@ function Inoubliable() {
       </div>
       <section id="testimonials">
         <div class="mb-8 text-center m-2 p-2">
-    <h2 class="text-3xl font-bold text-blue-700 font-mono">Témoignages</h2>
+    <h2 class="text-3xl font-bold text-blue-700 font-poppins">Témoignages</h2>
     <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
@@ -40,7 +40,7 @@ Je viens de refermer ce livre, les larmes aux yeux. Merci pour ce moment, Wendy,
                     <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Céline</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Céline</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
@@ -58,7 +58,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
                     <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Farah</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Farah</h5>
                 <p class="text-sm text-gray-600">Les trouvailles littéraires de Farah</p>
             </div>
         </div>
@@ -73,7 +73,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
                     <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Aurore</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Aurore</h5>
                 <p class="text-sm text-gray-600">Les lectures d'Aurore</p>
             </div>
         </div>
@@ -88,7 +88,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
                     <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Dévoreuse de livres</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Dévoreuse de livres</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>

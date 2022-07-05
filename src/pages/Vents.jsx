@@ -12,7 +12,7 @@ function Vents() {
     </Helmet>
     <div className='flex flex-row'>
       <div className="flex flex-col m-2 p-2 w-1/2">
-      <h2 className='text-3xl font-bold text-blue-700 font-mono'>Les vents de l'existence</h2>
+      <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Les vents de l'existence</h2>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : roman contemporain à dimension sociologique</h3>
         <p className='m-2 p-2'>Proche de la trentaine, Joanne, sociologue émérite, est de ces personnes dont on pourrait dire qu’elles ont réussi leur vie. Et pourtant… Tout s’écroule pour la jeune femme le jour où elle apprend brutalement le suicide de Lucas, son parrain. En héritage, il lui laisse l’Ultimo Respiro, la maison qu’il avait achetée et rénovée afin de finir ses jours à La Turballe, en Loire Atlantique. Elle y retourne alors, d’abord pour des raisons administratives, puis se questionne sur les circonstances du décès de son parrain.
           Ses vieux démons refont surface, l’interrogeant tant sur la mort que sur la vie, et mettent à mal le sens que l’endeuillée avait attribué à son existence. Elle fait la connaissance de Damien Lasareigne qui, avec ses idées artistiques et révoltées, lui fera voir la vie sous d’autres facettes. Ces événements de vie la forceront à affronter ses peurs, ses proches et à faire valoir qui elle est réellement. Alors qu’autour d’elle, tout est question de mort et de finitude, pour elle, tout commence, tout est renouveau.</p>
@@ -23,7 +23,7 @@ function Vents() {
       </div>
       <section id="testimonials">
         <div class="mb-8 text-center m-2 p-2">
-    <h2 class="text-3xl font-bold text-blue-700 font-mono">Témoignages</h2>
+    <h2 class="text-3xl font-bold text-blue-700 font-poppins">Témoignages</h2>
     <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
@@ -37,7 +37,7 @@ function Vents() {
                     <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="couverture des Vents de l'existence"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Noélie</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Noélie</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
@@ -53,7 +53,7 @@ function Vents() {
                     <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="couverture des Vents de l'existence"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Farah</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Farah</h5>
                 <p class="text-sm text-gray-600">Les trouvailles littéraires de Farah</p>
             </div>
         </div>
@@ -69,7 +69,7 @@ La part belle du roman revient aussi à cette vision de notre société d'aujour
                     <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="couverture des Vents de l'existence"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Kazcook</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Kazcook</h5>
                 <p class="text-sm text-gray-600">La Kaza de Papel</p>
             </div>
         </div>
@@ -84,7 +84,7 @@ La part belle du roman revient aussi à cette vision de notre société d'aujour
                     <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="couverture des Vents de l'existence"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Marine</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Marine</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>

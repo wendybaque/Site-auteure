@@ -7,7 +7,7 @@ function Dol() {
     <div className="flex flex-row m-2 p-2">
       <div className="w-3/5 m-2 p-2">
         <Reveal>
-          <h2 className='text-3xl font-bold text-blue-700 font-mono'>Les dangers de la lumière</h2>
+          <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Les dangers de la lumière</h2>
         </Reveal>
         <h3 className='font-bold m-2 p-2'>Genre : romance musicale</h3>
         <p>Alice est une sorte de punk désabusée par une vie qu'elle ne veut pas vivre et qui rêve d'être ingénieur lumière. Dans une époque où la jeunesse subit trop de contraintes, elle peine à faire entendre sa voix. Lassée de cette société, elle fuit en Provence où des rencontres hautes en couleur et des opportunités l'attendent...</p>

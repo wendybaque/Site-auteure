@@ -15,17 +15,17 @@ export default function Presentation() {
           </div>
           <div className="flex flex-col p-2 m-2 basis-2/3 content-center" id="welcome">
             <div className="p-2 m-2">
-                <h1 className="p-2 m-2">Bonjour ! Je suis <span className="text-blue-700 font-bold">Wendy Baqué </span></h1>
+                <h1 className="p-2 m-2">Bonjour ! Je suis <span className="text-blue-700 font-bold font-poppins">Wendy Baqué </span></h1>
                 <h2 className="p-2 m-2">Auteure de </h2>
                 <div className="p-2 m-2">
                 <Fade delay={1000}> 
-                <p className="fade text-blue-700 font-bold font-mono">Romans contemporains</p>
+                <p className="fade text-blue-700 font-bold font-poppins">Romans contemporains</p>
                 </Fade>
                 <Fade delay={2000}>
-                <p className="fade text-blue-700 font-bold font-mono">Romans feel-good</p>
+                <p className="fade text-blue-700 font-bold font-poppins">Romans feel-good</p>
                 </Fade>
                 <Fade delay={3000}>
-                <p className="fade text-blue-700 font-bold font-mono">Romances musicales</p>
+                <p className="fade text-blue-700 font-bold font-poppins">Romances musicales</p>
                 </Fade>
                 </div>
                 <p className="p-2 m-2">Bienvue sur mon site ! Vous y découvrirez mon univers littéraire, fait de récits contemporains et réalistes, avec quelques notes de romance. J'ai à coeur de traiter de sujets originaux à travers des personnages humains et attachants. Je vous souhaite une bonne visite et ce belles lectures !</p>

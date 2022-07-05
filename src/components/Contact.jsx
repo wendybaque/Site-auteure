@@ -38,7 +38,7 @@ function Contact () {
         <div className="bg-slate-100 overflow-hidden">
             <div className="flex flex-row m-2 p-2">
                 <div className="flex basis-1/2">
-                    <h2 class="text-3xl font-bold text-blue-700 font-mono">Contact</h2>
+                    <h2 class="text-3xl font-bold text-blue-700 font-poppins">Contact</h2>
                     <div className="flex flex-col">
                         <div className="flex flex-row m-2 p-2">
                             <img src={Mail} alt="logo mail" className="w-14 h-14 m-2 p-2" />wendybaque.auteur@gmail.com

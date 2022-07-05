@@ -12,7 +12,7 @@ import wendy from "../assets/wendyphoto.png"
       </Helmet>
     <div className="flex flex-row bg-slate-100 w-full p-4">
       <div className="w-1/2 m-2 p-2">
-        <h1 className='text-3xl font-bold text-blue-700 font-mono'>A propos de Wendy Baqué</h1>
+        <h1 className='text-3xl font-bold text-blue-700 font-poppins'>A propos de Wendy Baqué</h1>
         <p className='p-2 font-semibold'>Connue sous le pseudo d'Antiigone, Wendy Baqué est une auteure qui adore jouer avec les mots.</p>
         <p className='p-2 font-semibold'>Pour elle, écrire a toujours été un moyen de communication à part entière : tout ce qui ne peut se dire peut s'écrire. C'est pour cela que l'expression des émotions de ses personnages prend une grande place dans ses écrits, avec une recherche particulière apportée au réalisme.</p>
         <p className='p-2 font-semibold'>De manière générale, ses romans traitent de sujets qui lui sont chers, mais aussi d'actualité, tantôt tabous, tantôt victimes de préjugés et de stéréotypes, comme la fin de vie, l'avortement, l'acceptation de soi, la santé mentale ou encore les normes de la société. Elle porte une attention particulière aux émotions.</p>

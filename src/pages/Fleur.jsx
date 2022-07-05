@@ -12,7 +12,7 @@ function Fleur() {
     </Helmet>
     <div className='flex flex-row'>
        <div className="flex flex-col m-2 p-2 w-1/2">
-      <h2 className='text-3xl font-bold text-blue-700 font-mono'>La fleur de l'âge</h2>
+      <h2 className='text-3xl font-bold text-blue-700 font-poppins'>La fleur de l'âge</h2>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : roman feel-good</h3>
         <p className='m-2 p-2 italic'>« Bonjour, je m'appelle Benjamin et je suis musicien. Je viens vous chanter une petite chanson pour espérer vous faire du bien . »</p>
         <p className='m-2 p-2'>Cette phrase, Benjamin Leduc, bénévole de l’association Hospit’Art, la prononce à chaque fois qu’il entre dans une chambre du service de soins palliatifs d’une clinique tourangelle. En général, les patients l’accueillent avec enthousiasme et se prennent au jeu, oubliant un temps la maladie et la mort. En général, seulement. Car Marcelle Bourget, quatre-vingt-un ans et toute sa tête (et toutes ses dents aussi !) reste muette face à tous ses efforts.</p>
@@ -25,7 +25,7 @@ function Fleur() {
       </div>
       <section id="testimonials">
         <div class="mb-8 text-center m-2 p-2">
-    <h2 class="text-3xl font-bold text-blue-700 font-mono">Témoignages</h2>
+    <h2 class="text-3xl font-bold text-blue-700 font-poppins">Témoignages</h2>
     <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
@@ -40,7 +40,7 @@ La fleur de l'âge, ce sont deux âmes qui se croisent, se comprennent et se fon
                     <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="couverture La fleur de l'âge"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Marjorie</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Marjorie</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>
@@ -55,7 +55,7 @@ La fleur de l'âge, ce sont deux âmes qui se croisent, se comprennent et se fon
                     <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="couverture La fleur de l'âge"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Aurore</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Aurore</h5>
                 <p class="text-sm text-gray-600">Les lectures d'Aurore</p>
             </div>
         </div>
@@ -70,7 +70,7 @@ La fleur de l'âge, ce sont deux âmes qui se croisent, se comprennent et se fon
                     <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="couverture La fleur de l'âge"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Gaëlle</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Gaëlle</h5>
                 <p class="text-sm text-gray-600">A fleur de page</p>
             </div>
         </div>
@@ -86,7 +86,7 @@ Cette histoire nous montre qu'à tout âge, tous les rêves sont permis, que les
                     <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="couverture La fleur de l'âge"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-mono">Françoise</h5>
+                <h5 class="font-bold text-blue-700 font-poppins">Françoise</h5>
                 <p class="text-sm text-gray-600">La vie en livres de Françoise</p>
             </div>
         </div>
