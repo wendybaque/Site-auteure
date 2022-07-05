@@ -17,7 +17,7 @@ function Accueil() {
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Wendy Baqué | Auteure</title>
-                <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/" />
+                <link rel="canonical" href="https://site-auteure.vercel.app/" />
         </Helmet>
         <section id="presentation">
             <Presentation />

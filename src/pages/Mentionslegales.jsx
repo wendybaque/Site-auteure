@@ -7,7 +7,7 @@ function Mentionslegales() {
       <Helmet>
                 <meta charSet="utf-8" />
                 <title>Mentions légales</title>
-                <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/Mentionslegales" />
+                <link rel="canonical" href="https://site-auteure.vercel.app/Mentionslegales" />
       </Helmet>
       <section>
       <h2 className='text-blue-700 font-bold m-2 p-2'>Définitions</h2>

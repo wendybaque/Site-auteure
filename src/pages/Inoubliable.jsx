@@ -8,7 +8,7 @@ function Inoubliable() {
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Inoubliable symphonie</title>
-                <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/Inoubliablesymphonie" />
+                <link rel="canonical" href="https://site-auteure.vercel.app/Inoubliablesymphonie" />
         </Helmet>
     <div className='flex flex-row'>
         <div className="flex flex-col m-2 p-2 w-1/2">

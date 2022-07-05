@@ -8,7 +8,7 @@ import wendy from "../assets/wendyphoto.png"
       <Helmet>
                 <meta charSet="utf-8" />
                 <title>A propos de Wendy Baqué</title>
-                <link rel="canonical" href="/Apropos" />
+                <link rel="canonical" href="https://site-auteure.vercel.app/Apropos" />
       </Helmet>
     <div className="flex flex-row bg-slate-100 w-full p-4">
       <div className="w-1/2 m-2 p-2">

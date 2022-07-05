@@ -9,7 +9,7 @@ export default function Contactpage() {
     <Helmet>
             <meta charSet="utf-8" />
             <title>Contact</title>
-            <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/Contact" />
+            <link rel="canonical" href="https://site-auteure.vercel.app/Contact" />
     </Helmet>
         <Contact />
     </div>

@@ -8,7 +8,7 @@ function Lumiere() {
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Les dangers de la Lumière</title>
-                <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/Dangersdelalumiere" />
+                <link rel="canonical" href="https://site-auteure.vercel.app/Dangersdelalumiere" />
         </Helmet>
     <div className='flex flex-row'>
       <div className="flex flex-col m-2 p-2 w-1/2">

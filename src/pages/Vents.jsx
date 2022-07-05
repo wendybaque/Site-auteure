@@ -8,7 +8,7 @@ function Vents() {
     <Helmet>
             <meta charSet="utf-8" />
             <title>Les vents de l'existence</title>
-            <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/Ventsdelexistence" />
+            <link rel="canonical" href="https://site-auteure.vercel.app/Ventsdelexistence" />
     </Helmet>
     <div className='flex flex-row'>
       <div className="flex flex-col m-2 p-2 w-1/2">

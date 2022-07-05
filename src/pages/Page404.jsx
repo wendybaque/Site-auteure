@@ -17,7 +17,7 @@ function Page404() {
     <Helmet>
                 <meta charSet="utf-8" />
                 <title>Page 404 | Not found</title>
-                <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/*" />
+                <link rel="canonical" href="https://site-auteure.vercel.app/*" />
             </Helmet>
       <P404 />
       </div>
