@@ -8,7 +8,7 @@ function Fleur() {
     <Helmet>
                 <meta charSet="utf-8" />
                 <title>La fleur de l'âge</title>
-                <link rel="canonical" href="/Fleurdelage" />
+                <link rel="canonical" href="https://wendybaqueauteurederomans.netlify.app/Fleurdelage" />
     </Helmet>
     <div className='flex flex-row'>
        <div className="flex flex-col m-2 p-2 w-1/2">
