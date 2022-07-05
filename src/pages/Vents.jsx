@@ -1,9 +1,15 @@
 import React from 'react';
+import {Helmet} from "react-helmet";
 import livrevdl from "../assets/livrevdl.png";
 
 function Vents() {
   return (
    <div className="bg-slate-100">
+    <Helmet>
+            <meta charSet="utf-8" />
+            <title>Les vents de l'existence</title>
+            <link rel="canonical" href="/Ventsdelexistence" />
+    </Helmet>
     <div className='flex flex-row'>
       <div className="flex flex-col m-2 p-2 w-1/2">
       <h2 className='text-3xl font-bold text-blue-700 font-mono'>Les vents de l'existence</h2>
@@ -87,9 +93,9 @@ La part belle du roman revient aussi à cette vision de notre société d'aujour
         </section>
 
       <div className="flex flex-row justify-center m-2 p-2">
-        <a href="https://www.amazon.fr/Vents-lExistence-Wendy-Baqu%C3%A9-ebook/dp/B07XL9FK89" alt="Les vents de l'existence sur Amazon"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon (ebook, broché et relié)</button></a>
-        <a href="https://www.bookelis.com/romans/47435-Les-Vents-de-l-Existence.html/" alt="Les vents de l'existence sur Bookelis"><button className="flex justify-center  text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Bookelis (ebook et broché)</button></a>
-        <a href="https://www.kobo.com/fr/fr/search?query=les+vents+de+l%27existence" alt="Les vents de l'existence sur Kobo"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
+        <a href="https://www.amazon.fr/Vents-lExistence-Wendy-Baqu%C3%A9-ebook/dp/B07XL9FK89" alt="Les vents de l'existence sur Amazon"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon (ebook, broché et relié)</button></a>
+        <a href="https://www.bookelis.com/romans/47435-Les-Vents-de-l-Existence.html/" alt="Les vents de l'existence sur Bookelis"><button className="flex justify-center  text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Bookelis (ebook et broché)</button></a>
+        <a href="https://www.kobo.com/fr/fr/search?query=les+vents+de+l%27existence" alt="Les vents de l'existence sur Kobo"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>
       </div>
 
     </div>

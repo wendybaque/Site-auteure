@@ -1,4 +1,6 @@
 import React from "react";
+import {Helmet} from "react-helmet";
+
 import Contact from "../components/Contact";
 import Testimonials from "../components/Testimonials";
 import Presentation from "../components/Presentation";
@@ -12,6 +14,11 @@ import HoverEffect from "../components/HoverEffect";
 function Accueil() {
   return (
       <div className="bg-slate-100">
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>Wendy Baqué | Auteure</title>
+                <link rel="canonical" href="/" />
+        </Helmet>
         <section id="presentation">
             <Presentation />
         </section>
