@@ -4,12 +4,12 @@ export default function Testimonials() {
   return (
     <div> <div class="mb-8 text-center m-2 p-2">
     <h2 class="text-3xl font-bold text-blue-700 font-poppins">Témoignages</h2>
-    <p class="text-lg text-gray-600">Quelques mots des lecteurs...</p>
+    <p class="text-lg text-gray-600 font-bold">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
-            <p class="mb-2 text-center text-gray-600 ">
+            <p class="mb-2 text-center text-gray-600 font-bold">
                 " Wendy Baqué nous offre un roman profondément humain qui transpercera les âmes les plus endurcies. Elle nous transmet de très beaux messages avec justesse, humour et sensibilité. "
             </p>
             <div class="flex flex-col items-center justify-center">
@@ -24,7 +24,7 @@ export default function Testimonials() {
     </div>
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
-            <p class="mb-2 text-center text-gray-600 ">
+            <p class="mb-2 text-center text-gray-600 font-bold">
                 " Aucune surprise pour ce livre de Wendy Baqué qui reste dans la veine de mes ressentis précédents, j'ai plus qu'adoré et l'auteure s'installe durablement dans mes « indispensables ». "
             </p>
             <div class="flex flex-col items-center justify-center">
@@ -39,7 +39,7 @@ export default function Testimonials() {
     </div>
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
-            <p class="mb-2 text-center text-gray-600 ">
+            <p class="mb-2 text-center text-gray-600 font-bold">
                 " Ce livre est clairement un chef-d'œuvre. Qu'on l'aime ou pas, il restera dans notre tête et dans notre cœur. De part son sujet déjà : une histoire interdite, un sujet encore tabou dans la société et pour beaucoup de monde et par toutes les questions qu'on est amené nous aussi à se poser au fur et à mesure de l'histoire. "
             </p>
             <div class="flex flex-col items-center justify-center">
@@ -54,7 +54,7 @@ export default function Testimonials() {
     </div>
     <div class="p-4 text-gray-800 rounded-lg shadow-md bg-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden">
         <div class="mb-2">
-            <p class="mb-2 text-center text-gray-600 ">
+            <p class="mb-2 text-center text-gray-600 font-bold">
                 " J’ai eu le plaisir de découvrir une très belle histoire à travers ce livre. L’auteure essaye de faire passer un message dans notre société encore très fermée d’esprit. Ce roman mène à la réflexion et au questionnement sur la vie, la mort, l’amour... C’est un roman très touchant, voir bouleversant. Je recommande sans modération ! "
             </p>
             <div class="flex flex-col items-center justify-center">
