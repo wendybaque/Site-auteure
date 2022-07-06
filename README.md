@@ -1,12 +1,10 @@
 # Site d'auteure
+Site pour présenter mon parcours littéraire et mes romans. 
 
 # Voir le site en ligne
-
-https://wendybaqueauteurederomans.netlify.app/
+https://site-auteure.vercel.app/
 
 # Technologies utilisées 
+React | Tailwindcss | HTML5
 
-# Compétences mises en œuvre 
 
-# Lien vers la maquette 
-https://www.figma.com/file/2m5HHeg08d8kLQFhMId4ht/Maquette-site-auteure
