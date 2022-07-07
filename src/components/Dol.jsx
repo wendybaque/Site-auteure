@@ -4,8 +4,8 @@ import livredol from "../assets/livredol.png";
 
 function Dol() {
   return (
-    <div className="flex flex-row m-2 p-2">
-      <div className="w-3/5 m-2 p-2">
+    <div className="lg:flex lg:flex-row m-2 p-2">
+      <div className="lg:w-3/5 md:w-full sm:w-full m-2 p-2">
         <Reveal>
           <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Les dangers de la lumière</h2>
         </Reveal>

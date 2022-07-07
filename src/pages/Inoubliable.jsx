@@ -11,8 +11,8 @@ function Inoubliable() {
                 <title>Inoubliable symphonie</title>
                 <link rel="canonical" href="https://site-auteure.vercel.app/Inoubliablesymphonie" />
         </Helmet>
-    <div className='flex flex-row'>
-        <div className="flex flex-col m-2 p-2 w-1/2">
+    <div className='lg:flex lg:flex-row'>
+        <div className="flex flex-col m-2 p-2 lg:w-1/2">
       <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Inoubliable symphonie</h2>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : romance musicale</h3>
         <p className='m-2 p-2 font-bold'>Nous vivons dans un monde où aimer qui l’on veut n’est pas acceptable à cause d’une trop grande différence d’âge, de revenu financier ou de rang social. Un monde où la musique reste parfois incomprise, où la beauté fait défaut. Un monde où les apparences sont trop souvent trompeuses.</p>
@@ -20,7 +20,7 @@ function Inoubliable() {
         <p className='m-2 p-2 font-bold'>Grâce à Rudyard, cet homme au regard tendre et aux valeurs nobles, j’ai pu réaliser mes rêves les plus controversés. L’espace d’un instant, nous nous sommes croisés, nous nous sommes aimés. Nous, qui vivions dans des mondes parallèles.</p>
         <p className='m-2 p-2 font-bold'>Notre histoire est celle d’une petite étoile en plastique phosphorescente, d’une enquête policière, de parents désabusés, de normes sociales chamboulées, d’opéra rock révolté, de drogue surdosée, d’amour rejeté et d’amitié à toute épreuve.</p>
       </div>
-      <div className="w-1/2">
+      <div className="lg:w-1/2">
         <img src={livreis} alt="livre inoubliable symphonie" className='livre-img'/>
       </div>
       </div>
@@ -96,7 +96,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
     </div>
 </div>
         </section>
-      <div className='flex flex-row justify-center m-2 p-2'>
+      <div className='lg:flex lg:flex-row justify-center align-center m-2 p-2'>
         <a href="https://www.amazon.fr/Inoubliable-symphonie-Wendy-Baqu%C3%A9-ebook/dp/B086HRNZP8/ref=sr_1_4?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=27WOUZX5N2BVL&keywords=wendy+baqu%C3%A9&qid=1654498269&sprefix=wendy+baqu%C3%A9%2Caps%2C110&sr=8-4" alt="Inoubliable symphonie sur Amazon" target="_blank" rel="noreferrer"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon et abonnement Kindle (ebook et broché)</button></a>
         <a href="https://www.plumesdemimieditions.fr/boutique/inoubliable-symphonie/" alt="Inoubliable symphonie sur Plumes de Mimi" target="_blank" rel="noreferrer"><button className=" flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur le site de la maison d'édition (broché + box)</button></a>
         <a href="https://www.kobo.com/fr/fr/ebook/inoubliable-symphonie" alt="Inoubliable symphonie sur Kobo" target="_blank" rel="noreferrer"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>

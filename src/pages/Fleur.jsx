@@ -11,8 +11,8 @@ function Fleur() {
                 <title>La fleur de l'âge</title>
                 <link rel="canonical" href="https://site-auteure.vercel.app/Fleurdelage" />
     </Helmet>
-    <div className='flex flex-row'>
-       <div className="flex flex-col m-2 p-2 w-1/2">
+    <div className='lg:flex lg:flex-row'>
+       <div className="flex flex-col m-2 p-2 lg:w-1/2">
       <h2 className='text-3xl font-bold text-blue-700 font-poppins'>La fleur de l'âge</h2>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : roman feel-good</h3>
         <p className='m-2 p-2 italic font-bold'>« Bonjour, je m'appelle Benjamin et je suis musicien. Je viens vous chanter une petite chanson pour espérer vous faire du bien . »</p>
@@ -20,7 +20,7 @@ function Fleur() {
         <p className='m-2 p-2 font-bold'>Pourtant, les yeux de la vieille dame brillent dès qu’on lui parle de musique. Rongé par un mal qui l’entrave, mais déterminé, le jeune homme est prêt à tout pour percer les secrets de l’aînée. Prêt à tout, même à remettre en question toute sa vie.</p>
         <p className='m-2 p-2 font-bold'>Et si la rencontre avec la patiente en fin de vie et ce trentenaire qui cherche sa voie était le commencement d’une belle histoire bercée par la musique ?</p>
       </div>
-      <div className="w-1/2">
+      <div className="lg:w-1/2">
         <img src={livrefdl} alt="livre la fleur de l'âge"/>
       </div>
       </div>
@@ -94,7 +94,7 @@ Cette histoire nous montre qu'à tout âge, tous les rêves sont permis, que les
     </div>
 </div>
         </section>
-      <div className='flex flex-row justify-center m-2 p-2'>
+      <div className='lg:flex lg:flex-row justify-center align-center m-2 p-2'>
         <a href="https://www.amazon.fr/fleur-l%C3%A2ge-Wendy-Baqu%C3%A9/dp/B09NZJY2ND/ref=sr_1_1?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=324WQ7J04X56R&keywords=la+fleur+de+l%27age+wendy+baqu%C3%A9&qid=1641041100&sprefix=la+fleur+de+l%27age+wendy+baqu%C3%A9%2Caps%2" target="_blank" rel="noreferrer"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Amazon (ebook et broché)</button></a>
         <a href="https://www.bookelis.com/romans/49342-La-fleur-de-l-age.html" alt="La fleur de l'âge sur Bookelis" target="_blank" rel="noreferrer"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2"> Acheter sur Bookelis (ebook et broché)</button></a>
         <a href="https://www.kobo.com/fr/fr/ebook/la-fleur-de-l-age" alt="La fleur de l'âge sur Kobo" target="_blank" rel="noreferrer"><button className="flex justify-center text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Acheter sur Kobo et abonnement Kobo + (ebook)</button></a>

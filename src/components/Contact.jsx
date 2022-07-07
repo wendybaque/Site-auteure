@@ -35,11 +35,11 @@ function Contact () {
     };
   
     return (
-        <div className="bg-slate-100 overflow-hidden">
-            <div className="flex flex-row m-2 p-2">
-                <div className="flex basis-1/2">
+        <div className="lg:flex lg:flex-row md:flex-col sm:flex-col bg-slate-100 overflow-hidden">
+            <div className="lg:flex lg:flex-row m-2 p-2">
+                <div className="lg:flex lg:basis-1/2 ">
                     <h2 class="text-3xl font-bold text-blue-700 font-poppins">Contact</h2>
-                    <div className="flex flex-col">
+                    <div className="lg:flex lg:flex-col md:flex-row sm:flex-row">
                         <div className="flex flex-row m-2 p-2 font-bold items-center">
                             <img src={Mail} alt="logo mail" className="w-14 h-14 m-2 p-2 font-bold" />wendybaque.auteur@gmail.com
                         </div>
@@ -73,10 +73,10 @@ function Contact () {
                     <p> Vous souhaitez commander l'un de mes romans au format broché avec une dédicace personnalisée ? Ou vous avez tout simplement une question sur mes livres ?</p>
                     <p className="text-blue-700 font-poppins">Rendez-vous dans le formulaire ci-dessous.</p>
                     <form ref={formRef} onSubmit={handleSubmit} className="grid justify-items-center">
-                        <label><input type="text" placeholder="Votre nom" name="user_name" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md"/></label>
-                        <label><input type="text" placeholder="Votre e-mail" name="user_email" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md "/></label>
-                        <label><input type="text" placeholder="Sujet de votre message" name="user_subject" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md"/></label>
-                        <label><textarea rows="10" placeholder="Votre message" name="message" required aria-required="true" className="m-2 p-2 w-96 rounded-lg shadow-md"/></label>
+                        <label><input type="text" placeholder="Votre nom" name="user_name" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md"/></label>
+                        <label><input type="text" placeholder="Votre e-mail" name="user_email" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md "/></label>
+                        <label><input type="text" placeholder="Sujet de votre message" name="user_subject" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md"/></label>
+                        <label><textarea rows="10" placeholder="Votre message" name="message" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md"/></label>
                         <button type="submit" class="m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Envoyer !</button>
                         {done && "Merci beaucoup pour votre message. Je vous répondrai au plus vite."}
                     </form>

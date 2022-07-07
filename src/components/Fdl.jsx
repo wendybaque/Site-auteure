@@ -4,8 +4,8 @@ import livrefdl from "../assets/livrefdl.png";
 
 function Fdl() {
   return (
-    <div className="flex flex-row m-2 p-2">
-       <div className="w-3/5 m-2 p-2">
+    <div className="lg:flex lg:flex-row m-2 p-2">
+       <div className="lg:w-3/5 md:w-full sm:w-full  m-2 p-2">
         <Reveal>
           <h2 className='text-3xl font-bold text-blue-700 font-poppins'>La fleur de l'âge</h2>
         </Reveal>

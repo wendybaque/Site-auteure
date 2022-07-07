@@ -28,8 +28,8 @@ function Page404() {
     bg-gradient-to-r from-cyan-500 to-blue-700
   "
 >
-  <div className="px-40 py-20 bg-white rounded-md shadow-xl">
-    <div className="flex flex-col items-center">
+  <div className="lg:px-40 lg:py-20 bg-white rounded-md shadow-xl">
+    <div className="lg:flex lg:flex-col items-center">
       <h1 className="font-bold text-blue-700 text-9xl overflow-y-hidden">404</h1>
 
       <h6 className="mb-2 text-2xl font-bold text-center text-gray-800 md:text-3xl">
