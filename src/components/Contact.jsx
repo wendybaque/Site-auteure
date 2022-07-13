@@ -1,6 +1,8 @@
 import React from "react";
 import { useRef } from "react";
 import { useState } from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import emailjs from "emailjs-com";
 
 import Mail from "../assets/mail.svg";
@@ -12,6 +14,16 @@ import Linktree from "../assets/linktree.svg";
 import Blog from "../assets/blog.svg";
 
 function Contact () {
+    const notify = () => toast.success("Merci pour votre message. Je vous répondrai au plus vite.", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        });
+
     const formRef = useRef();
     const [done, setDone] = useState(false);
     const handleSubmit = (event) => {
@@ -74,11 +86,12 @@ function Contact () {
                     <p className="text-blue-700 font-poppins">Rendez-vous dans le formulaire ci-dessous.</p>
                     <form ref={formRef} onSubmit={handleSubmit} className="grid justify-items-center">
                         <label><input type="text" placeholder="Votre nom" name="user_name" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md"/></label>
-                        <label><input type="text" placeholder="Votre e-mail" name="user_email" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md "/></label>
+                        <label><input type="mail" placeholder="Votre e-mail" name="user_email" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md "/></label>
+                        <label><input type="tel" placeholder="Votre numéro de téléphone" name="user_phone" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md "/></label>
                         <label><input type="text" placeholder="Sujet de votre message" name="user_subject" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md"/></label>
                         <label><textarea rows="10" placeholder="Votre message" name="message" required aria-required="true" className="m-2 p-4 w-96 rounded-lg shadow-md"/></label>
-                        <button type="submit" class="m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Envoyer !</button>
-                        {done && "Merci beaucoup pour votre message. Je vous répondrai au plus vite."}
+                        <button type="submit" onClick={notify} class="m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Envoyer !</button>
+                        {done && <ToastContainer position="top-right"/>}
                     </form>
                 </div>
             </div>
