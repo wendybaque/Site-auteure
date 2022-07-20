@@ -16,7 +16,7 @@ Avant, je croyais que le sens de la vie, c’était la musique. Mon professeur m
 </p>
 <p className='font-bold'>Notre histoire est celle d’une petite étoile en plastique phosphorescente, d’une enquête policière, de parents désabusés, de normes sociales chamboulées, d’opéra rock révolté, de drogue surdosée, d’amour rejeté et d’amitié à toute épreuve.
 </p>
-<a href="/Inoubliablesymphonie" alt="page les dangers de la lumière"><button className="m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">En savoir plus</button></a>
+<a href="/Inoubliablesymphonie" alt="page les dangers de la lumière"><button className="hover:animate-bounce m-2 p-2 text-white bg-gradient-to-r from-cyan-500 to-blue-700 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-bold rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">En savoir plus</button></a>
       </div>
       <div className='m-2 p-2'>
         <img src={livreis} alt="couverture des dangers de la lumière" className='w-96 h-72'/>

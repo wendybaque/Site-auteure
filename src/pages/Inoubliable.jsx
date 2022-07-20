@@ -38,7 +38,7 @@ Je viens de refermer ce livre, les larmes aux yeux. Merci pour ce moment, Wendy,
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
+                    <img src="https://m.media-amazon.com/images/I/41DHvfDeCdL.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
                 <h5 class="font-bold text-blue-700 font-poppins">Céline</h5>
@@ -56,7 +56,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
+                    <img src="https://m.media-amazon.com/images/I/41DHvfDeCdL.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
                 <h5 class="font-bold text-blue-700 font-poppins">Farah</h5>
@@ -71,7 +71,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
+                    <img src="https://m.media-amazon.com/images/I/41DHvfDeCdL.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
                 <h5 class="font-bold text-blue-700 font-poppins">Aurore</h5>
@@ -86,7 +86,7 @@ Comme d'habitude, c'est une auteure qui casse les codes. Et plutôt que de point
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="couverture inoubliable symphonie"
+                    <img src="https://m.media-amazon.com/images/I/41DHvfDeCdL.jpg" alt="couverture inoubliable symphonie"
                         class="object-cover object-center w-full h-full" />
                 </div>
                 <h5 class="font-bold text-blue-700 font-poppins">Dévoreuse de livres</h5>
