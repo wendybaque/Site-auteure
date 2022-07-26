@@ -44,7 +44,7 @@ export default function Testimonials() {
             </p>
             <div class="flex flex-col items-center justify-center">
                 <div class="w-12 h-12 overflow-hidden bg-gray-100 border-2 border-indigo-100 rounded-full">
-                    <img src="https://www.babelio.com/couv/CVT_Inoubliable-symphonie_9306.jpg" alt="img"
+                    <img src="https://i0.wp.com/www.plumesdemimieditions.fr/wp-content/uploads/122945414_1617147968458845_4965187562443510254_n.png?fit=1420%2C2250&ssl=1" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
                 <h5 class="font-bold text-blue-700 font-poppins">Aurore</h5>
