@@ -1,5 +1,7 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
+import { Reveal } from "react-awesome-reveal";
+
 import livrevdl from "../assets/livrevdl.png";
 import ButtonTop from '../components/ButtonTop';
 
@@ -13,7 +15,9 @@ function Vents() {
     </Helmet>
     <div className='lg:flex lg:flex-row'>
       <div className="flex flex-col m-2 p-2 lg:w-1/2 ">
-      <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Les vents de l'existence</h2>
+        <Reveal>
+            <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Les vents de l'existence</h2>
+        </Reveal>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : roman contemporain à dimension sociologique</h3>
             <p className='m-2 p-2 font-bold'>Proche de la trentaine, Joanne, sociologue émérite, est de ces personnes dont on pourrait dire qu’elles ont réussi leur vie.</p>
             <p className='m-2 p-2 font-bold'>Et pourtant… Tout s’écroule pour la jeune femme le jour où elle apprend brutalement le suicide de Lucas, son parrain. En héritage, il lui laisse l’Ultimo Respiro, la maison qu’il avait achetée et rénovée afin de finir ses jours à La Turballe, en Loire Atlantique. Elle y retourne alors, d’abord pour des raisons administratives, puis se questionne sur les circonstances du décès de son parrain.</p>

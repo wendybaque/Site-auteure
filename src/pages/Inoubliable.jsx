@@ -1,5 +1,7 @@
 import React from 'react';
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
+import { Reveal } from "react-awesome-reveal";
+
 import livreis from "../assets/livreis.png";
 import ButtonTop from '../components/ButtonTop';
 
@@ -13,12 +15,14 @@ function Inoubliable() {
         </Helmet>
     <div className='lg:flex lg:flex-row'>
         <div className="flex flex-col m-2 p-2 lg:w-1/2">
-      <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Inoubliable symphonie</h2>
+            <Reveal>
+                <h2 className='text-3xl font-bold text-blue-700 font-poppins'>Inoubliable symphonie</h2>
+            </Reveal>
         <h3 className='m-2 p-2 font-bold text-blue-700'>Genre : romance musicale</h3>
-        <p className='m-2 p-2 font-bold'>Nous vivons dans un monde où aimer qui l’on veut n’est pas acceptable à cause d’une trop grande différence d’âge, de revenu financier ou de rang social. Un monde où la musique reste parfois incomprise, où la beauté fait défaut. Un monde où les apparences sont trop souvent trompeuses.</p>
-        <p className='m-2 p-2 font-bold'>Avant, je croyais que le sens de la vie, c’était la musique. Mon professeur m’a montré que l’amour pouvait aussi valoir la peine d’être vécu. Alors, je l’ai aimé, envers et contre tout. Je l’ai défendu, j’ai cru en lui, je me suis perdue.</p>
-        <p className='m-2 p-2 font-bold'>Grâce à Rudyard, cet homme au regard tendre et aux valeurs nobles, j’ai pu réaliser mes rêves les plus controversés. L’espace d’un instant, nous nous sommes croisés, nous nous sommes aimés. Nous, qui vivions dans des mondes parallèles.</p>
-        <p className='m-2 p-2 font-bold'>Notre histoire est celle d’une petite étoile en plastique phosphorescente, d’une enquête policière, de parents désabusés, de normes sociales chamboulées, d’opéra rock révolté, de drogue surdosée, d’amour rejeté et d’amitié à toute épreuve.</p>
+            <p className='m-2 p-2 font-bold'>Nous vivons dans un monde où aimer qui l’on veut n’est pas acceptable à cause d’une trop grande différence d’âge, de revenu financier ou de rang social. Un monde où la musique reste parfois incomprise, où la beauté fait défaut. Un monde où les apparences sont trop souvent trompeuses.</p>
+            <p className='m-2 p-2 font-bold'>Avant, je croyais que le sens de la vie, c’était la musique. Mon professeur m’a montré que l’amour pouvait aussi valoir la peine d’être vécu. Alors, je l’ai aimé, envers et contre tout. Je l’ai défendu, j’ai cru en lui, je me suis perdue.</p>
+            <p className='m-2 p-2 font-bold'>Grâce à Rudyard, cet homme au regard tendre et aux valeurs nobles, j’ai pu réaliser mes rêves les plus controversés. L’espace d’un instant, nous nous sommes croisés, nous nous sommes aimés. Nous, qui vivions dans des mondes parallèles.</p>
+            <p className='m-2 p-2 font-bold'>Notre histoire est celle d’une petite étoile en plastique phosphorescente, d’une enquête policière, de parents désabusés, de normes sociales chamboulées, d’opéra rock révolté, de drogue surdosée, d’amour rejeté et d’amitié à toute épreuve.</p>
       </div>
       <div className="lg:w-1/2">
         <img src={livreis} alt="livre inoubliable symphonie" className='livre-img'/>
