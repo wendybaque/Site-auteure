@@ -3,9 +3,7 @@ import logonoir from "../assets/logonoir.png";
 
 function Footer() {
   return (
-    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900">
-      <hr className="my-6 border-border sm:mx-auto dark:border-gray-700 lg:my-8" />
-
+    <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 ">
       <div className="md:flex md:justify-between">
         <div className="mb-6 md:mb-0">
           <a
