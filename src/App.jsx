@@ -17,7 +17,7 @@ import Mentions from "./pages/Mentionslegales";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-slate-100">
         <Navbar />
         <Router>
           <Routes>

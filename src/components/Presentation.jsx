@@ -6,7 +6,6 @@ import { Fade } from "react-awesome-reveal";
 
 export default function Presentation() {
   return (
-    <div>
       <main className="lg:flex lg:flex-row">
         <div className="lg:flex lg:flex-col align-center justify-center content-center p-2 m-2 basis-1/4">
                 <img src={logo} alt="logo de Wendy Baqué" className="presentation-image"/>
@@ -38,6 +37,5 @@ export default function Presentation() {
             </div>
         </div>
         </main>
-    </div>
   )
 }
