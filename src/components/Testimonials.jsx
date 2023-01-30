@@ -3,7 +3,7 @@ import React from 'react'
 export default function Testimonials() {
   return (
     <div> <div class="mb-8 text-center m-2 p-2">
-    <h2 class="text-3xl font-bold text-blue-700 font-poppins">Témoignages</h2>
+    <h2 class="text-3xl font-bold text-secondaryfont-yeseva">Témoignages</h2>
     <p class="text-lg text-gray-600 font-bold">Quelques mots des lecteurs...</p>
 </div>
 <div class="lg:grid lg:grid-cols-4 lg:gap-x-2 m-2 p-2">
@@ -17,7 +17,7 @@ export default function Testimonials() {
                     <img src="https://www.babelio.com/couv/CVT_Les-dangers-de-la-lumiere_8495.jpg" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-poppins">Patricia</h5>
+                <h5 class="font-bold text-secondary font-josefin">Patricia</h5>
                 <p class="text-sm text-gray-600">Lecture évasion</p>
             </div>
         </div>
@@ -32,7 +32,7 @@ export default function Testimonials() {
                     <img src="https://m.media-amazon.com/images/I/41e2MG0aGxL._SX195_.jpg" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-poppins">Robin</h5>
+                <h5 class="font-bold text-secondary font-josefin">Robin</h5>
                 <p class="text-sm text-gray-600">Les lectures de Florelle et Robin</p>
             </div>
         </div>
@@ -47,7 +47,7 @@ export default function Testimonials() {
                     <img src="https://i0.wp.com/www.plumesdemimieditions.fr/wp-content/uploads/122945414_1617147968458845_4965187562443510254_n.png?fit=1420%2C2250&ssl=1" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-poppins">Aurore</h5>
+                <h5 class="font-bold text-secondary font-josefin">Aurore</h5>
                 <p class="text-sm text-gray-600">Les lectures d'Aurore</p>
             </div>
         </div>
@@ -62,7 +62,7 @@ export default function Testimonials() {
                     <img src="https://images-eu.ssl-images-amazon.com/images/I/41J980YGlSL._SX195_.jpg" alt="img"
                         class="object-cover object-center w-full h-full" />
                 </div>
-                <h5 class="font-bold text-blue-700 font-poppins">Marine</h5>
+                <h5 class="font-bold text-secondary font-josefin">Marine</h5>
                 <p class="text-sm text-gray-600">Lectrice</p>
             </div>
         </div>

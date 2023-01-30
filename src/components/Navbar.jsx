@@ -6,16 +6,16 @@ function Navbar() {
     <nav
       role="navigation"
       aria-label="Barre de navigation"
-      classNameName="text-lg m-6 flex flex-wrap justify-around bg-slate-100 border-slate-100 px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
+      classNameName="bg-bg text-lg m-6 flex flex-wrap justify-around px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
     >
-        <div className="container flex flex-wrap items-center justify-between mx-auto">
+        <div className="bg-bg container flex flex-wrap items-center justify-between mx-auto">
           <a href="/" className="flex items-center">
             <img
               src={logonoir}
               className="h-6 mr-3 sm:h-10"
               alt="Flowbite Logo"
             />
-            <span className="text-secondary self-center text-xl font-bold whitespace-nowrap dark:text-white">
+            <span className="text-secondary font-yeseva self-center text-xl font-bold whitespace-nowrap dark:text-white">
               Wendy Baqué, auteure de romans
             </span>
           </a>

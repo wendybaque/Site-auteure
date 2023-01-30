@@ -6,13 +6,14 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["Proxima Nova", ...defaultTheme.fontFamily.sans],
-        poppins: ["Poppins", "sans-serif"],
+        josefin: ["Josefin Sans", "sans-serif"],
+        yeseva: ["Yeseva One"],
       },
     },
     colors: {
       primary: "#fff",
       secondary: "rgb(251 113 133)",
-      bg:"rgb(241 245 249)",
+      bg: "rgb(241 245 249)",
     },
     plugins: [],
   },

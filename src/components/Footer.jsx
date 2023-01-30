@@ -12,7 +12,7 @@ function Footer() {
             className="flex items-center"
           >
             <img src={logonoir} className="h-32 mr-3" alt="Wendy Baqué" />
-            <span className="self-center text-secondary text-xl font-bold whitespace-nowrap dark:text-white">
+            <span className="self-center font-yeseva text-secondary text-xl font-bold whitespace-nowrap dark:text-white">
               Wendy Baqué, auteure de romans
             </span>
           </a>
@@ -123,7 +123,7 @@ function Footer() {
             target="_blank"
             rel="noreferrer"
             alt="portfolio de Wendy Baqué"
-            classNameName="hover:text-blue-700 hover:font-bold underline underline-offset-1"
+            className="hover:text-secondary hover:font-bold"
           >
             Wendy Baqué
           </a>

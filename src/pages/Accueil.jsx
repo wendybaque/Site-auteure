@@ -13,7 +13,7 @@ import ButtonTop from "../components/ButtonTop";
 
 function Accueil() {
   return (
-      <div className="bg-slate-100">
+      <div className="bg-bg">
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Wendy Baqué | Auteure</title>

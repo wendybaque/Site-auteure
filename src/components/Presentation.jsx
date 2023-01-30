@@ -18,19 +18,19 @@ export default function Presentation() {
         >
           <div className="overflow-hidden flex justify-center items-center h-full">
             <div className="overflow-hidden text-center text-white px-6 md:px-12">
-              <h1 className="text-primary p-6 overflow-hidden text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+              <h1 className="font-yeseva text-primary p-6 overflow-hidden text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                 Bienvenue sur le site de <br />
-                <span className="font-bold text-secondary">Wendy Baqué</span>
+                <span className="font-bold font-yeseva text-secondary">Wendy Baqué</span>
               </h1>
-                <h2 className="text-4xl text-primary  overflow-hidden m-6">Auteure de </h2>
+                <h2 className="text-4xl text-primary font-josefin overflow-hidden m-6">Auteure de </h2>
                 <Fade delay={1000}> 
-                <p className="text-xl text-primary  overflow-hidden m-6">Romans contemporains</p>
+                <p className="text-xl text-primary font-josefin overflow-hidden m-6">Romans contemporains</p>
                 </Fade >
                 <Fade delay={2000}> 
-                <p className="text-xl text-primary  overflow-hidden m-6">Romans feel-good</p>
+                <p className="text-xl text-primary font-josefin overflow-hidden m-6">Romans feel-good</p>
                 </Fade >
                 <Fade delay={3000}> 
-                <p className="text-xl text-primary  overflow-hidden m-6">Romances musicales</p>
+                <p className="text-xl text-primary font-josefin overflow-hidden m-6">Romances musicales</p>
                 </Fade >
               <a href="#intro" alt="redirection vers la section à propos">
                 <div className="drop-shadow-2xl flex items-center justify-center mt-24 animate-bounce">
@@ -65,7 +65,7 @@ export default function Presentation() {
           height: "50px",
           transform: "scale(2)",
           transformOrigin: "top center",
-          color: "#fff",
+          color: "#F1F5F9",
         }}
       >
         <svg viewBox="0 0 2880 48" xmlns="http://www.w3.org/2000/svg">
