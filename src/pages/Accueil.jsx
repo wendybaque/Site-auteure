@@ -9,7 +9,7 @@ import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
 import ButtonTop from "../components/ButtonTop";
-import HoverEffect from "../components/HoverEffect";
+// import HoverEffect from "../components/HoverEffect";
 
 function Accueil() {
   return (
@@ -23,9 +23,9 @@ function Accueil() {
             <Presentation />
         </section>
         
-        <section id="carousel">
+        {/* <section id="carousel">
             <HoverEffect/>
-        </section>
+        </section> */}
 
         <section id="book">
             <Lumière/>
