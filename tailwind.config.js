@@ -12,6 +12,8 @@ module.exports = {
     colors: {
       primary: "#fff",
       secondary: "rgb(251 113 133)",
+      bg:"rgb(241 245 249)",
+      border:"rgb(148 163 184)"
     },
     plugins: [],
   },
