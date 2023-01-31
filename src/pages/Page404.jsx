@@ -32,13 +32,13 @@ function Page404() {
         >
           <div className=" overflow-hidden flex justify-center items-center h-full">
             <div className="overflow-hidden text-center text-white px-6 md:px-12">
-              <h1 className="text-primary font-yeseva p-6 overflow-hidden text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+              <h2 className="text-primary font-yeseva p-6 overflow-hidden text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                 Page 404 Not found
                 <br />
                 <span className="font-bold font-yeseva text-secondary">
                   Oups, pas de livres ici !
                 </span>
-              </h1>
+              </h2>
               <h2 className="text-3xl text-primary font-josefin overflow-hidden m-4">
                 Vous allez être redirigés automatiquement à l'accueil d'ici
                 quelques secondes...

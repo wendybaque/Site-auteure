@@ -14,6 +14,7 @@ module.exports = {
       primary: "#fff",
       secondary: "rgb(251 113 133)",
       bg: "rgb(241 245 249)",
+      stars:"rgb(255, 255, 0)"
     },
     plugins: [],
   },
