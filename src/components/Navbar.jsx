@@ -67,7 +67,7 @@ function Navbar() {
 
             <li>
               <a
-                href="#books"
+                href="#book"
                 className="font-josefin text-2xl  hover:underline decoration-secondary block py-2 pl-3 pr-4 text-secondary rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
                 aria-current="page"
                 alt="redirection vers la section des livres de Wendy Baqué"

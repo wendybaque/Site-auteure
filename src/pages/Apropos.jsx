@@ -61,7 +61,11 @@ function Apropos() {
           </p>
         </div>
         <div className="lg:w-1/2 m-2 p-2 flex justify-center">
-          <img src={wendy} alt="Wendy Baqué avec ses romans" className="drop-shadow-lg" />
+          <img
+            src={wendy}
+            alt="Wendy Baqué avec ses romans"
+            className="drop-shadow-lg"
+          />
         </div>
       </div>
       <div className="lg:flex lg:flex-row justify-center lg:m-4">
@@ -92,10 +96,8 @@ function Apropos() {
               target="_blank"
               rel="noreferrer"
             >
-              Découvrez ses offres sur le site de{" "}
-              <span className="font-bold text-secondary hover:underline decoration-secondary">
-                WenDev{" "}
-              </span>
+              
+              <button className="hover:animate-bounce m-4 p-2 bg-secondary text-primary shadow-lg rounded-lg">Découvrez ses offres sur le site de WenDev</button>
             </a>
           </p>
         </div>
