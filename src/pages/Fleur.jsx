@@ -5,6 +5,8 @@ import { Reveal } from "react-awesome-reveal";
 import livrefdl from "../assets/livrefdl.png";
 import ButtonTop from "../components/ButtonTop";
 
+import StarIcon from "@mui/icons-material/Star";
+
 function Fleur() {
   return (
     <div className="bg-bg m-10 p-10">
@@ -68,30 +70,51 @@ function Fleur() {
 
         <div className="lg:grid lg:grid-cols-3 lg:gap-x-3 justify-around m-2 p-2">
           <div className="block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+            <h5 className="font-josefin mb-2 text-2xl font-bold tracking-tight  dark:text-white">
+              Une belle rencontre
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <p className="font-josefin dark:text-gray-400">
+              Il y a des rencontres qui changent une vie. Le jour où la route de
+              Benjamin a croisé celle de Marcelle, il ne s'attendait sûrement
+              pas à ce que cela provoque autant de bouleversements dans son
+              existence. Et même si cette amitié, cette complicité ne pouvaient
+              être qu'éphémères vu le contexte, elles n'en ont pas moins eu un
+              impact déterminant sur la vie de Benjamin. J'ai beaucoup aimé ce
+              personnage, sa sensibilité, ses doutes, le voir évoluer et
+              l'accompagner, d'une certaine manière, sur son chemin à la
+              recherche du bonheur, entre rires et larmes. La fleur de l'âge, ce
+              sont deux âmes qui se croisent, se comprennent et se font du bien.
             </p>
           </div>
           <div className="block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+            <h5 className="font-josefin mb-2 text-2xl font-bold tracking-tight dark:text-white">
+              Une ode à la vie
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <p className="font-josefin dark:text-gray-400">
+              L’auteure traite de sujets poignants avec fluidité, humour et
+              émotions. Nous aurions pu tomber dans le pathos mais pas du tout,
+              elle dépeint les faits tels qu ils sont dans la vie, avec réalisme
+              et précision. L envers du monde hospitalier est intéressant. En
+              résumé, c est un roman qui vous offre de belles amitiés, de jolies
+              rencontres, une remise en question sur le sens de la vie, sur le
+              temps qui passe et de la façon dont on l’honore. A découvrir
             </p>
           </div>
           <div className="block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-              Noteworthy technology acquisitions 2021
+            <h5 className="font-josefin mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+              Une pépite à lire absolument
             </h5>
-            <p className="font-normal text-gray-700 dark:text-gray-400">
-              Here are the biggest enterprise technology acquisitions of 2021 so
-              far, in reverse chronological order.
+            <p className="font-josefin dark:text-gray-400">
+              Son quatrième roman me rappelle un peu "Les vents de l'existence"
+              écrit également par l'auteure. Deux histoires diamétralement à
+              l'opposé mais toutes deux contiennent des thèmes forts. Wendy a
+              voulu mettre en avant les services des soins palliatifs. Montrer
+              aux autres que ce n'est pas qu'un service morbide ou la mort est
+              maîtresse des lieux. C'est bien plus que ça. Évidemment la mort
+              est présente mais les sourires, les larmes de joie et de tristesse
+              sont autant présents dans ce service. Sans oublier la gentillesse
+              (pour la plupart) des soignants qui tentent parfois de redonner du
+              baume au cœur.
             </p>
           </div>
         </div>
@@ -144,7 +167,7 @@ function Fleur() {
           </svg>
           <svg
             aria-hidden="true"
-            className="w-5 h-5 text-gray-300 dark:text-gray-500"
+            className="w-5 h-5  dark:text-gray-500"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -152,82 +175,72 @@ function Fleur() {
             <title>Fifth star</title>
             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
           </svg>
-          <p className="ml-2 text-sm font-medium text-gray-900 dark:text-white">
-            4.95 out of 5
-          </p>
+          <p className="ml-2 text-sm font-medium dark:text-white">4.6 sur 5</p>
         </div>
-        <p className="text-sm font-medium  dark:text-gray-400">
-          1,745 global ratings
+        <p className="font-medium font-josefin text-lg dark:text-gray-400">
+          16 évaluations
         </p>
         <div className="flex justify-center w-full items-center mt-4">
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            5 star
+          <span className="text-sm font-medium  dark:text-blue-500">
+            5 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "70%" }}
+              style={{ width: "71%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            70%
-          </span>
+          <span className="text-sm font-medium dark:text-blue-500">71%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            4 star
+          <span className="text-sm font-medium dark:text-blue-500">
+            4 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "17%" }}
+              style={{ width: "21%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            17%
-          </span>
+          <span className="text-sm font-medium dark:text-blue-500">21%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            3 star
+          <span className="text-sm font-medium dark:text-blue-500">
+            3 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "8%" }}
+              style={{ width: "7%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            8%
-          </span>
+          <span className="text-sm font-medium dark:text-blue-500">7%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            2 star
+          <span className="text-sm font-medium dark:text-blue-500">
+            2 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "4%" }}
+              style={{ width: "0%" }}
             ></div>
           </div>
           <span className="text-sm font-medium text-primary dark:text-blue-500">
-            4%
+            0%
           </span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium text-primary0 dark:text-blue-500">
-            1 star
+            1 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "1%" }}
+              style={{ width: "0%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-blue-600 dark:text-blue-500">
-            1%
-          </span>
+          <span className="text-sm font-medium dark:text-blue-500">0%</span>
         </div>
       </section>
       <section id="buy" aria-label="Boutons d'achat">
