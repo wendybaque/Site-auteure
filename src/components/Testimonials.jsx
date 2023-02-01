@@ -11,11 +11,11 @@ export default function Testimonials() {
         <h2 className="text-3xl font-bold text-secondary font-yeseva">
           Témoignages
         </h2>
-        <p className="text-lg font-bold">Quelques mots des lecteurs...</p>
+        <p className="text-lg font-bold font-josefin">Quelques mots des lecteurs...</p>
       </div>
-      <div className="grid grid-cols-4 gap-x-2 m-2 p-2">
+      <div className="grid grid-cols-4 gap-x-2 m-2 p-2 md:grid-rows-1 sm:grid-rows-1">
         {/* CARTE 1 */}
-        <div className="flex flex-col w-full max-w-sm rounded-md shadow-lg bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+        <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
           <a
             href="/Dangersdelalumiere"
             alt="Redirection vers la page concernant le livre Les dangers de la lumière de Wendy Baqué"
