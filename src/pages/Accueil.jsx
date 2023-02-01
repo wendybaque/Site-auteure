@@ -9,11 +9,10 @@ import Lumière from "../components/Dol";
 import Fleur from "../components/Fdl";
 import Vents from "../components/Vdl";
 import ButtonTop from "../components/ButtonTop";
-// import HoverEffect from "../components/HoverEffect";
 
 function Accueil() {
   return (
-      <div className="bg-bg">
+      <div className="bg-bg ">
         <Helmet>
                 <meta charSet="utf-8" />
                 <title>Wendy Baqué | Auteure</title>
@@ -22,10 +21,6 @@ function Accueil() {
         <section id="presentation">
             <Presentation />
         </section>
-        
-        {/* <section id="carousel">
-            <HoverEffect/>
-        </section> */}
 
         <section id="book">
             <Lumière/>
