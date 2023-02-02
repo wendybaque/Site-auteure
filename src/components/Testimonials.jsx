@@ -97,7 +97,7 @@ export default function Testimonials() {
               <button
                 className="shadow-md rounded-md bg-secondary text-primary font-semibold"
               >
-                <a href="" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
+                <a href="https://lecturesevasiondotblog.wordpress.com/2022/10/21/les-dangers-de-la-lumiere-de-wendy-baque/" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
               </button>
@@ -107,7 +107,7 @@ export default function Testimonials() {
         {/* CARTE 2  */}
         <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
           <a
-            href="/Dangersdelalumiere"
+            href="/Fleurdelage"
             alt="Redirection vers la page concernant le livre Les dangers de la lumière de Wendy Baqué"
           >
             <img
@@ -186,7 +186,7 @@ export default function Testimonials() {
 
                 className="shadow-md rounded-md bg-secondary text-primary font-semibold"
               >
-                <a href="" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/FlorelleEtRobin/photos/pb.100060692785076.-2207520000./2205377969605079/?type=3" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
               </button>
@@ -196,7 +196,7 @@ export default function Testimonials() {
         {/* CARTE 3  */}
         <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
           <a
-            href="/Dangersdelalumiere"
+            href="/Inoubliablesymphonie"
             alt="Redirection vers la page concernant le livre Les dangers de la lumière de Wendy Baqué"
           >
             <img
@@ -274,7 +274,7 @@ export default function Testimonials() {
                 Aurore, Les lectures d'Aurore
               </span>
               <button className="shadow-md rounded-md bg-secondary text-primary font-semibold">
-                <a href="" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
+                <a href="https://www.facebook.com/288940421733626/photos/pb.100067741714065.-2207520000./537493366878329/?type=3" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
               </button>
@@ -284,7 +284,7 @@ export default function Testimonials() {
         {/* CARTE 4 */}
         <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
           <a
-            href="/Dangersdelalumiere"
+            href="/Ventsdelexistence"
             alt="Redirection vers la page concernant le livre Les dangers de la lumière de Wendy Baqué"
           >
             <img

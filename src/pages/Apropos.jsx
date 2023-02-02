@@ -97,7 +97,7 @@ function Apropos() {
               rel="noreferrer"
             >
               
-              <button className="hover:animate-bounce m-4 p-2 bg-secondary text-primary shadow-lg rounded-lg">Découvrez ses offres sur le site de WenDev</button>
+              <button className="hover:animate-bounce mt-16 p-2 bg-secondary text-primary shadow-lg rounded-lg">Découvrez ses offres sur le site de WenDev</button>
             </a>
           </p>
         </div>

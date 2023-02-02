@@ -69,7 +69,7 @@ function Fleur() {
         </div>
 
         <div className="lg:grid lg:grid-cols-3 lg:gap-x-3 justify-around m-2 p-2">
-          <div className="block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h5 className="font-josefin mb-2 text-2xl font-bold tracking-tight  dark:text-white">
               Une belle rencontre
             </h5>
@@ -86,7 +86,7 @@ function Fleur() {
               sont deux âmes qui se croisent, se comprennent et se font du bien.
             </p>
           </div>
-          <div className="block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h5 className="font-josefin mb-2 text-2xl font-bold tracking-tight dark:text-white">
               Une ode à la vie
             </h5>
@@ -100,7 +100,7 @@ function Fleur() {
               temps qui passe et de la façon dont on l’honore. A découvrir
             </p>
           </div>
-          <div className="block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden block max-w-sm p-6 bg-primary rounded-lg shadow-lg hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
             <h5 className="font-josefin mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               Une pépite à lire absolument
             </h5>

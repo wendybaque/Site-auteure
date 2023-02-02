@@ -24,13 +24,13 @@ export default function Presentation() {
               </h1>
                 <h2 className="text-4xl text-primary font-josefin overflow-hidden m-6">Auteure de </h2>
                 <Fade delay={1000}> 
-                <p className="text-xl text-primary font-josefin overflow-hidden m-6">Romans contemporains</p>
+                <p className="text-2xl text-primary font-josefin overflow-hidden m-6">Romans contemporains</p>
                 </Fade >
                 <Fade delay={2000}> 
-                <p className="text-xl text-primary font-josefin overflow-hidden m-6">Romans feel-good</p>
+                <p className="text-2xl text-primary font-josefin overflow-hidden m-6">Romans feel-good</p>
                 </Fade >
                 <Fade delay={3000}> 
-                <p className="text-xl text-primary font-josefin overflow-hidden m-6">Romances musicales</p>
+                <p className="text-2xl text-primary font-josefin overflow-hidden m-6">Romances musicales</p>
                 </Fade >
               <a href="#intro" alt="redirection vers la section à propos">
                 <div className="drop-shadow-2xl flex items-center justify-center mt-24 animate-bounce">
