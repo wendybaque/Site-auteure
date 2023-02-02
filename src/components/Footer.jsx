@@ -79,14 +79,18 @@ function Footer() {
             <a
               href="https://www.facebook.com/AntiigoneWB"
               className="hover:text-secondary text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              alt="redirection vers la page Instagram de Wendy Baque"
+              alt="redirection vers la page Instagram de Wendy Baqué"
+              target="_blank"
+              rel="noreferrer"
             >
               <FacebookIcon fontSize="medium" />
             </a>
             <a
               href="https://www.instagram.com/wendybqe/"
               className="hover:text-secondary text-gray-500 hover:text-gray-900 dark:hover:text-white"
-              alt="redirection vers le compte Instagram de Wendy Baque"
+              alt="redirection vers le compte Instagram de Wendy Baqué"
+              target="_blank"
+              rel="noreferrer"
             >
               <InstagramIcon fontSize="medium" />
             </a>
