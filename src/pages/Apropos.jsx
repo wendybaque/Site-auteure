@@ -1,12 +1,12 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import ButtonTop from "../components/ButtonTop";
-import wendy from "../assets/wendyphoto.png";
-import wendev from "../assets/wendev.png";
+import wendy from "../assets/wendyphoto.webp";
+import wendev from "../assets/wendev.webp";
 
 function Apropos() {
   return (
-    <main className="bg-bg m-10 p-10">
+    <main className="bg-bg lg:m-10 p-6">
       <Helmet>
         <meta charSet="utf-8" />
         <title>A propos de Wendy Baqué</title>

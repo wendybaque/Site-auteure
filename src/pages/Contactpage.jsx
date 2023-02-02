@@ -2,11 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import ButtonTop from "../components/ButtonTop";
 import Contact from "../components/Contact";
-// import HeartBeat from "../components/HeartBeat";
+import HeartBeat from "../components/HeartBeat";
 
 export default function Contactpage() {
   return (
-    <main className="bg-bg m-10 p-10">
+    <main className="bg-bg lg:m-10 p-6">
       <div className="overflow-hidden">
         <Helmet>
           <meta charSet="utf-8" />
@@ -17,7 +17,7 @@ export default function Contactpage() {
           />
         </Helmet>
         <Contact />
-        {/* <HeartBeat /> */}
+        <HeartBeat />
       </div>
       <ButtonTop />
     </main>

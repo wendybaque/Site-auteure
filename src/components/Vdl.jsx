@@ -1,20 +1,20 @@
 import React from "react";
 import { Reveal } from "react-awesome-reveal";
-import livrevdl from "../assets/livrevdl.png";
+import livrevdl from "../assets/livrevdl.webp";
 
 function Vdl() {
   return (
-    <div className="flex flex-row lg:m-10 lg:p-10 md:p-2 md:m-2 sm:p-2 sm:m-2">
-      <div className="w-2/3 md:flex-col sm:flex-col">
+    <div className="lg:flex lg:flex-row lg:m-10 p-6">
+      <div className="lg:w-2/3 sm:w-full md:w-full">
         <Reveal>
-          <h2 className="text-3xl font-bold text-secondary font-yeseva">
+          <h2 className="m-2 p-2 text-3xl font-bold text-secondary font-yeseva">
             Les vents de l'existence
           </h2>
         </Reveal>
-        <h3 className="font-bold text-xl font-josefin m-2 p-2">
+        <h3 className="font-bold text-xl font-josefin m-4 p-4">
           Genre : roman contemporain à dimension sociologique
         </h3>
-        <p className="font-josefin text-xl">
+        <p className="font-josefin text-xl m-2 p-2">
           Proche de la trentaine, Joanne, sociologue émérite, est de ces
           personnes dont on pourrait dire qu’elles ont réussi leur vie. Et
           pourtant… Tout s’écroule pour la jeune femme le jour où elle apprend
@@ -24,7 +24,7 @@ function Vdl() {
           alors, d’abord pour des raisons administratives, puis se questionne
           sur les circonstances du décès de son parrain...
         </p>
-        <p className="font-josefin text-xl">
+        <p className="font-josefin text-xl m-2 p-2">
           Ses vieux démons refont surface, l’interrogeant tant sur la mort que
           sur la vie, et mettent à mal le sens que l’endeuillée avait attribué à
           son existence. Elle fait la connaissance de Damien Lasareigne qui,

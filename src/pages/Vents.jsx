@@ -2,14 +2,14 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Reveal } from "react-awesome-reveal";
 
-import livrevdl from "../assets/livrevdl.png";
+import livrevdl from "../assets/livrevdl.webp";
 import ButtonTop from "../components/ButtonTop";
 
 import StarIcon from "@mui/icons-material/Star";
 
 function Vents() {
   return (
-    <div className="bg-bg m-10 p-10">
+    <div className="bg-bg lg:m-10 p-6">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Les vents de l'existence</title>
@@ -118,7 +118,7 @@ function Vents() {
         </div>
       </section>
       <section
-        className="flex flex-col justify-center items-center m-10 pt-8"
+        className="flex flex-col justify-center items-center lg:m-10 pt-8"
         id="rating"
         aria-label="barême des avis sur le livre, basé sur les évaluations Amazon en 2023"
       >

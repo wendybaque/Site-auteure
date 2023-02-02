@@ -2,14 +2,14 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Reveal } from "react-awesome-reveal";
 
-import livrefdl from "../assets/livrefdl.png";
+import livrefdl from "../assets/livrefdl.webp";
 import ButtonTop from "../components/ButtonTop";
 
 import StarIcon from "@mui/icons-material/Star";
 
 function Fleur() {
   return (
-    <div className="bg-bg m-10 p-10">
+    <div className="bg-bg lg:m-10 p-6">
       <Helmet>
         <meta charSet="utf-8" />
         <title>La fleur de l'âge</title>
@@ -120,7 +120,7 @@ function Fleur() {
         </div>
       </section>
       <section
-        className="flex flex-col justify-center items-center m-10 pt-8"
+        className="flex flex-col justify-center items-center lg:m-10 pt-8"
         id="rating"
         aria-label="barême des avis sur le livre, basé sur les évaluations Amazon en 2023"
       >

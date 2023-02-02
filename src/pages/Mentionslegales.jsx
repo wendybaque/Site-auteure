@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 
 function Mentionslegales() {
   return (
-    <div className="bg-bg m-10 p-10">
+    <div className="bg-bg lg:m-10 p-6">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Mentions légales</title>
@@ -48,7 +48,7 @@ function Mentionslegales() {
         à la protection des données : Wendy Baqué – wendybaque.auteur@gmail.com
       </section>
       <section>
-        <h2 className="text-secondary font-yesevafont-bold m-2 p-2">
+        <h2 className="text-secondary font-yeseva font-bold m-2 p-2">
           2. Conditions générales d’utilisation du site et des services
           proposés.
         </h2>
@@ -76,7 +76,7 @@ function Mentionslegales() {
         connaissance.
       </section>
       <section>
-        <h2 className="text-secondary font-yesevafont-bold m-2 p-2">
+        <h2 className="text-secondary font-yeseva font-bold m-2 p-2">
           3. Description des services fournis.
         </h2>
         Le site internet https://wendybaqueauteurederomans.netlify.app/ a pour
@@ -96,7 +96,7 @@ function Mentionslegales() {
         leur mise en ligne.
       </section>
       <section>
-        <h2 className="text-secondary font-yesevafont-bold m-2 p-2">
+        <h2 className="text-secondary font-yeseva font-bold m-2 p-2">
           4. Limitations contractuelles sur les données techniques.
         </h2>
         Le site utilise la technologie JavaScript. Le site Internet ne pourra
@@ -121,7 +121,7 @@ function Mentionslegales() {
         réseau empêchant l’accès au serveur.
       </section>
       <section>
-        <h2 className="text-secondary font-yesevafont-bold m-2 p-2">
+        <h2 className="text-secondary font-yeseva font-bold m-2 p-2">
           5. Propriété intellectuelle et contrefaçons.
         </h2>
         https://wendybaqueauteurederomans.netlify.app/ est propriétaire des
@@ -138,7 +138,7 @@ function Mentionslegales() {
         de Propriété Intellectuelle.
       </section>
       <section>
-        <h2 className="text-secondary font-yesevafont-bold m-2 p-2">
+        <h2 className="text-secondary font-yeseva font-bold m-2 p-2">
           6. Limitations de responsabilité.
         </h2>
         https://wendybaqueauteurederomans.netlify.app/ agit en tant qu’éditeur
@@ -176,7 +176,7 @@ function Mentionslegales() {
         Règlement Général sur la Protection des Données (RGPD : n° 2016-679).
       </section>
       <section>
-        <h3 className="text-secondary font-yeseva m-1 p-1">
+        <h3 className="text-secondary font-yeseva font-bold m-2 p-2">
           7.1 Responsables de la collecte des données personnelles
         </h3>
         Pour les Données Personnelles collectées dans le cadre de la création du
@@ -198,7 +198,7 @@ function Mentionslegales() {
         lesquelles https://wendybaqueauteurederomans.netlify.app/ les traite.
       </section>
       <section>
-        <h3 className="text-secondary font-yesevam-1 p-1">
+        <h3 className="text-secondary font-yeseva font-bold m-2 p-2">
           7.2 Finalité des données collectées
         </h3>
         https://wendybaqueauteurederomans.netlify.app/ est susceptible de
@@ -217,7 +217,7 @@ function Mentionslegales() {
         utilisées par nécessité ou à des fins statistiques et d’analyses.
       </section>
       <section>
-        <h3 className="text-secondary font-yeseva m-1 p-1">
+        <h3 className="text-secondary font-yeseva font-bold m-2 p-2">
           7.3 Droit d’accès, de rectification et d’opposition
         </h3>
         Conformément à la réglementation européenne en vigueur, les Utilisateurs
@@ -260,7 +260,7 @@ function Mentionslegales() {
         (https://www.cnil.fr/fr/plaintes).
       </section>
       <section>
-        <h3 className="text-secondary font-yesevam-1 p-1">
+        <h3 className="text-secondary font-yeseva font-bold m-2 p-2">
           7.4 Non-communication des données personnelles
         </h3>
         https://wendybaqueauteurederomans.netlify.app/ s’interdit de traiter,
@@ -291,7 +291,7 @@ function Mentionslegales() {
         agents de notre service client.
       </section>
       <section>
-        <h3 className="text-secondary font-yeseva m-1 p-1">
+        <h3 className="text-secondary font-yeseva font-bold m-2 p-2">
           7.5 Types de données collectées
         </h3>
         https://wendybaqueauteurederomans.netlify.app/ collecte en outre des
@@ -352,7 +352,7 @@ function Mentionslegales() {
         site.
       </section>
       <section></section>
-      <h3 className="text-secondary font-yeseva m-1 p-1">9.1. « COOKIES »</h3>
+      <h3 className="text-secondary font-yeseva font-bold m-2 p-2">9.1. « COOKIES »</h3>
       Un « cookie » est un petit fichier d’information envoyé sur le navigateur
       de l’Utilisateur et enregistré au sein du terminal de l’Utilisateur (ex :
       ordinateur, smartphone), (ci-après « Cookies »). Ce fichier comprend des
@@ -414,7 +414,7 @@ function Mentionslegales() {
       l’Utilisateur peut néanmoins revenir sur son consentement à ce que
       https://wendybaqueauteurederomans.netlify.app/ dépose ce type de cookies.
       <section>
-        <h3 className="text-secondary font-yeseva m-1 p-1">
+        <h3 className="text-secondary font-yeseva font-bold m-2 p-2">
           Article 9.2. BALISES (“TAGS”) INTERNET
         </h3>
         https://wendybaqueauteurederomans.netlify.app/ peut employer

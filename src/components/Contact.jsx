@@ -47,11 +47,11 @@ function Contact() {
   };
 
   return (
-    <div className="bg-bg m-10 p-10">
-      <div className="lg:flex lg:flex-row m-2 p-2 overflow-hidden">
+    <div className="bg-bg lg:m-10 p-6">
+      <div className="lg:flex lg:flex-row lg:m-2 p-2 overflow-hidden">
         <div className="lg:flex lg:basis-1/2 ">
           <div className="lg:flex lg:flex-col">
-            <div className="mb-4 text-left m-4">
+            <div className="mb-4 text-left lg:m-4">
               <h2 className="text-3xl font-bold text-secondary font-yeseva">
                 Contact
               </h2>
@@ -135,7 +135,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="font-josefin flex flex-col basis-2/3 items-center text-center">
+        <div className="font-josefin flex flex-col lg:basis-2/3 items-center text-center">
           <p className="font-bold text-2xl">
             L'un de mes livres vous intéresse et vous souhaitez le commander ?{" "}
             <br />
@@ -156,7 +156,7 @@ function Contact() {
                 name="user_name"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -166,7 +166,7 @@ function Contact() {
                 name="user_email"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -176,7 +176,7 @@ function Contact() {
                 name="user_phone"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -186,7 +186,7 @@ function Contact() {
                 name="user_subject"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -196,7 +196,7 @@ function Contact() {
                 name="message"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
               />
             </label>
             <button

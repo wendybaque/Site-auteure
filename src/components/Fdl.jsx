@@ -1,20 +1,20 @@
 import React from "react";
 import { Reveal } from "react-awesome-reveal";
-import livrefdl from "../assets/livrefdl.png";
+import livrefdl from "../assets/livrefdl.webp";
 
 function Fdl() {
   return (
-    <div className="flex flex-row lg:m-10 lg:p-10 md:p-2 md:m-2 sm:p-2 sm:m-2">
-      <div className="w-2/3 md:flex-col sm:flex-col">
+    <div className="lg:flex lg:flex-row lg:m-10 p-6">
+      <div className="lg:w-2/3 sm:w-full md:w-full">
         <Reveal>
-          <h2 className="text-3xl font-bold text-secondary font-yeseva">
+          <h2 className="m-2 p-2 text-3xl font-bold text-secondary font-yeseva">
             La fleur de l'âge
           </h2>
         </Reveal>
-        <h3 className="font-bold text-xl font-josefin m-2 p-2">
+        <h3 className="font-bold text-xl font-josefin m-4 p-4">
           Genre : roman contemporain feel-good
         </h3>
-        <p className="font-josefin text-xl">
+        <p className="font-josefin text-xl m-2 p-2">
           <span className="italic">« Bonjour, je m'appelle Benjamin et je suis musicien. Je viens vous
           chanter une petite chanson pour espérer vous faire du bien . »</span> Cette
           phrase, Benjamin Leduc, bénévole de l’association Hospit’Art, la
@@ -25,7 +25,7 @@ function Fdl() {
           Bourget, quatre-vingt-un ans et toute sa tête (et toutes ses dents
           aussi !) reste muette face à tous ses efforts.
         </p>
-        <p className="font-josefin text-xl">
+        <p className="font-josefin text-xl m-2 p-2">
           Pourtant, les yeux de la vieille dame brillent dès qu’on lui parle de
           musique. Rongé par un mal qui l’entrave, mais déterminé, le jeune
           homme est prêt à tout pour percer les secrets de l’aînée. Prêt à tout,

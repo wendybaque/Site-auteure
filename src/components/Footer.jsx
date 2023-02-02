@@ -1,5 +1,5 @@
 import React from "react";
-import logonoir from "../assets/logonoir.png";
+import logonoir from "../assets/logonoir.webp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -11,7 +11,7 @@ function Footer() {
           <a
             href="/"
             alt="redirection à l'accueil"
-            className="flex items-center"
+            className="lg:flex items-center"
           >
             <img src={logonoir} className="h-32 mr-3" alt="Wendy Baqué" />
             <span className="self-center font-yeseva text-secondary text-xl font-bold whitespace-nowrap dark:text-white">
@@ -93,8 +93,8 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="sm:flex sm:items-center sm:justify-between">
-        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+      <div className="font-josefin sm:flex sm:items-center sm:justify-between">
+        <span className="text-md text-gray-500 sm:text-center dark:text-gray-400">
           Made with ❤ by{" "}
           <a
             href="https://wendybaquedevweb.netlify.app/"

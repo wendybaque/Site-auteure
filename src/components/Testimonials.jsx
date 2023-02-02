@@ -1,19 +1,21 @@
 import React from "react";
-import mockupDOL from "../assets/mainsDOL.png";
-import mockupIS from "../assets/mainsIS.png";
-import mockupVDL from "../assets/mainsVDL.png";
-import mockupFDL from "../assets/mainsFDL.png";
+import mockupDOL from "../assets/mainsdol.webp";
+import mockupIS from "../assets/mainsis.webp";
+import mockupVDL from "../assets/mainsvdl.webp";
+import mockupFDL from "../assets/mainsfdl.webp";
 
 export default function Testimonials() {
   return (
-    <div className="m-10 p-10 bg-bg">
+    <div className="lg:m-10 p-6 bg-bg">
       <div className="mb-8 text-center m-4">
         <h2 className="text-3xl font-bold text-secondary font-yeseva">
           Témoignages
         </h2>
-        <p className="text-lg font-bold font-josefin">Quelques mots des lecteurs...</p>
+        <p className="text-lg font-bold font-josefin">
+          Quelques mots des lecteurs...
+        </p>
       </div>
-      <div className="grid grid-cols-4 gap-x-2 m-2 p-2 md:grid-rows-1 sm:grid-rows-1">
+      <div className="lg:grid grid-cols-4 gap-x-2 m-2 p-2 ">
         {/* CARTE 1 */}
         <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-primary transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
           <a
@@ -93,10 +95,9 @@ export default function Testimonials() {
                 Patricia, Lecture évasion
               </span>
               <button
-                href="#"
                 className="shadow-md rounded-md bg-secondary text-primary font-semibold"
               >
-                <a href="" alt="">
+                <a href="" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
               </button>
@@ -182,10 +183,10 @@ export default function Testimonials() {
                 Robin, Les lectures de Florelle et Robin
               </span>
               <button
-                href="#"
+
                 className="shadow-md rounded-md bg-secondary text-primary font-semibold"
               >
-                <a href="" alt="">
+                <a href="" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
               </button>
@@ -272,11 +273,8 @@ export default function Testimonials() {
               <span className="text-xl font-yeseva  text-secondary dark:text-white">
                 Aurore, Les lectures d'Aurore
               </span>
-              <button
-                href="#"
-                className="shadow-md rounded-md bg-secondary text-primary font-semibold"
-              >
-                <a href="" alt="">
+              <button className="shadow-md rounded-md bg-secondary text-primary font-semibold">
+                <a href="" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
               </button>
@@ -364,11 +362,13 @@ export default function Testimonials() {
               <span className="text-xl font-yeseva  text-secondary dark:text-white">
                 Marine, Lectrice
               </span>
-              <button
-                href="#"
-                className="shadow-md rounded-md bg-secondary text-primary font-semibold"
-              >
-                <a href="" alt="">
+              <button className="shadow-md rounded-md p-2 bg-secondary text-primary font-semibold">
+                <a
+                  href="https://www.amazon.fr/Vents-lExistence-Wendy-Baqu%C3%A9-ebook/dp/B07XL9FK89/ref=tmm_kin_swatch_0?_encoding=UTF8&qid=&sr="
+                  alt="Redirection vers la page Amazon du livre"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   Lire son avis
                 </a>
               </button>

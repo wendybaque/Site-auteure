@@ -1,5 +1,5 @@
 import React from "react";
-import logonoir from "../assets/logonoir.png";
+import logonoir from "../assets/logonoir.webp";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 

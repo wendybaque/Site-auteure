@@ -1,27 +1,27 @@
 import React from "react";
 import { Reveal } from "react-awesome-reveal";
-import livredol from "../assets/livredol.png";
+import livredol from "../assets/livredol.webp";
 
 function Dol() {
   return (
-    <div className="flex flex-row lg:m-10 lg:p-10 md:p-2 md:m-2 sm:p-2 sm:m-2">
-      <div className="w-2/3 md:flex-col sm:flex-col">
+    <div className="lg:flex lg:flex-row lg:m-10 p-6">
+      <div className="lg:w-2/3 sm:w-full md:w-full">
         <Reveal>
-          <h2 className="text-3xl font-bold text-secondary font-yeseva">
+          <h2 className="m-2 p-2 text-3xl font-bold text-secondary font-yeseva">
             Les dangers de la lumière
           </h2>
         </Reveal>
-        <h3 className="font-bold text-xl font-josefin m-2 p-2">
+        <h3 className="font-bold text-xl font-josefin m-4 p-4">
           Genre : romance musicale
         </h3>
-        <p className="font-josefin text-xl">
+        <p className="font-josefin text-xl m-2 p-2">
           Alice est une sorte de punk désabusée par une vie qu'elle ne veut pas
           vivre et qui rêve d'être ingénieur lumière. Dans une époque où la
           jeunesse subit trop de contraintes, elle peine à faire entendre sa
           voix. Lassée de cette société, elle fuit en Provence où des rencontres
           hautes en couleur et des opportunités l'attendent...
         </p>
-        <p className="font-josefin text-xl">
+        <p className="font-josefin text-xl m-2 p-2">
           L'une veut atteindre la lumière, au risque de se brûler les ailes.
           L'autre se complaît dans l'ombre, depuis trop longtemps installée dans
           son âme. Ensemble, dans une ambiance eighties entre clarté et
