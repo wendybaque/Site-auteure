@@ -1,0 +1,6 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: Googlebot
+Disallow: /nogooglebot/
+User-agent: *
+Disallow:
+Sitemap: https://wendybaqueauteure.wendev.fr/sitemap.xml
