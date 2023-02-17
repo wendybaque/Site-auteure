@@ -9,7 +9,7 @@ export default function Presentation() {
         style={{
           backgroundImage:
             "url('https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282_960_720.jpg')",
-          height: "90vh",
+          height: "120vh",
         }}
       >
         <div
@@ -18,7 +18,7 @@ export default function Presentation() {
         >
           <div className="overflow-hidden flex justify-center items-center h-full">
             <div className="overflow-hidden text-center text-white px-6 md:px-12">
-              <h1 className="font-yeseva text-primary p-6 overflow-hidden text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+              <h1 className="font-yeseva text-primary p-6 pt-52 overflow-hidden text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                 Bienvenue sur le site de <br />
                 <span className="font-bold font-yeseva text-secondary">Wendy Baqué</span>
               </h1>
@@ -33,7 +33,7 @@ export default function Presentation() {
                 <p className="text-2xl text-primary font-josefin overflow-hidden m-6">Romances musicales</p>
                 </Fade >
               <a href="#intro" alt="redirection vers la section à propos">
-                <div className="drop-shadow-2xl flex items-center justify-center mt-24 animate-bounce">
+                <div className="drop-shadow-2xl flex items-center justify-center mt-20 mb-40 animate-bounce">
                   <svg
                     width="100px"
                     height="100px"

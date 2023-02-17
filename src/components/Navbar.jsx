@@ -1,113 +1,103 @@
-import React from "react";
+import { Fragment } from "react";
+import { Disclosure } from "@headlessui/react";
+
 import logonoir from "../assets/logonoir.webp";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
 
-function Navbar() {
-  return (
-    <nav
-      role="navigation"
-      aria-label="Barre de navigation"
-      classNameName="bg-bg text-lg m-6 flex flex-wrap justify-around px-2 sm:px-4 py-2.5 rounded dark:bg-gray-900"
-    >
-      <div className="bg-bg container flex flex-wrap items-center justify-between mx-auto">
-        <a href="/" className="flex items-center">
-          <img
-            src={logonoir}
-            className="h-6 mr-3 sm:h-10"
-            alt="Wendy Baqué Logo"
-          />
-          <span className="text-secondary font-yeseva self-center text-xl font-bold whitespace-nowrap dark:text-white">
-            Wendy Baqué, auteure de romans
-          </span>
-        </a>
-        <button
-          data-collapse-toggle="navbar-dropdown"
-          type="button"
-          className="inline-flex items-center p-10 m-10  text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-          aria-controls="navbar-dropdown"
-          aria-expanded="false"
-        >
-          <span className="sr-only">Open main menu</span>
-          <svg
-            className="w-6 h-6"
-            aria-hidden="true"
-            fill="currentColor"
-            viewBox="0 0 20 20"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <path
-              fill-rule="evenodd"
-              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
-              clip-rule="evenodd"
-            ></path>
-          </svg>
-        </button>
-        <div className="hidden w-full md:block md:w-auto">
-          <ul className="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-            <li>
-              <a
-                href="/"
-                className="font-josefin text-2xl hover:underline decoration-secondary block py-2 pl-3 pr-4 text-secondary rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
-                aria-current="page"
-                alt="redirection vers la page d'accueil"
-              >
-                Accueil
-              </a>
-            </li>
-            <li>
-              <a
-                href="/Apropos"
-                className="font-josefin text-2xl block py-2 pl-3 pr-4 hover:underline text-secondary rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
-                aria-current="page"
-              >
-                A propos
-              </a>
-            </li>
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
-            <li>
-              <a
-                href="#book"
-                className="font-josefin text-2xl  hover:underline decoration-secondary block py-2 pl-3 pr-4 text-secondary rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-white dark:bg-blue-600 md:dark:bg-transparent"
-                aria-current="page"
-                alt="redirection vers la section des livres de Wendy Baqué"
-              >
-                Mes livres
-              </a>
-            </li>
-            <li>
-              <a
-                href="/Contact"
-                className="font-josefin text-2xl  block py-2 pl-3 pr-4 hover:underline text-secondary rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-              >
-                Contact
-              </a>
-            </li>
-            <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-              <a
-                href="https://www.facebook.com/AntiigoneWB"
-                className="hover:text-secondary text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                alt="redirection vers la page Instagram de Wendy Baqué"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <FacebookIcon fontSize="medium" />
-              </a>
-              <a
-                href="https://www.instagram.com/wendybqe/"
-                className="hover:text-secondary text-gray-500 hover:text-gray-900 dark:hover:text-white"
-                alt="redirection vers le compte Instagram de Wendy Baqué"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <InstagramIcon fontSize="medium" />
-              </a>
-            </div>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  );
+const navigation = [
+  { name: "Accueil", href: "/", current: true },
+  { name: "A propos", href: "/Apropos", current: false },
+  { name: "Les dangers de la lumière", href: "/Dangersdelalumiere", current: false },
+  { name: "Inoubliable symphonie", href: "/Inoubliablesymphonie", current: false },
+  { name: "Les vents de l'existence", href: "/Ventsdelexistence", current: false },
+  { name: "La fleur de l'âge", href: "/Fleurdelage", current: false },
+  { name: "Contact", href: "/Contact", current: false },
+];
+
+function classNames(...classes) {
+  return classes.filter(Boolean).join(" ");
 }
 
-export default Navbar;
+
+export default function Example() {
+  return (
+    <Disclosure as="nav" className="bg-bg sticky top-0 z-50">
+      {({ open }) => (
+        <>
+          <div className="font-josefin mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+            <div className="relative flex h-24 items-center justify-between">
+              <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                {/* Mobile menu button*/}
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-secondary hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary">
+                  <span className="sr-only">Open main menu</span>
+                  {open ? (
+                    <CloseIcon className="block h-6 w-6" aria-hidden="true" />
+                  ) : (
+                    <MenuIcon className="block h-6 w-6" aria-hidden="true" />
+                  )}
+                </Disclosure.Button>
+              </div>
+              <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+                <div className="flex flex-shrink-0 items-center">
+                  <img
+                    className="block h-12 w-auto lg:hidden"
+                    src={logonoir}
+                    alt="Wendy Baqué, auteure de romans"
+                  />
+                  <img
+                    className="hidden h-16 w-auto lg:block"
+                    src={logonoir}
+                    alt="Wendy Baqué, auteure de romans"
+                  />
+                </div>
+                
+                <div className="hidden sm:ml-6 sm:block">
+                  <div className="flex space-x-4">
+                    {navigation.map((item) => (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className={classNames(
+                          item.current
+                            ? "text-secondary hover:bg-secondary bg-bg hover:text-primary"
+                            : "text-md text-black hover:bg-secondary hover:text-primary",
+                          "px-3 py-2 rounded-md text-md font-medium"
+                        )}
+                        aria-current={item.current ? "page" : undefined}
+                      >
+                        {item.name}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <Disclosure.Panel className="sm:hidden">
+            <div className="space-y-1 px-2 pt-2 pb-3">
+              {navigation.map((item) => (
+                <Disclosure.Button
+                  key={item.name}
+                  as="a"
+                  href={item.href}
+                  className={classNames(
+                    item.current
+                      ? "bg-bg text-secondary"
+                      : "hover:bg-secondary hover:text-primary",
+                    "block px-3 py-2 rounded-md text-base font-medium"
+                  )}
+                  aria-current={item.current ? "page" : undefined}
+                >
+                  {item.name}
+                </Disclosure.Button>
+              ))}
+            </div>
+          </Disclosure.Panel>
+        </>
+      )}
+    </Disclosure>
+  );
+}

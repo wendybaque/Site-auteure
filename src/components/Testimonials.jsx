@@ -91,11 +91,11 @@ export default function Testimonials() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-xl font-yeseva  text-secondary dark:text-white">
+              <span className="text-lg font-yeseva  text-secondary dark:text-white">
                 Patricia, Lecture évasion
               </span>
               <button
-                className="shadow-md rounded-md bg-secondary text-primary font-semibold"
+                className="p-2 shadow-md rounded-md bg-secondary text-primary font-semibold"
               >
                 <a href="https://lecturesevasiondotblog.wordpress.com/2022/10/21/les-dangers-de-la-lumiere-de-wendy-baque/" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
@@ -179,12 +179,12 @@ export default function Testimonials() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-xl font-yeseva  text-secondary dark:text-white">
-                Robin, Les lectures de Florelle et Robin
+              <span className="text-lg font-yeseva  text-secondary dark:text-white">
+                Les lectures de Florelle et Robin
               </span>
               <button
 
-                className="shadow-md rounded-md bg-secondary text-primary font-semibold"
+                className="p-2 shadow-md rounded-md bg-secondary text-primary font-semibold"
               >
                 <a href="https://www.facebook.com/FlorelleEtRobin/photos/pb.100060692785076.-2207520000./2205377969605079/?type=3" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
@@ -270,10 +270,10 @@ export default function Testimonials() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-xl font-yeseva  text-secondary dark:text-white">
+              <span className="text-lg font-yeseva  text-secondary dark:text-white">
                 Aurore, Les lectures d'Aurore
               </span>
-              <button className="shadow-md rounded-md bg-secondary text-primary font-semibold">
+              <button className="p-2 shadow-md rounded-md bg-secondary text-primary font-semibold">
                 <a href="https://www.facebook.com/288940421733626/photos/pb.100067741714065.-2207520000./537493366878329/?type=3" alt="Redirection vers la chronique" target="_blank" rel="noreferrer">
                   Lire sa chronique
                 </a>
@@ -359,7 +359,7 @@ export default function Testimonials() {
               </span>
             </div>
             <div className="flex items-center justify-between">
-              <span className="text-xl font-yeseva  text-secondary dark:text-white">
+              <span className="text-lg font-yeseva  text-secondary dark:text-white">
                 Marine, Lectrice
               </span>
               <button className="shadow-md rounded-md p-2 bg-secondary text-primary font-semibold">
