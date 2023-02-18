@@ -13,7 +13,7 @@ export default function Contactpage() {
           <title>Contact</title>
           <link
             rel="canonical"
-            href="https://site-auteure.vercel.app/Contact"
+            href="https://wendybaqueauteure.wendev.fr/Contact"
           />
         </Helmet>
         <Contact />

@@ -10,7 +10,7 @@ function Apropos() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>A propos de Wendy Baqué</title>
-        <link rel="canonical" href="https://site-auteure.vercel.app/Apropos" />
+        <link rel="canonical" href="https://wendybaqueauteure.wendev.fr/Apropos" />
       </Helmet>
       <div className="lg:flex lg:flex-row bg-bg w-full lg:p-4">
         <div className="lg:w-1/2 lg:m-2 lg:p-2">

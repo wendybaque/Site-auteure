@@ -15,7 +15,7 @@ function Vents() {
         <title>Les vents de l'existence</title>
         <link
           rel="canonical"
-          href="https://site-auteure.vercel.app/Ventsdelexistence"
+          href="https://wendybaqueauteure.wendev.fr/Ventsdelexistence"
         />
       </Helmet>
       <div className="lg:flex lg:flex-row">
@@ -224,12 +224,12 @@ function Vents() {
               style={{ width: "0%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-primary dark:text-blue-500">
+          <span className="text-sm font-medium  dark:text-blue-500">
             0%
           </span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
-          <span className="text-sm font-medium text-primary0 dark:text-blue-500">
+          <span className="text-sm font-medium  dark:text-blue-500">
             1 star
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">

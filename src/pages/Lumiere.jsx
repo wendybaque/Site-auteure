@@ -15,7 +15,7 @@ function Lumiere() {
         <title>Les dangers de la Lumière</title>
         <link
           rel="canonical"
-          href="https://site-auteure.vercel.app/Dangersdelalumiere"
+          href="https://wendybaqueauteure.wendev.fr/Dangersdelalumiere"
         />
       </Helmet>
       <div className="lg:flex lg:flex-row">
@@ -225,12 +225,12 @@ function Lumiere() {
               style={{ width: "0%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-primary dark:text-blue-500">
+          <span className="text-sm font-medium  dark:text-blue-500">
             0%
           </span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
-          <span className="text-sm font-medium text-primary0 dark:text-blue-500">
+          <span className="text-sm font-medium text-primary dark:text-blue-500">
             1 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">

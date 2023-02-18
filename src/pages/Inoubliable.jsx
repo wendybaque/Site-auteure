@@ -15,7 +15,7 @@ function Inoubliable() {
         <title>Inoubliable symphonie</title>
         <link
           rel="canonical"
-          href="https://site-auteure.vercel.app/Inoubliablesymphonie"
+          href="https://wendybaqueauteure.wendev.fr/Inoubliablesymphonie"
         />
       </Helmet>
       <div className="lg:flex lg:flex-row">
@@ -233,7 +233,7 @@ function Inoubliable() {
               style={{ width: "0%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium text-primary dark:text-blue-500">
+          <span className="text-sm font-medium dark:text-blue-500">
             0%
           </span>
         </div>

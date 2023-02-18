@@ -7,16 +7,13 @@ function Footer() {
   return (
     <footer className="p-4 bg-white sm:p-6 dark:bg-gray-900 ">
       <div className="md:flex md:justify-between">
-        <div className="mb-6 md:mb-0">
+        <div className="mb-6 md:mb-0 flex justify-center">
           <a
             href="/"
             alt="redirection à l'accueil"
             className="lg:flex items-center"
           >
             <img src={logonoir} className="h-32 mr-3" alt="Wendy Baqué" />
-            <span className="self-center font-yeseva text-secondary text-xl font-bold whitespace-nowrap dark:text-white">
-              Wendy Baqué, auteure de romans
-            </span>
           </a>
         </div>
         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
@@ -73,6 +70,20 @@ function Footer() {
                   MENTIONS LEGALES
                 </a>
               </li>
+              <li>
+                <span className="font-josefin text-md text-gray-500 sm:text-center dark:text-gray-400">
+                  Made with ❤ by{" "}
+                  <a
+                    href="https://wendybaqueportfoliodev.wendev.fr/"
+                    target="_blank"
+                    rel="noreferrer"
+                    alt="portfolio de Wendy Baqué"
+                    className="hover:text-secondary"
+                  >
+                    Wendy Baqué
+                  </a>
+                </span>
+              </li>
             </ul>
           </div>
           <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
@@ -96,20 +107,6 @@ function Footer() {
             </a>
           </div>
         </div>
-      </div>
-      <div className="font-josefin sm:flex sm:items-center sm:justify-between">
-        <span className="text-md text-gray-500 sm:text-center dark:text-gray-400">
-          Made with ❤ by{" "}
-          <a
-            href="https://wendybaquedevweb.netlify.app/"
-            target="_blank"
-            rel="noreferrer"
-            alt="portfolio de Wendy Baqué"
-            className="hover:text-secondary hover:font-bold"
-          >
-            Wendy Baqué
-          </a>
-        </span>
       </div>
     </footer>
   );
