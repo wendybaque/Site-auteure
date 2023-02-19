@@ -14,7 +14,7 @@ function Lumiere() {
         <meta charSet="utf-8" />
         <title>Les dangers de la Lumière</title>
         <link
-          rel="canonical"
+          
           href="https://wendybaqueauteure.wendev.fr/Dangersdelalumiere"
         />
       </Helmet>

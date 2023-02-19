@@ -14,7 +14,7 @@ function Vents() {
         <meta charSet="utf-8" />
         <title>Les vents de l'existence</title>
         <link
-          rel="canonical"
+          
           href="https://wendybaqueauteure.wendev.fr/Ventsdelexistence"
         />
       </Helmet>

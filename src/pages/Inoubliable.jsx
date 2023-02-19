@@ -14,7 +14,7 @@ function Inoubliable() {
         <meta charSet="utf-8" />
         <title>Inoubliable symphonie</title>
         <link
-          rel="canonical"
+         
           href="https://wendybaqueauteure.wendev.fr/Inoubliablesymphonie"
         />
       </Helmet>

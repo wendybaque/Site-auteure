@@ -14,7 +14,7 @@ function Fleur() {
         <meta charSet="utf-8" />
         <title>La fleur de l'âge</title>
         <link
-          rel="canonical"
+         
           href="https://wendybaqueauteure.wendev.fr/Fleurdelage"
         />
       </Helmet>

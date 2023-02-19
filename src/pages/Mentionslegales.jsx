@@ -8,7 +8,7 @@ function Mentionslegales() {
         <meta charSet="utf-8" />
         <title>Mentions légales</title>
         <link
-          rel="canonical"
+          
           href="https://wendybaqueauteure.wendev.fr/Mentionslegales"
         />
       </Helmet>

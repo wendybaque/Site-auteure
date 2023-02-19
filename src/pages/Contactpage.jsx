@@ -12,7 +12,7 @@ export default function Contactpage() {
           <meta charSet="utf-8" />
           <title>Contact</title>
           <link
-            rel="canonical"
+            
             href="https://wendybaqueauteure.wendev.fr/Contact"
           />
         </Helmet>

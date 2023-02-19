@@ -16,7 +16,7 @@ function Page404() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Page 404 | Not found</title>
-        <link rel="canonical" href="https://wendybaqueauteure.wendev.fr/*" />
+        <link href="https://wendybaqueauteure.wendev.fr/*" />
       </Helmet>
       <div
         className="relative overflow-hidden bg-no-repeat bg-cover"
