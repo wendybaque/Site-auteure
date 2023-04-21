@@ -185,7 +185,7 @@ function Inoubliable() {
           </p>
         </div>
         <p className="font-medium font-josefin text-lg dark:text-gray-400">
-          21 évaluations
+          22 évaluations
         </p>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium dark:text-blue-500">
@@ -194,10 +194,10 @@ function Inoubliable() {
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "61%" }}
+              style={{ width: "64%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium dark:text-blue-500">61%</span>
+          <span className="text-sm font-medium dark:text-blue-500">64%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium dark:text-blue-500">
@@ -206,10 +206,10 @@ function Inoubliable() {
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "17%" }}
+              style={{ width: "14%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium  dark:text-blue-500">17%</span>
+          <span className="text-sm font-medium  dark:text-blue-500">14%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium dark:text-blue-500">

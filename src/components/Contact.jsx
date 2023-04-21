@@ -48,7 +48,7 @@ function Contact() {
 
   return (
     <div className="bg-bg lg:m-10 p-6">
-      <div className="lg:flex lg:flex-row lg:m-2 p-2 overflow-hidden">
+      <div className="lg:flex lg:flex-row lg:m-2 lg:p-2 overflow-hidden">
         <div className="lg:flex lg:basis-1/2 ">
           <div className="lg:flex lg:flex-col">
             <div className="mb-4 text-left lg:m-4">
@@ -56,11 +56,11 @@ function Contact() {
                 Contact
               </h2>
             </div>
-            <div className="font-josefin semi-bold row m-2 p-2 items-center">
+            <div className="font-josefin semi-bold row lg:m-2 p-2 items-center">
               <MailOutlineIcon className="m-2" fontSize="large" />
               wendybaque.auteur@gmail.com
             </div>
-            <div className="font-josefin semi-bold flex flex-row m-2 p-2 items-center">
+            <div className="font-josefin semi-bold flex flex-row lg:m-2 p-2 items-center">
               <FacebookIcon className="m-2" fontSize="large" />
               <a
                 href="https://www.facebook.com/AntiigoneWB"
@@ -135,7 +135,7 @@ function Contact() {
           </div>
         </div>
 
-        <div className="font-josefin flex flex-col lg:basis-2/3 items-center text-center">
+        <div className="font-josefin flex flex-col items-center text-center">
           <p className="font-bold text-2xl">
             L'un de mes livres vous intéresse et vous souhaitez le commander ?{" "}
             <br />
@@ -147,7 +147,7 @@ function Contact() {
           <form
             ref={formRef}
             onSubmit={handleSubmit}
-            className="grid justify-items-center"
+            className="lg:grid justify-items-center"
           >
             <label>
               <input
@@ -156,7 +156,7 @@ function Contact() {
                 name="user_name"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -166,7 +166,7 @@ function Contact() {
                 name="user_email"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -176,7 +176,7 @@ function Contact() {
                 name="user_phone"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -186,7 +186,7 @@ function Contact() {
                 name="user_subject"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
               />
             </label>
             <label>
@@ -196,7 +196,7 @@ function Contact() {
                 name="message"
                 required
                 aria-required="true"
-                className="m-2 p-4 lg:w-96 md:w-full sm:w-full rounded-lg shadow-md"
+                className="m-2 p-4 lg:w-96 rounded-lg shadow-md"
               />
             </label>
             <button

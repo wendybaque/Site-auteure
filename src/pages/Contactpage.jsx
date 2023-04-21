@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import ButtonTop from "../components/ButtonTop";
 import Contact from "../components/Contact";
-import HeartBeat from "../components/HeartBeat";
 
 export default function Contactpage() {
   return (
@@ -17,7 +16,6 @@ export default function Contactpage() {
           />
         </Helmet>
         <Contact />
-        <HeartBeat />
       </div>
       <ButtonTop />
     </main>

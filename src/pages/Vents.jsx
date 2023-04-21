@@ -173,10 +173,10 @@ function Vents() {
             <title>Fifth star</title>
             <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
           </svg>
-          <p className="ml-2 text-sm font-medium dark:text-white">4,2 sur 5</p>
+          <p className="ml-2 text-sm font-medium dark:text-white">4,3 sur 5</p>
         </div>
         <p className="font-medium font-josefin text-lg dark:text-gray-400">
-          29 évaluations
+          36 évaluations
         </p>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium dark:text-blue-500">
@@ -185,10 +185,10 @@ function Vents() {
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "65%" }}
+              style={{ width: "74%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium dark:text-blue-500">65%</span>
+          <span className="text-sm font-medium dark:text-blue-500">74%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium dark:text-blue-500">
@@ -197,10 +197,10 @@ function Vents() {
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "16%" }}
+              style={{ width: "5%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium  dark:text-blue-500">16%</span>
+          <span className="text-sm font-medium  dark:text-blue-500">5%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium  dark:text-blue-500">
@@ -209,10 +209,10 @@ function Vents() {
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "5%" }}
+              style={{ width: "3%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium dark:text-blue-500">5%</span>
+          <span className="text-sm font-medium dark:text-blue-500">3%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium dark:text-blue-500">
@@ -221,24 +221,24 @@ function Vents() {
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "0%" }}
+              style={{ width: "8%" }}
             ></div>
           </div>
           <span className="text-sm font-medium  dark:text-blue-500">
-            0%
+            8%
           </span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium  dark:text-blue-500">
-            1 star
+            1 <StarIcon />
           </span>
           <div className="w-2/4 h-5 mx-4 bg-primary rounded dark:bg-gray-700">
             <div
               className="h-5 bg-secondary rounded"
-              style={{ width: "13%" }}
+              style={{ width: "9%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium  dark:text-blue-500">13%</span>
+          <span className="text-sm font-medium  dark:text-blue-500">9%</span>
         </div>
       </section>
       <section id="buy" aria-label="Boutons d'achat">
