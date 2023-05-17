@@ -39,7 +39,7 @@ function Vdl() {
         <img
           src={livrevdl}
           alt="Couverture de Les vents de l'existence de Wendy Baqué"
-          className="w-96 h-72"
+          className="w-96"
         />
         <a href="/Ventsdelexistence" alt="Redirection vers la page Les vents de l'existence de Wendy Baqué">
           <button class="hover:animate-bounce m-4 p-2 bg-secondary text-primary shadow-lg rounded-lg">En savoir plus</button>

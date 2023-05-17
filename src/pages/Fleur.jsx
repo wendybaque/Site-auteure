@@ -13,10 +13,7 @@ function Fleur() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>La fleur de l'âge</title>
-        <link
-         
-          href="https://wendybaqueauteure.wendev.fr/Fleurdelage"
-        />
+        <link href="https://wendybaqueauteure.wendev.fr/Fleurdelage" />
       </Helmet>
       <div className="lg:flex lg:flex-row">
         <div className="flex flex-col m-2 p-2 lg:w-1/2">
@@ -54,7 +51,11 @@ function Fleur() {
           </p>
         </div>
         <div className="lg:w-1/2">
-          <img src={livrefdl} alt="livre la fleur de l'âge" />
+          <img
+            src={livrefdl}
+            alt="livre la fleur de l'âge"
+            className="w-96 lg:ml-32"
+          />
         </div>
       </div>
 
@@ -226,9 +227,7 @@ function Fleur() {
               style={{ width: "0%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium  dark:text-blue-500">
-            0%
-          </span>
+          <span className="text-sm font-medium  dark:text-blue-500">0%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium  dark:text-blue-500">

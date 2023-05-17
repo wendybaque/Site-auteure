@@ -35,7 +35,7 @@ function Dol() {
         <img
           src={livredol}
           alt="Couverture des dangers de la lumière de Wendy Baqué"
-          className="w-96 h-72"
+          className="w-96"
         />
         <a href="/Dangersdelalumiere" alt="page Les dangers de la lumière de Wendy Baqué">
           <button className="hover:animate-bounce m-4 p-2 bg-secondary text-primary shadow-lg rounded-lg">

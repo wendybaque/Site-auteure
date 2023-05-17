@@ -13,10 +13,7 @@ function Vents() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Les vents de l'existence</title>
-        <link
-          
-          href="https://wendybaqueauteure.wendev.fr/Ventsdelexistence"
-        />
+        <link href="https://wendybaqueauteure.wendev.fr/Ventsdelexistence" />
       </Helmet>
       <div className="lg:flex lg:flex-row">
         <div className="flex flex-col m-2 p-2 lg:w-1/2 ">
@@ -52,7 +49,11 @@ function Vents() {
           </p>
         </div>
         <div className="lg:w-1/2">
-          <img src={livrevdl} alt="livre les vents de l'existence" />
+          <img
+            src={livrevdl}
+            alt="livre les vents de l'existence"
+            className="w-96 lg:ml-32"
+          />
         </div>
       </div>
       <section id="testimonials" aria-label="Témoignages des lecteurs">
@@ -224,9 +225,7 @@ function Vents() {
               style={{ width: "8%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium  dark:text-blue-500">
-            8%
-          </span>
+          <span className="text-sm font-medium  dark:text-blue-500">8%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium  dark:text-blue-500">

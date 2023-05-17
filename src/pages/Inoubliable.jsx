@@ -13,10 +13,7 @@ function Inoubliable() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Inoubliable symphonie</title>
-        <link
-         
-          href="https://wendybaqueauteure.wendev.fr/Inoubliablesymphonie"
-        />
+        <link href="https://wendybaqueauteure.wendev.fr/Inoubliablesymphonie" />
       </Helmet>
       <div className="lg:flex lg:flex-row">
         <div className="flex flex-col m-2 p-2 lg:w-1/2">
@@ -58,7 +55,7 @@ function Inoubliable() {
           <img
             src={livreis}
             alt="livre inoubliable symphonie"
-            className="livre-img"
+            className="w-96 lg:ml-32"
           />
         </div>
       </div>
@@ -233,9 +230,7 @@ function Inoubliable() {
               style={{ width: "0%" }}
             ></div>
           </div>
-          <span className="text-sm font-medium dark:text-blue-500">
-            0%
-          </span>
+          <span className="text-sm font-medium dark:text-blue-500">0%</span>
         </div>
         <div className="flex justify-center w-full items-center mt-4">
           <span className="text-sm font-medium text-primary0 dark:text-blue-500">

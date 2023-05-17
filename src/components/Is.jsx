@@ -41,7 +41,7 @@ function Is() {
         <img
           src={livreis}
           alt="couverture d'Inoubliable symphonie de Wendy Baqué"
-          className="w-96 h-72"
+          className="w-96"
         />
         <a href="/Inoubliablesymphonie" alt="page Inoubliable symphonie">
           <button className="hover:animate-bounce m-4 p-2 bg-secondary text-primary shadow-lg rounded-lg">

@@ -39,7 +39,7 @@ function Fdl() {
         <img
           src={livrefdl}
           alt="couverture de La fleur de l'âge de Wendy Baqué"
-          className="w-96 h-72"
+          className="w-96"
         />
                 <a href="/Fleurdelage" alt="redirection vers la page La fleur de l'âge de Wendy Baqué">
           <button className="hover:animate-bounce m-4 p-2 bg-secondary text-primary shadow-lg rounded-lg">
